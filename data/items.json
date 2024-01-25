@@ -1,0 +1,320 @@
+[
+	{
+		"count":1,
+		"name": "Ultimate Trophy (Victory)",
+		"category": ["Win_Condition"],
+		"progression": true
+	},
+	{
+		"count":300,
+		"name": "Trophy",
+		"category": ["Trophies", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Crash Cove",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Mystery Caves",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sewer Speedway",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Roo's Tubes",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Slide Coliseum",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Turbo Track",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Coco Park",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Tiger Temple",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Papu's Pyramid",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Dingo Canyon",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Polar Pass",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Tiny Arena",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Dragon Mines",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Blizzard Bluff",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Hot Air Skyway",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Cortex Castle",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "N. Gin Labs",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Oxide Station",
+		"category": ["Tracks", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Inferno Island",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Jungle Boogie",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Clockwork Wumpa",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Android Alley",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Electron Avenue",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Deep Sea Driving",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Thunder Struck",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Tiny Temple",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Meteor Gorge",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Barin Ruins",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Out Of Time",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Assembly Lane",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Hyper Spaceway",
+		"category": ["Tracks", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Twilight Tour",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Prehistoric Playground",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Spyro Circuit",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Nina's Nightmare",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Koala Carnival",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Gingerbread Joyride",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Megamix Mania",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Drive-Thru Danger",
+		"category": ["Tracks", "Bonus"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Skull Rock",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Nitro Court",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Parking Lot",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Rocky Road",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Lab Basement",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Rampage Ruins",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The North Bowl",
+		"category": ["Battle", "Classic"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Temple Turmoil",
+		"category": ["Battle", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Frozen Frenzy",
+		"category": ["Battle", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Desert Storm",
+		"category": ["Battle", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Magnetic Mayhem",
+		"category": ["Battle", "Nitro"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Terra Drome",
+		"category": ["Battle", "Nitro"],
+		"progression": true
+	}
+]

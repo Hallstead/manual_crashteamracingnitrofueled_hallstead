@@ -1,0 +1,47 @@
+{
+    "((~Start~))": {
+        "hidden": false
+    },
+    "Arcade": {
+        "hidden": true
+    },
+    "Tracks": {
+        "hidden": false
+    },
+    "Trophies": {
+        "hidden": false
+    },
+    "Classic": {
+        "hidden": true
+    },
+    "Nitro": {
+        "hidden": true
+    },
+    "Bonus": {
+        "hidden": true
+    },
+    "Easy": {
+        "hidden": true
+    },
+    "Medium": {
+        "hidden": true
+    },
+    "Hard": {
+        "hidden": true
+    },
+    "ExtraTrophies1": {
+        "hidden": true
+    },
+    "ExtraTrophies2": {
+        "hidden": true
+    },
+    "Single": {
+        "hidden": true
+    },
+    "Cup": {
+        "hidden": true
+    },
+    "Battle": {
+        "hidden": true
+    }
+}
