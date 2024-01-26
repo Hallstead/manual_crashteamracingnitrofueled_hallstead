@@ -46,7 +46,7 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             elif selection == 0 or selection == 1 or selection == 3:
                 return False
         
-        if category_name == "Battle":
+        if category_name == "Battle Map":
             return False
             
     return None

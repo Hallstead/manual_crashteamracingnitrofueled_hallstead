@@ -248,73 +248,73 @@
 	{
 		"count":1,
 		"name": "Skull Rock",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Nitro Court",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Parking Lot",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Rocky Road",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Lab Basement",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Rampage Ruins",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "The North Bowl",
-		"category": ["Battle", "Classic"],
+		"category": ["Battle Map", "Classic"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Temple Turmoil",
-		"category": ["Battle", "Nitro"],
+		"category": ["Battle Map", "Nitro"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Frozen Frenzy",
-		"category": ["Battle", "Nitro"],
+		"category": ["Battle Map", "Nitro"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Desert Storm",
-		"category": ["Battle", "Nitro"],
+		"category": ["Battle Map", "Nitro"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Magnetic Mayhem",
-		"category": ["Battle", "Nitro"],
+		"category": ["Battle Map", "Nitro"],
 		"progression": true
 	},
 	{
 		"count":1,
 		"name": "Terra Drome",
-		"category": ["Battle", "Nitro"],
+		"category": ["Battle Map", "Nitro"],
 		"progression": true
 	},
   {
