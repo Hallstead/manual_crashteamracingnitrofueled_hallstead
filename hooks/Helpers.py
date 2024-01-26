@@ -46,29 +46,7 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             elif selection == 0 or selection == 1 or selection == 3:
                 return False
         
-    if category_name == "ExtraTrophies1":
-        difficulties = 0
-        if Helpers.is_category_enabled(world, player, "Easy") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Medium") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Hard") is True:
-            difficulties += 1
-        if difficulties >= 2:
-            return True
-        else:
-            return False
-    if category_name == "ExtraTrophies2":
-        difficulties = 0
-        if Helpers.is_category_enabled(world, player, "Easy") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Medium") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Hard") is True:
-            difficulties += 1
-        if difficulties == 3:
-            return True
-        else:
+        if category_name == "Battle":
             return False
             
     return None

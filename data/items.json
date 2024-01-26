@@ -316,5 +316,941 @@
 		"name": "Terra Drome",
 		"category": ["Battle", "Nitro"],
 		"progression": true
-	}
+	},
+  {
+    "count":1,
+    "name": "Crash Cove - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Crash Cove - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Crash Cove - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Crash Cove - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Roo's Tubes - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Roo's Tubes - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Roo's Tubes - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Roo's Tubes - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Mystery Caves - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Mystery Caves - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Mystery Caves - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Mystery Caves - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Sewer Speedway - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Sewer Speedway - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Sewer Speedway - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Sewer Speedway - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Slide Coliseum - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Slide Coliseum - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Slide Coliseum - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Slide Coliseum - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Turbo Track - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Turbo Track - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Turbo Track - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Turbo Track - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Coco Park - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Coco Park - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Coco Park - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Coco Park - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiger Temple - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiger Temple - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiger Temple - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiger Temple - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Papu's Pyramid - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Papu's Pyramid - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Papu's Pyramid - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Papu's Pyramid - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dingo Canyon - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dingo Canyon - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dingo Canyon - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dingo Canyon - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Blizzard Bluff - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Blizzard Bluff - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Blizzard Bluff - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Blizzard Bluff - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dragon Mines - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dragon Mines - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dragon Mines - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Dragon Mines - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Polar Pass - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Polar Pass - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Polar Pass - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Polar Pass - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Arena - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Arena - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Arena - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Arena - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "N. Gin Labs - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "N. Gin Labs - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "N. Gin Labs - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "N. Gin Labs - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Cortex Castle - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Cortex Castle - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Cortex Castle - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Cortex Castle - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hot Air Skyway - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hot Air Skyway - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hot Air Skyway - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hot Air Skyway - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Oxide Station - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Oxide Station - N. Oxide",
+    "category": ["Time Trial", "Classic", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Oxide Station - Emperor Velo XXVII",
+    "category": ["Time Trial", "Classic", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Oxide Station - Beenox Developer",
+    "category": ["Time Trial", "Classic", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Inferno Island - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Inferno Island - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Inferno Island - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Inferno Island - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Jungle Boogie - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Jungle Boogie - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Jungle Boogie - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Jungle Boogie - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Clockwork Wumpa - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Clockwork Wumpa - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Clockwork Wumpa - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Clockwork Wumpa - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Android Alley - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Android Alley - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Android Alley - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Android Alley - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Electron Avenue - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Electron Avenue - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Electron Avenue - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Electron Avenue - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Deep Sea Driving - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Deep Sea Driving - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Deep Sea Driving - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Deep Sea Driving - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Thunder Struck - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Thunder Struck - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Thunder Struck - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Thunder Struck - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Temple - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Temple - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Temple - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Temple - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Meteor Gorge - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Meteor Gorge - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Meteor Gorge - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Meteor Gorge - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Barin Ruins - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Barin Ruins - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Barin Ruins - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Barin Ruins - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Out Of Time - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Out Of Time - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Out Of Time - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Out Of Time - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Assembly Lane - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Assembly Lane - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Assembly Lane - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Assembly Lane - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hyper Spaceway - N. Tropy",
+    "category": ["Time Trial", "Nitro", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hyper Spaceway - N. Oxide",
+    "category": ["Time Trial", "Nitro", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hyper Spaceway - Emperor Velo XXVII",
+    "category": ["Time Trial", "Nitro", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Hyper Spaceway - Beenox Developer",
+    "category": ["Time Trial", "Nitro", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Twilight Tour - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Twilight Tour - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Twilight Tour - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Twilight Tour - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Prehistoric Playground - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Prehistoric Playground - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Prehistoric Playground - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Prehistoric Playground - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Spyro Circuit - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Spyro Circuit - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Spyro Circuit - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Spyro Circuit - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Nina's Nightmare - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Nina's Nightmare - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Nina's Nightmare - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Nina's Nightmare - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Koala Carnival - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Koala Carnival - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Koala Carnival - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Koala Carnival - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Gingerbread Joyride - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Gingerbread Joyride - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Gingerbread Joyride - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Gingerbread Joyride - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Megamix Mania - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Megamix Mania - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Megamix Mania - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Megamix Mania - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Drive-Thru Danger - N. Tropy",
+    "category": ["Time Trial", "Bonus", "N. Tropy"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Drive-Thru Danger - N. Oxide",
+    "category": ["Time Trial", "Bonus", "N. Oxide"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Drive-Thru Danger - Emperor Velo XXVII",
+    "category": ["Time Trial", "Bonus", "Velo"],
+    "progression": true
+  },
+  {
+    "count":1,
+    "name": "Drive-Thru Danger - Beenox Developer",
+    "category": ["Time Trial", "Bonus", "Dev"],
+    "progression": true
+  }
 ]
