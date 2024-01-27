@@ -6,7 +6,7 @@
 		"progression": true
 	},
 	{
-		"count":300,
+		"count":500,
 		"name": "Trophy",
 		"category": ["Trophies", "Classic"],
 		"progression": true
