@@ -127,14 +127,16 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
 
     bad_trophies = 500-max_trophies
     for i in range(bad_trophies):
-        itemNamesToRemove.append("Trophy")
+        item = next(i for i in item_pool if i.name == "Trophy")
+        item_pool.remove(item)
+        #itemNamesToRemove.append("Trophy")
 
     # Get the victory location and place the victory item there
     victory_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
     for i in range(2, 501):
         victory_loc_list.append(f"Gather {i} Trophies")
     
-    for i in range(len(victory_loc_list)-1):
+    for i in range(len(victory_loc_list)):
         if str(trophies) in victory_loc_list[i]:
             victory_id = i
             break
