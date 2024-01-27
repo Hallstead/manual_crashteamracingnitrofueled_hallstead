@@ -29,19 +29,31 @@
     "Hard": {
         "hidden": true
     },
-    "ExtraTrophies1": {
-        "hidden": true
-    },
-    "ExtraTrophies2": {
-        "hidden": true
-    },
     "Single": {
         "hidden": true
     },
-    "Cup": {
-        "hidden": true
+    "Cups": {
+        "hidden": false
     },
     "Battle": {
+        "hidden": false
+    },
+    "Battle Map": {
+        "hidden": true
+    },
+    "Time Trial": {
+        "hidden": false
+    },
+    "N. Tropy": {
+        "hidden": true
+    },
+    "N. Oxide": {
+        "hidden": true
+    },
+    "Velo": {
+        "hidden": true
+    },
+    "Dev": {
         "hidden": true
     }
 }

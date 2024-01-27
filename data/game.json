@@ -1,2 +1,6 @@
-
-	{"game": "CrashTeamRacingArcade","creator": "Hallstead","filler_item_name": "WOAH"}
+{
+  "game": "CrashTeamRacingNitroFueled",
+  "player": "Hallstead",
+  "filler_item_name": "WOAH",
+  "starting_items": []
+}

@@ -14,15 +14,11 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             elif selection == 1 or selection == 2 or selection == 5:
                 return False
         if category_name == "Nitro":
-            if Helpers.get_option_value(world, player, "game_version") == 0: #Classic CTR
-                return False
             if selection == 1 or selection == 3 or selection == 5 or selection == 6:
                 return True
             elif selection == 0 or selection == 2 or selection == 4:
                 return False
         if category_name == "Bonus":
-            if Helpers.get_option_value(world, player, "game_version") == 0: #Classic CTR
-                return False
             if selection == 2 or selection == 4 or selection == 5 or selection == 6:
                 return True
             elif selection == 0 or selection == 1 or selection == 3:
@@ -46,29 +42,39 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             elif selection == 0 or selection == 1 or selection == 3:
                 return False
         
-    if category_name == "ExtraTrophies1":
-        difficulties = 0
-        if Helpers.is_category_enabled(world, player, "Easy") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Medium") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Hard") is True:
-            difficulties += 1
-        if difficulties >= 2:
+    if category_name == "Battle":
+        return False
+    if category_name == "Battle Map":
+        return False
+    
+    if category_name == "Cups":
+        if Helpers.get_option_value(world, player, "include_cups") == 1:
             return True
         else:
             return False
-    if category_name == "ExtraTrophies2":
-        difficulties = 0
-        if Helpers.is_category_enabled(world, player, "Easy") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Medium") is True:
-            difficulties += 1
-        if Helpers.is_category_enabled(world, player, "Hard") is True:
-            difficulties += 1
-        if difficulties == 3:
+    
+    if category_name == "Time Trial":
+        if Helpers.get_option_value(world, player, "include_time_trial") == 1:
             return True
         else:
             return False
-            
+    if category_name == "N. Tropy":
+        if Helpers.get_option_value(world, player, "include_time_trial") == 1:
+            if Helpers.get_option_value(world, player, "included_ghosts") >= 0:
+                return True
+        return False
+    if category_name == "N. Oxide":
+        if Helpers.get_option_value(world, player, "include_time_trial") == 1:
+            if Helpers.get_option_value(world, player, "included_ghosts") >= 1:
+                return True
+    if category_name == "Velo":
+        if Helpers.get_option_value(world, player, "include_time_trial") == 1:
+            if Helpers.get_option_value(world, player, "included_ghosts") >= 2:
+                return True
+        return False
+    if category_name == "Dev":
+        if Helpers.get_option_value(world, player, "include_time_trial") == 1:
+            if Helpers.get_option_value(world, player, "included_ghosts") >= 3:
+                return True
+        return False
     return None

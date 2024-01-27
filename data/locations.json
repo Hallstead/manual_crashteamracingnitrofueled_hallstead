@@ -1506,2659 +1506,4939 @@
     "requires": "|@Trophies:299|",
     "category": []
   },
-	{
+  {
+    "name": "Gather 300 Trophies",
+    "requires": "|@Trophies:300|",
+    "category": []
+  },
+  {
+    "name": "Gather 301 Trophies",
+    "requires": "|@Trophies:301|",
+    "category": []
+  },
+  {
+    "name": "Gather 302 Trophies",
+    "requires": "|@Trophies:302|",
+    "category": []
+  },
+  {
+    "name": "Gather 303 Trophies",
+    "requires": "|@Trophies:303|",
+    "category": []
+  },
+  {
+    "name": "Gather 304 Trophies",
+    "requires": "|@Trophies:304|",
+    "category": []
+  },
+  {
+    "name": "Gather 305 Trophies",
+    "requires": "|@Trophies:305|",
+    "category": []
+  },
+  {
+    "name": "Gather 306 Trophies",
+    "requires": "|@Trophies:306|",
+    "category": []
+  },
+  {
+    "name": "Gather 307 Trophies",
+    "requires": "|@Trophies:307|",
+    "category": []
+  },
+  {
+    "name": "Gather 308 Trophies",
+    "requires": "|@Trophies:308|",
+    "category": []
+  },
+  {
+    "name": "Gather 309 Trophies",
+    "requires": "|@Trophies:309|",
+    "category": []
+  },
+  {
+    "name": "Gather 310 Trophies",
+    "requires": "|@Trophies:310|",
+    "category": []
+  },
+  {
+    "name": "Gather 311 Trophies",
+    "requires": "|@Trophies:311|",
+    "category": []
+  },
+  {
+    "name": "Gather 312 Trophies",
+    "requires": "|@Trophies:312|",
+    "category": []
+  },
+  {
+    "name": "Gather 313 Trophies",
+    "requires": "|@Trophies:313|",
+    "category": []
+  },
+  {
+    "name": "Gather 314 Trophies",
+    "requires": "|@Trophies:314|",
+    "category": []
+  },
+  {
+    "name": "Gather 315 Trophies",
+    "requires": "|@Trophies:315|",
+    "category": []
+  },
+  {
+    "name": "Gather 316 Trophies",
+    "requires": "|@Trophies:316|",
+    "category": []
+  },
+  {
+    "name": "Gather 317 Trophies",
+    "requires": "|@Trophies:317|",
+    "category": []
+  },
+  {
+    "name": "Gather 318 Trophies",
+    "requires": "|@Trophies:318|",
+    "category": []
+  },
+  {
+    "name": "Gather 319 Trophies",
+    "requires": "|@Trophies:319|",
+    "category": []
+  },
+  {
+    "name": "Gather 320 Trophies",
+    "requires": "|@Trophies:320|",
+    "category": []
+  },
+  {
+    "name": "Gather 321 Trophies",
+    "requires": "|@Trophies:321|",
+    "category": []
+  },
+  {
+    "name": "Gather 322 Trophies",
+    "requires": "|@Trophies:322|",
+    "category": []
+  },
+  {
+    "name": "Gather 323 Trophies",
+    "requires": "|@Trophies:323|",
+    "category": []
+  },
+  {
+    "name": "Gather 324 Trophies",
+    "requires": "|@Trophies:324|",
+    "category": []
+  },
+  {
+    "name": "Gather 325 Trophies",
+    "requires": "|@Trophies:325|",
+    "category": []
+  },
+  {
+    "name": "Gather 326 Trophies",
+    "requires": "|@Trophies:326|",
+    "category": []
+  },
+  {
+    "name": "Gather 327 Trophies",
+    "requires": "|@Trophies:327|",
+    "category": []
+  },
+  {
+    "name": "Gather 328 Trophies",
+    "requires": "|@Trophies:328|",
+    "category": []
+  },
+  {
+    "name": "Gather 329 Trophies",
+    "requires": "|@Trophies:329|",
+    "category": []
+  },
+  {
+    "name": "Gather 330 Trophies",
+    "requires": "|@Trophies:330|",
+    "category": []
+  },
+  {
+    "name": "Gather 331 Trophies",
+    "requires": "|@Trophies:331|",
+    "category": []
+  },
+  {
+    "name": "Gather 332 Trophies",
+    "requires": "|@Trophies:332|",
+    "category": []
+  },
+  {
+    "name": "Gather 333 Trophies",
+    "requires": "|@Trophies:333|",
+    "category": []
+  },
+  {
+    "name": "Gather 334 Trophies",
+    "requires": "|@Trophies:334|",
+    "category": []
+  },
+  {
+    "name": "Gather 335 Trophies",
+    "requires": "|@Trophies:335|",
+    "category": []
+  },
+  {
+    "name": "Gather 336 Trophies",
+    "requires": "|@Trophies:336|",
+    "category": []
+  },
+  {
+    "name": "Gather 337 Trophies",
+    "requires": "|@Trophies:337|",
+    "category": []
+  },
+  {
+    "name": "Gather 338 Trophies",
+    "requires": "|@Trophies:338|",
+    "category": []
+  },
+  {
+    "name": "Gather 339 Trophies",
+    "requires": "|@Trophies:339|",
+    "category": []
+  },
+  {
+    "name": "Gather 340 Trophies",
+    "requires": "|@Trophies:340|",
+    "category": []
+  },
+  {
+    "name": "Gather 341 Trophies",
+    "requires": "|@Trophies:341|",
+    "category": []
+  },
+  {
+    "name": "Gather 342 Trophies",
+    "requires": "|@Trophies:342|",
+    "category": []
+  },
+  {
+    "name": "Gather 343 Trophies",
+    "requires": "|@Trophies:343|",
+    "category": []
+  },
+  {
+    "name": "Gather 344 Trophies",
+    "requires": "|@Trophies:344|",
+    "category": []
+  },
+  {
+    "name": "Gather 345 Trophies",
+    "requires": "|@Trophies:345|",
+    "category": []
+  },
+  {
+    "name": "Gather 346 Trophies",
+    "requires": "|@Trophies:346|",
+    "category": []
+  },
+  {
+    "name": "Gather 347 Trophies",
+    "requires": "|@Trophies:347|",
+    "category": []
+  },
+  {
+    "name": "Gather 348 Trophies",
+    "requires": "|@Trophies:348|",
+    "category": []
+  },
+  {
+    "name": "Gather 349 Trophies",
+    "requires": "|@Trophies:349|",
+    "category": []
+  },
+  {
+    "name": "Gather 350 Trophies",
+    "requires": "|@Trophies:350|",
+    "category": []
+  },
+  {
+    "name": "Gather 351 Trophies",
+    "requires": "|@Trophies:351|",
+    "category": []
+  },
+  {
+    "name": "Gather 352 Trophies",
+    "requires": "|@Trophies:352|",
+    "category": []
+  },
+  {
+    "name": "Gather 353 Trophies",
+    "requires": "|@Trophies:353|",
+    "category": []
+  },
+  {
+    "name": "Gather 354 Trophies",
+    "requires": "|@Trophies:354|",
+    "category": []
+  },
+  {
+    "name": "Gather 355 Trophies",
+    "requires": "|@Trophies:355|",
+    "category": []
+  },
+  {
+    "name": "Gather 356 Trophies",
+    "requires": "|@Trophies:356|",
+    "category": []
+  },
+  {
+    "name": "Gather 357 Trophies",
+    "requires": "|@Trophies:357|",
+    "category": []
+  },
+  {
+    "name": "Gather 358 Trophies",
+    "requires": "|@Trophies:358|",
+    "category": []
+  },
+  {
+    "name": "Gather 359 Trophies",
+    "requires": "|@Trophies:359|",
+    "category": []
+  },
+  {
+    "name": "Gather 360 Trophies",
+    "requires": "|@Trophies:360|",
+    "category": []
+  },
+  {
+    "name": "Gather 361 Trophies",
+    "requires": "|@Trophies:361|",
+    "category": []
+  },
+  {
+    "name": "Gather 362 Trophies",
+    "requires": "|@Trophies:362|",
+    "category": []
+  },
+  {
+    "name": "Gather 363 Trophies",
+    "requires": "|@Trophies:363|",
+    "category": []
+  },
+  {
+    "name": "Gather 364 Trophies",
+    "requires": "|@Trophies:364|",
+    "category": []
+  },
+  {
+    "name": "Gather 365 Trophies",
+    "requires": "|@Trophies:365|",
+    "category": []
+  },
+  {
+    "name": "Gather 366 Trophies",
+    "requires": "|@Trophies:366|",
+    "category": []
+  },
+  {
+    "name": "Gather 367 Trophies",
+    "requires": "|@Trophies:367|",
+    "category": []
+  },
+  {
+    "name": "Gather 368 Trophies",
+    "requires": "|@Trophies:368|",
+    "category": []
+  },
+  {
+    "name": "Gather 369 Trophies",
+    "requires": "|@Trophies:369|",
+    "category": []
+  },
+  {
+    "name": "Gather 370 Trophies",
+    "requires": "|@Trophies:370|",
+    "category": []
+  },
+  {
+    "name": "Gather 371 Trophies",
+    "requires": "|@Trophies:371|",
+    "category": []
+  },
+  {
+    "name": "Gather 372 Trophies",
+    "requires": "|@Trophies:372|",
+    "category": []
+  },
+  {
+    "name": "Gather 373 Trophies",
+    "requires": "|@Trophies:373|",
+    "category": []
+  },
+  {
+    "name": "Gather 374 Trophies",
+    "requires": "|@Trophies:374|",
+    "category": []
+  },
+  {
+    "name": "Gather 375 Trophies",
+    "requires": "|@Trophies:375|",
+    "category": []
+  },
+  {
+    "name": "Gather 376 Trophies",
+    "requires": "|@Trophies:376|",
+    "category": []
+  },
+  {
+    "name": "Gather 377 Trophies",
+    "requires": "|@Trophies:377|",
+    "category": []
+  },
+  {
+    "name": "Gather 378 Trophies",
+    "requires": "|@Trophies:378|",
+    "category": []
+  },
+  {
+    "name": "Gather 379 Trophies",
+    "requires": "|@Trophies:379|",
+    "category": []
+  },
+  {
+    "name": "Gather 380 Trophies",
+    "requires": "|@Trophies:380|",
+    "category": []
+  },
+  {
+    "name": "Gather 381 Trophies",
+    "requires": "|@Trophies:381|",
+    "category": []
+  },
+  {
+    "name": "Gather 382 Trophies",
+    "requires": "|@Trophies:382|",
+    "category": []
+  },
+  {
+    "name": "Gather 383 Trophies",
+    "requires": "|@Trophies:383|",
+    "category": []
+  },
+  {
+    "name": "Gather 384 Trophies",
+    "requires": "|@Trophies:384|",
+    "category": []
+  },
+  {
+    "name": "Gather 385 Trophies",
+    "requires": "|@Trophies:385|",
+    "category": []
+  },
+  {
+    "name": "Gather 386 Trophies",
+    "requires": "|@Trophies:386|",
+    "category": []
+  },
+  {
+    "name": "Gather 387 Trophies",
+    "requires": "|@Trophies:387|",
+    "category": []
+  },
+  {
+    "name": "Gather 388 Trophies",
+    "requires": "|@Trophies:388|",
+    "category": []
+  },
+  {
+    "name": "Gather 389 Trophies",
+    "requires": "|@Trophies:389|",
+    "category": []
+  },
+  {
+    "name": "Gather 390 Trophies",
+    "requires": "|@Trophies:390|",
+    "category": []
+  },
+  {
+    "name": "Gather 391 Trophies",
+    "requires": "|@Trophies:391|",
+    "category": []
+  },
+  {
+    "name": "Gather 392 Trophies",
+    "requires": "|@Trophies:392|",
+    "category": []
+  },
+  {
+    "name": "Gather 393 Trophies",
+    "requires": "|@Trophies:393|",
+    "category": []
+  },
+  {
+    "name": "Gather 394 Trophies",
+    "requires": "|@Trophies:394|",
+    "category": []
+  },
+  {
+    "name": "Gather 395 Trophies",
+    "requires": "|@Trophies:395|",
+    "category": []
+  },
+  {
+    "name": "Gather 396 Trophies",
+    "requires": "|@Trophies:396|",
+    "category": []
+  },
+  {
+    "name": "Gather 397 Trophies",
+    "requires": "|@Trophies:397|",
+    "category": []
+  },
+  {
+    "name": "Gather 398 Trophies",
+    "requires": "|@Trophies:398|",
+    "category": []
+  },
+  {
+    "name": "Gather 399 Trophies",
+    "requires": "|@Trophies:399|",
+    "category": []
+  },
+  {
+    "name": "Gather 400 Trophies",
+    "requires": "|@Trophies:400|",
+    "category": []
+  },
+  {
+    "name": "Gather 401 Trophies",
+    "requires": "|@Trophies:401|",
+    "category": []
+  },
+  {
+    "name": "Gather 402 Trophies",
+    "requires": "|@Trophies:402|",
+    "category": []
+  },
+  {
+    "name": "Gather 403 Trophies",
+    "requires": "|@Trophies:403|",
+    "category": []
+  },
+  {
+    "name": "Gather 404 Trophies",
+    "requires": "|@Trophies:404|",
+    "category": []
+  },
+  {
+    "name": "Gather 405 Trophies",
+    "requires": "|@Trophies:405|",
+    "category": []
+  },
+  {
+    "name": "Gather 406 Trophies",
+    "requires": "|@Trophies:406|",
+    "category": []
+  },
+  {
+    "name": "Gather 407 Trophies",
+    "requires": "|@Trophies:407|",
+    "category": []
+  },
+  {
+    "name": "Gather 408 Trophies",
+    "requires": "|@Trophies:408|",
+    "category": []
+  },
+  {
+    "name": "Gather 409 Trophies",
+    "requires": "|@Trophies:409|",
+    "category": []
+  },
+  {
+    "name": "Gather 410 Trophies",
+    "requires": "|@Trophies:410|",
+    "category": []
+  },
+  {
+    "name": "Gather 411 Trophies",
+    "requires": "|@Trophies:411|",
+    "category": []
+  },
+  {
+    "name": "Gather 412 Trophies",
+    "requires": "|@Trophies:412|",
+    "category": []
+  },
+  {
+    "name": "Gather 413 Trophies",
+    "requires": "|@Trophies:413|",
+    "category": []
+  },
+  {
+    "name": "Gather 414 Trophies",
+    "requires": "|@Trophies:414|",
+    "category": []
+  },
+  {
+    "name": "Gather 415 Trophies",
+    "requires": "|@Trophies:415|",
+    "category": []
+  },
+  {
+    "name": "Gather 416 Trophies",
+    "requires": "|@Trophies:416|",
+    "category": []
+  },
+  {
+    "name": "Gather 417 Trophies",
+    "requires": "|@Trophies:417|",
+    "category": []
+  },
+  {
+    "name": "Gather 418 Trophies",
+    "requires": "|@Trophies:418|",
+    "category": []
+  },
+  {
+    "name": "Gather 419 Trophies",
+    "requires": "|@Trophies:419|",
+    "category": []
+  },
+  {
+    "name": "Gather 420 Trophies",
+    "requires": "|@Trophies:420|",
+    "category": []
+  },
+  {
+    "name": "Gather 421 Trophies",
+    "requires": "|@Trophies:421|",
+    "category": []
+  },
+  {
+    "name": "Gather 422 Trophies",
+    "requires": "|@Trophies:422|",
+    "category": []
+  },
+  {
+    "name": "Gather 423 Trophies",
+    "requires": "|@Trophies:423|",
+    "category": []
+  },
+  {
+    "name": "Gather 424 Trophies",
+    "requires": "|@Trophies:424|",
+    "category": []
+  },
+  {
+    "name": "Gather 425 Trophies",
+    "requires": "|@Trophies:425|",
+    "category": []
+  },
+  {
+    "name": "Gather 426 Trophies",
+    "requires": "|@Trophies:426|",
+    "category": []
+  },
+  {
+    "name": "Gather 427 Trophies",
+    "requires": "|@Trophies:427|",
+    "category": []
+  },
+  {
+    "name": "Gather 428 Trophies",
+    "requires": "|@Trophies:428|",
+    "category": []
+  },
+  {
+    "name": "Gather 429 Trophies",
+    "requires": "|@Trophies:429|",
+    "category": []
+  },
+  {
+    "name": "Gather 430 Trophies",
+    "requires": "|@Trophies:430|",
+    "category": []
+  },
+  {
+    "name": "Gather 431 Trophies",
+    "requires": "|@Trophies:431|",
+    "category": []
+  },
+  {
+    "name": "Gather 432 Trophies",
+    "requires": "|@Trophies:432|",
+    "category": []
+  },
+  {
+    "name": "Gather 433 Trophies",
+    "requires": "|@Trophies:433|",
+    "category": []
+  },
+  {
+    "name": "Gather 434 Trophies",
+    "requires": "|@Trophies:434|",
+    "category": []
+  },
+  {
+    "name": "Gather 435 Trophies",
+    "requires": "|@Trophies:435|",
+    "category": []
+  },
+  {
+    "name": "Gather 436 Trophies",
+    "requires": "|@Trophies:436|",
+    "category": []
+  },
+  {
+    "name": "Gather 437 Trophies",
+    "requires": "|@Trophies:437|",
+    "category": []
+  },
+  {
+    "name": "Gather 438 Trophies",
+    "requires": "|@Trophies:438|",
+    "category": []
+  },
+  {
+    "name": "Gather 439 Trophies",
+    "requires": "|@Trophies:439|",
+    "category": []
+  },
+  {
+    "name": "Gather 440 Trophies",
+    "requires": "|@Trophies:440|",
+    "category": []
+  },
+  {
+    "name": "Gather 441 Trophies",
+    "requires": "|@Trophies:441|",
+    "category": []
+  },
+  {
+    "name": "Gather 442 Trophies",
+    "requires": "|@Trophies:442|",
+    "category": []
+  },
+  {
+    "name": "Gather 443 Trophies",
+    "requires": "|@Trophies:443|",
+    "category": []
+  },
+  {
+    "name": "Gather 444 Trophies",
+    "requires": "|@Trophies:444|",
+    "category": []
+  },
+  {
+    "name": "Gather 445 Trophies",
+    "requires": "|@Trophies:445|",
+    "category": []
+  },
+  {
+    "name": "Gather 446 Trophies",
+    "requires": "|@Trophies:446|",
+    "category": []
+  },
+  {
+    "name": "Gather 447 Trophies",
+    "requires": "|@Trophies:447|",
+    "category": []
+  },
+  {
+    "name": "Gather 448 Trophies",
+    "requires": "|@Trophies:448|",
+    "category": []
+  },
+  {
+    "name": "Gather 449 Trophies",
+    "requires": "|@Trophies:449|",
+    "category": []
+  },
+  {
+    "name": "Gather 450 Trophies",
+    "requires": "|@Trophies:450|",
+    "category": []
+  },
+  {
+    "name": "Gather 451 Trophies",
+    "requires": "|@Trophies:451|",
+    "category": []
+  },
+  {
+    "name": "Gather 452 Trophies",
+    "requires": "|@Trophies:452|",
+    "category": []
+  },
+  {
+    "name": "Gather 453 Trophies",
+    "requires": "|@Trophies:453|",
+    "category": []
+  },
+  {
+    "name": "Gather 454 Trophies",
+    "requires": "|@Trophies:454|",
+    "category": []
+  },
+  {
+    "name": "Gather 455 Trophies",
+    "requires": "|@Trophies:455|",
+    "category": []
+  },
+  {
+    "name": "Gather 456 Trophies",
+    "requires": "|@Trophies:456|",
+    "category": []
+  },
+  {
+    "name": "Gather 457 Trophies",
+    "requires": "|@Trophies:457|",
+    "category": []
+  },
+  {
+    "name": "Gather 458 Trophies",
+    "requires": "|@Trophies:458|",
+    "category": []
+  },
+  {
+    "name": "Gather 459 Trophies",
+    "requires": "|@Trophies:459|",
+    "category": []
+  },
+  {
+    "name": "Gather 460 Trophies",
+    "requires": "|@Trophies:460|",
+    "category": []
+  },
+  {
+    "name": "Gather 461 Trophies",
+    "requires": "|@Trophies:461|",
+    "category": []
+  },
+  {
+    "name": "Gather 462 Trophies",
+    "requires": "|@Trophies:462|",
+    "category": []
+  },
+  {
+    "name": "Gather 463 Trophies",
+    "requires": "|@Trophies:463|",
+    "category": []
+  },
+  {
+    "name": "Gather 464 Trophies",
+    "requires": "|@Trophies:464|",
+    "category": []
+  },
+  {
+    "name": "Gather 465 Trophies",
+    "requires": "|@Trophies:465|",
+    "category": []
+  },
+  {
+    "name": "Gather 466 Trophies",
+    "requires": "|@Trophies:466|",
+    "category": []
+  },
+  {
+    "name": "Gather 467 Trophies",
+    "requires": "|@Trophies:467|",
+    "category": []
+  },
+  {
+    "name": "Gather 468 Trophies",
+    "requires": "|@Trophies:468|",
+    "category": []
+  },
+  {
+    "name": "Gather 469 Trophies",
+    "requires": "|@Trophies:469|",
+    "category": []
+  },
+  {
+    "name": "Gather 470 Trophies",
+    "requires": "|@Trophies:470|",
+    "category": []
+  },
+  {
+    "name": "Gather 471 Trophies",
+    "requires": "|@Trophies:471|",
+    "category": []
+  },
+  {
+    "name": "Gather 472 Trophies",
+    "requires": "|@Trophies:472|",
+    "category": []
+  },
+  {
+    "name": "Gather 473 Trophies",
+    "requires": "|@Trophies:473|",
+    "category": []
+  },
+  {
+    "name": "Gather 474 Trophies",
+    "requires": "|@Trophies:474|",
+    "category": []
+  },
+  {
+    "name": "Gather 475 Trophies",
+    "requires": "|@Trophies:475|",
+    "category": []
+  },
+  {
+    "name": "Gather 476 Trophies",
+    "requires": "|@Trophies:476|",
+    "category": []
+  },
+  {
+    "name": "Gather 477 Trophies",
+    "requires": "|@Trophies:477|",
+    "category": []
+  },
+  {
+    "name": "Gather 478 Trophies",
+    "requires": "|@Trophies:478|",
+    "category": []
+  },
+  {
+    "name": "Gather 479 Trophies",
+    "requires": "|@Trophies:479|",
+    "category": []
+  },
+  {
+    "name": "Gather 480 Trophies",
+    "requires": "|@Trophies:480|",
+    "category": []
+  },
+  {
+    "name": "Gather 481 Trophies",
+    "requires": "|@Trophies:481|",
+    "category": []
+  },
+  {
+    "name": "Gather 482 Trophies",
+    "requires": "|@Trophies:482|",
+    "category": []
+  },
+  {
+    "name": "Gather 483 Trophies",
+    "requires": "|@Trophies:483|",
+    "category": []
+  },
+  {
+    "name": "Gather 484 Trophies",
+    "requires": "|@Trophies:484|",
+    "category": []
+  },
+  {
+    "name": "Gather 485 Trophies",
+    "requires": "|@Trophies:485|",
+    "category": []
+  },
+  {
+    "name": "Gather 486 Trophies",
+    "requires": "|@Trophies:486|",
+    "category": []
+  },
+  {
+    "name": "Gather 487 Trophies",
+    "requires": "|@Trophies:487|",
+    "category": []
+  },
+  {
+    "name": "Gather 488 Trophies",
+    "requires": "|@Trophies:488|",
+    "category": []
+  },
+  {
+    "name": "Gather 489 Trophies",
+    "requires": "|@Trophies:489|",
+    "category": []
+  },
+  {
+    "name": "Gather 490 Trophies",
+    "requires": "|@Trophies:490|",
+    "category": []
+  },
+  {
+    "name": "Gather 491 Trophies",
+    "requires": "|@Trophies:491|",
+    "category": []
+  },
+  {
+    "name": "Gather 492 Trophies",
+    "requires": "|@Trophies:492|",
+    "category": []
+  },
+  {
+    "name": "Gather 493 Trophies",
+    "requires": "|@Trophies:493|",
+    "category": []
+  },
+  {
+    "name": "Gather 494 Trophies",
+    "requires": "|@Trophies:494|",
+    "category": []
+  },
+  {
+    "name": "Gather 495 Trophies",
+    "requires": "|@Trophies:495|",
+    "category": []
+  },
+  {
+    "name": "Gather 496 Trophies",
+    "requires": "|@Trophies:496|",
+    "category": []
+  },
+  {
+    "name": "Gather 497 Trophies",
+    "requires": "|@Trophies:497|",
+    "category": []
+  },
+  {
+    "name": "Gather 498 Trophies",
+    "requires": "|@Trophies:498|",
+    "category": []
+  },
+  {
+    "name": "Gather 499 Trophies",
+    "requires": "|@Trophies:499|",
+    "category": []
+  },
+  {
+    "name": "Gather 500 Trophies",
+    "requires": "|@Trophies:500|",
+    "category": []
+  },
+  {
 		"name": "Crash Cove - Easy - 5th",
-		"category": ["Crash Cove", "Classic", "Easy"],
+		"category": ["Crash Cove", "Single", "Classic", "Easy"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Easy - 3rd",
-		"category": ["Crash Cove", "Classic", "Easy"],
+		"category": ["Crash Cove", "Single", "Classic", "Easy"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Easy - 1st",
-		"category": ["Crash Cove", "Classic", "Easy"],
+		"category": ["Crash Cove", "Single", "Classic", "Easy"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Medium - 5th",
-		"category": ["Crash Cove", "Classic", "Medium"],
+		"category": ["Crash Cove", "Single", "Classic", "Medium"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Medium - 3rd",
-		"category": ["Crash Cove", "Classic", "Medium"],
+		"category": ["Crash Cove", "Single", "Classic", "Medium"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Medium - 1st",
-		"category": ["Crash Cove", "Classic", "Medium"],
+		"category": ["Crash Cove", "Single", "Classic", "Medium"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Hard - 5th",
-		"category": ["Crash Cove", "Classic", "Hard"],
+		"category": ["Crash Cove", "Single", "Classic", "Hard"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Hard - 3rd",
-		"category": ["Crash Cove", "Classic", "Hard"],
+		"category": ["Crash Cove", "Single", "Classic", "Hard"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Crash Cove - Hard - 1st",
-		"category": ["Crash Cove", "Classic", "Hard"],
+		"category": ["Crash Cove", "Single", "Classic", "Hard"],
 		"requires": "|Crash Cove|"
 	},
 	{
 		"name": "Tiger Temple - Easy - 5th",
-		"category": ["Tiger Temple", "Classic", "Easy"],
+		"category": ["Tiger Temple", "Single", "Classic", "Easy"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Easy - 3rd",
-		"category": ["Tiger Temple", "Classic", "Easy"],
+		"category": ["Tiger Temple", "Single", "Classic", "Easy"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Easy - 1st",
-		"category": ["Tiger Temple", "Classic", "Easy"],
+		"category": ["Tiger Temple", "Single", "Classic", "Easy"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Medium - 5th",
-		"category": ["Tiger Temple", "Classic", "Medium"],
+		"category": ["Tiger Temple", "Single", "Classic", "Medium"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Medium - 3rd",
-		"category": ["Tiger Temple", "Classic", "Medium"],
+		"category": ["Tiger Temple", "Single", "Classic", "Medium"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Medium - 1st",
-		"category": ["Tiger Temple", "Classic", "Medium"],
+		"category": ["Tiger Temple", "Single", "Classic", "Medium"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Hard - 5th",
-		"category": ["Tiger Temple", "Classic", "Hard"],
+		"category": ["Tiger Temple", "Single", "Classic", "Hard"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Hard - 3rd",
-		"category": ["Tiger Temple", "Classic", "Hard"],
+		"category": ["Tiger Temple", "Single", "Classic", "Hard"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Tiger Temple - Hard - 1st",
-		"category": ["Tiger Temple", "Classic", "Hard"],
+		"category": ["Tiger Temple", "Single", "Classic", "Hard"],
 		"requires": "|Tiger Temple|"
 	},
 	{
 		"name": "Blizzard Bluff - Easy - 5th",
-		"category": ["Blizzard Bluff", "Classic", "Easy"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Easy"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Easy - 3rd",
-		"category": ["Blizzard Bluff", "Classic", "Easy"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Easy"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Easy - 1st",
-		"category": ["Blizzard Bluff", "Classic", "Easy"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Easy"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Medium - 5th",
-		"category": ["Blizzard Bluff", "Classic", "Medium"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Medium"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Medium - 3rd",
-		"category": ["Blizzard Bluff", "Classic", "Medium"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Medium"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Medium - 1st",
-		"category": ["Blizzard Bluff", "Classic", "Medium"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Medium"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Hard - 5th",
-		"category": ["Blizzard Bluff", "Classic", "Hard"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Hard"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Hard - 3rd",
-		"category": ["Blizzard Bluff", "Classic", "Hard"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Hard"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Blizzard Bluff - Hard - 1st",
-		"category": ["Blizzard Bluff", "Classic", "Hard"],
+		"category": ["Blizzard Bluff", "Single", "Classic", "Hard"],
 		"requires": "|Blizzard Bluff|"
 	},
 	{
 		"name": "Coco Park - Easy - 5th",
-		"category": ["Coco Park", "Classic", "Easy"],
+		"category": ["Coco Park", "Single", "Classic", "Easy"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Easy - 3rd",
-		"category": ["Coco Park", "Classic", "Easy"],
+		"category": ["Coco Park", "Single", "Classic", "Easy"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Easy - 1st",
-		"category": ["Coco Park", "Classic", "Easy"],
+		"category": ["Coco Park", "Single", "Classic", "Easy"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Medium - 5th",
-		"category": ["Coco Park", "Classic", "Medium"],
+		"category": ["Coco Park", "Single", "Classic", "Medium"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Medium - 3rd",
-		"category": ["Coco Park", "Classic", "Medium"],
+		"category": ["Coco Park", "Single", "Classic", "Medium"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Medium - 1st",
-		"category": ["Coco Park", "Classic", "Medium"],
+		"category": ["Coco Park", "Single", "Classic", "Medium"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Hard - 5th",
-		"category": ["Coco Park", "Classic", "Hard"],
+		"category": ["Coco Park", "Single", "Classic", "Hard"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Hard - 3rd",
-		"category": ["Coco Park", "Classic", "Hard"],
+		"category": ["Coco Park", "Single", "Classic", "Hard"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Coco Park - Hard - 1st",
-		"category": ["Coco Park", "Classic", "Hard"],
+		"category": ["Coco Park", "Single", "Classic", "Hard"],
 		"requires": "|Coco Park|"
 	},
 	{
 		"name": "Roo's Tubes - Easy - 5th",
-		"category": ["Roo's Tubes", "Classic", "Easy"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Easy"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Easy - 3rd",
-		"category": ["Roo's Tubes", "Classic", "Easy"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Easy"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Easy - 1st",
-		"category": ["Roo's Tubes", "Classic", "Easy"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Easy"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Medium - 5th",
-		"category": ["Roo's Tubes", "Classic", "Medium"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Medium"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Medium - 3rd",
-		"category": ["Roo's Tubes", "Classic", "Medium"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Medium"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Medium - 1st",
-		"category": ["Roo's Tubes", "Classic", "Medium"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Medium"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Hard - 5th",
-		"category": ["Roo's Tubes", "Classic", "Hard"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Hard"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Hard - 3rd",
-		"category": ["Roo's Tubes", "Classic", "Hard"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Hard"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Roo's Tubes - Hard - 1st",
-		"category": ["Roo's Tubes", "Classic", "Hard"],
+		"category": ["Roo's Tubes", "Single", "Classic", "Hard"],
 		"requires": "|Roo's Tubes|"
 	},
 	{
 		"name": "Dingo Canyon - Easy - 5th",
-		"category": ["Dingo Canyon", "Classic", "Easy"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Easy"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Easy - 3rd",
-		"category": ["Dingo Canyon", "Classic", "Easy"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Easy"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Easy - 1st",
-		"category": ["Dingo Canyon", "Classic", "Easy"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Easy"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Medium - 5th",
-		"category": ["Dingo Canyon", "Classic", "Medium"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Medium"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Medium - 3rd",
-		"category": ["Dingo Canyon", "Classic", "Medium"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Medium"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Medium - 1st",
-		"category": ["Dingo Canyon", "Classic", "Medium"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Medium"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Hard - 5th",
-		"category": ["Dingo Canyon", "Classic", "Hard"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Hard"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Hard - 3rd",
-		"category": ["Dingo Canyon", "Classic", "Hard"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Hard"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dingo Canyon - Hard - 1st",
-		"category": ["Dingo Canyon", "Classic", "Hard"],
+		"category": ["Dingo Canyon", "Single", "Classic", "Hard"],
 		"requires": "|Dingo Canyon|"
 	},
 	{
 		"name": "Dragon Mines - Easy - 5th",
-		"category": ["Dragon Mines", "Classic", "Easy"],
+		"category": ["Dragon Mines", "Single", "Classic", "Easy"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Easy - 3rd",
-		"category": ["Dragon Mines", "Classic", "Easy"],
+		"category": ["Dragon Mines", "Single", "Classic", "Easy"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Easy - 1st",
-		"category": ["Dragon Mines", "Classic", "Easy"],
+		"category": ["Dragon Mines", "Single", "Classic", "Easy"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Medium - 5th",
-		"category": ["Dragon Mines", "Classic", "Medium"],
+		"category": ["Dragon Mines", "Single", "Classic", "Medium"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Medium - 3rd",
-		"category": ["Dragon Mines", "Classic", "Medium"],
+		"category": ["Dragon Mines", "Single", "Classic", "Medium"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Medium - 1st",
-		"category": ["Dragon Mines", "Classic", "Medium"],
+		"category": ["Dragon Mines", "Single", "Classic", "Medium"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Hard - 5th",
-		"category": ["Dragon Mines", "Classic", "Hard"],
+		"category": ["Dragon Mines", "Single", "Classic", "Hard"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Hard - 3rd",
-		"category": ["Dragon Mines", "Classic", "Hard"],
+		"category": ["Dragon Mines", "Single", "Classic", "Hard"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Dragon Mines - Hard - 1st",
-		"category": ["Dragon Mines", "Classic", "Hard"],
+		"category": ["Dragon Mines", "Single", "Classic", "Hard"],
 		"requires": "|Dragon Mines|"
 	},
 	{
 		"name": "Sewer Speedway - Easy - 5th",
-		"category": ["Sewer Speedway", "Classic", "Easy"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Easy"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Easy - 3rd",
-		"category": ["Sewer Speedway", "Classic", "Easy"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Easy"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Easy - 1st",
-		"category": ["Sewer Speedway", "Classic", "Easy"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Easy"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Medium - 5th",
-		"category": ["Sewer Speedway", "Classic", "Medium"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Medium"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Medium - 3rd",
-		"category": ["Sewer Speedway", "Classic", "Medium"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Medium"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Medium - 1st",
-		"category": ["Sewer Speedway", "Classic", "Medium"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Medium"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Hard - 5th",
-		"category": ["Sewer Speedway", "Classic", "Hard"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Hard"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Hard - 3rd",
-		"category": ["Sewer Speedway", "Classic", "Hard"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Hard"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Sewer Speedway - Hard - 1st",
-		"category": ["Sewer Speedway", "Classic", "Hard"],
+		"category": ["Sewer Speedway", "Single", "Classic", "Hard"],
 		"requires": "|Sewer Speedway|"
 	},
 	{
 		"name": "Mystery Caves - Easy - 5th",
-		"category": ["Mystery Caves", "Classic", "Easy"],
+		"category": ["Mystery Caves", "Single", "Classic", "Easy"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Easy - 3rd",
-		"category": ["Mystery Caves", "Classic", "Easy"],
+		"category": ["Mystery Caves", "Single", "Classic", "Easy"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Easy - 1st",
-		"category": ["Mystery Caves", "Classic", "Easy"],
+		"category": ["Mystery Caves", "Single", "Classic", "Easy"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Medium - 5th",
-		"category": ["Mystery Caves", "Classic", "Medium"],
+		"category": ["Mystery Caves", "Single", "Classic", "Medium"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Medium - 3rd",
-		"category": ["Mystery Caves", "Classic", "Medium"],
+		"category": ["Mystery Caves", "Single", "Classic", "Medium"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Medium - 1st",
-		"category": ["Mystery Caves", "Classic", "Medium"],
+		"category": ["Mystery Caves", "Single", "Classic", "Medium"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Hard - 5th",
-		"category": ["Mystery Caves", "Classic", "Hard"],
+		"category": ["Mystery Caves", "Single", "Classic", "Hard"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Hard - 3rd",
-		"category": ["Mystery Caves", "Classic", "Hard"],
+		"category": ["Mystery Caves", "Single", "Classic", "Hard"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Mystery Caves - Hard - 1st",
-		"category": ["Mystery Caves", "Classic", "Hard"],
+		"category": ["Mystery Caves", "Single", "Classic", "Hard"],
 		"requires": "|Mystery Caves|"
 	},
 	{
 		"name": "Papu's Pyramid - Easy - 5th",
-		"category": ["Papu's Pyramid", "Classic", "Easy"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Easy"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Easy - 3rd",
-		"category": ["Papu's Pyramid", "Classic", "Easy"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Easy"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Easy - 1st",
-		"category": ["Papu's Pyramid", "Classic", "Easy"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Easy"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Medium - 5th",
-		"category": ["Papu's Pyramid", "Classic", "Medium"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Medium"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Medium - 3rd",
-		"category": ["Papu's Pyramid", "Classic", "Medium"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Medium"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Medium - 1st",
-		"category": ["Papu's Pyramid", "Classic", "Medium"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Medium"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Hard - 5th",
-		"category": ["Papu's Pyramid", "Classic", "Hard"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Hard"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Hard - 3rd",
-		"category": ["Papu's Pyramid", "Classic", "Hard"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Hard"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Papu's Pyramid - Hard - 1st",
-		"category": ["Papu's Pyramid", "Classic", "Hard"],
+		"category": ["Papu's Pyramid", "Single", "Classic", "Hard"],
 		"requires": "|Papu's Pyramid|"
 	},
 	{
 		"name": "Cortex Castle - Easy - 5th",
-		"category": ["Cortex Castle", "Classic", "Easy"],
+		"category": ["Cortex Castle", "Single", "Classic", "Easy"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Easy - 3rd",
-		"category": ["Cortex Castle", "Classic", "Easy"],
+		"category": ["Cortex Castle", "Single", "Classic", "Easy"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Easy - 1st",
-		"category": ["Cortex Castle", "Classic", "Easy"],
+		"category": ["Cortex Castle", "Single", "Classic", "Easy"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Medium - 5th",
-		"category": ["Cortex Castle", "Classic", "Medium"],
+		"category": ["Cortex Castle", "Single", "Classic", "Medium"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Medium - 3rd",
-		"category": ["Cortex Castle", "Classic", "Medium"],
+		"category": ["Cortex Castle", "Single", "Classic", "Medium"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Medium - 1st",
-		"category": ["Cortex Castle", "Classic", "Medium"],
+		"category": ["Cortex Castle", "Single", "Classic", "Medium"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Hard - 5th",
-		"category": ["Cortex Castle", "Classic", "Hard"],
+		"category": ["Cortex Castle", "Single", "Classic", "Hard"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Hard - 3rd",
-		"category": ["Cortex Castle", "Classic", "Hard"],
+		"category": ["Cortex Castle", "Single", "Classic", "Hard"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Cortex Castle - Hard - 1st",
-		"category": ["Cortex Castle", "Classic", "Hard"],
+		"category": ["Cortex Castle", "Single", "Classic", "Hard"],
 		"requires": "|Cortex Castle|"
 	},
 	{
 		"name": "Tiny Arena - Easy - 5th",
-		"category": ["Tiny Arena", "Classic", "Easy"],
+		"category": ["Tiny Arena", "Single", "Classic", "Easy"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Easy - 3rd",
-		"category": ["Tiny Arena", "Classic", "Easy"],
+		"category": ["Tiny Arena", "Single", "Classic", "Easy"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Easy - 1st",
-		"category": ["Tiny Arena", "Classic", "Easy"],
+		"category": ["Tiny Arena", "Single", "Classic", "Easy"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Medium - 5th",
-		"category": ["Tiny Arena", "Classic", "Medium"],
+		"category": ["Tiny Arena", "Single", "Classic", "Medium"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Medium - 3rd",
-		"category": ["Tiny Arena", "Classic", "Medium"],
+		"category": ["Tiny Arena", "Single", "Classic", "Medium"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Medium - 1st",
-		"category": ["Tiny Arena", "Classic", "Medium"],
+		"category": ["Tiny Arena", "Single", "Classic", "Medium"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Hard - 5th",
-		"category": ["Tiny Arena", "Classic", "Hard"],
+		"category": ["Tiny Arena", "Single", "Classic", "Hard"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Hard - 3rd",
-		"category": ["Tiny Arena", "Classic", "Hard"],
+		"category": ["Tiny Arena", "Single", "Classic", "Hard"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Tiny Arena - Hard - 1st",
-		"category": ["Tiny Arena", "Classic", "Hard"],
+		"category": ["Tiny Arena", "Single", "Classic", "Hard"],
 		"requires": "|Tiny Arena|"
 	},
 	{
 		"name": "Polar Pass - Easy - 5th",
-		"category": ["Polar Pass", "Classic", "Easy"],
+		"category": ["Polar Pass", "Single", "Classic", "Easy"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Easy - 3rd",
-		"category": ["Polar Pass", "Classic", "Easy"],
+		"category": ["Polar Pass", "Single", "Classic", "Easy"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Easy - 1st",
-		"category": ["Polar Pass", "Classic", "Easy"],
+		"category": ["Polar Pass", "Single", "Classic", "Easy"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Medium - 5th",
-		"category": ["Polar Pass", "Classic", "Medium"],
+		"category": ["Polar Pass", "Single", "Classic", "Medium"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Medium - 3rd",
-		"category": ["Polar Pass", "Classic", "Medium"],
+		"category": ["Polar Pass", "Single", "Classic", "Medium"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Medium - 1st",
-		"category": ["Polar Pass", "Classic", "Medium"],
+		"category": ["Polar Pass", "Single", "Classic", "Medium"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Hard - 5th",
-		"category": ["Polar Pass", "Classic", "Hard"],
+		"category": ["Polar Pass", "Single", "Classic", "Hard"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Hard - 3rd",
-		"category": ["Polar Pass", "Classic", "Hard"],
+		"category": ["Polar Pass", "Single", "Classic", "Hard"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "Polar Pass - Hard - 1st",
-		"category": ["Polar Pass", "Classic", "Hard"],
+		"category": ["Polar Pass", "Single", "Classic", "Hard"],
 		"requires": "|Polar Pass|"
 	},
 	{
 		"name": "N. Gin Labs - Easy - 5th",
-		"category": ["N. Gin Labs", "Classic", "Easy"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Easy"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Easy - 3rd",
-		"category": ["N. Gin Labs", "Classic", "Easy"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Easy"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Easy - 1st",
-		"category": ["N. Gin Labs", "Classic", "Easy"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Easy"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Medium - 5th",
-		"category": ["N. Gin Labs", "Classic", "Medium"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Medium"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Medium - 3rd",
-		"category": ["N. Gin Labs", "Classic", "Medium"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Medium"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Medium - 1st",
-		"category": ["N. Gin Labs", "Classic", "Medium"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Medium"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Hard - 5th",
-		"category": ["N. Gin Labs", "Classic", "Hard"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Hard"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Hard - 3rd",
-		"category": ["N. Gin Labs", "Classic", "Hard"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Hard"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "N. Gin Labs - Hard - 1st",
-		"category": ["N. Gin Labs", "Classic", "Hard"],
+		"category": ["N. Gin Labs", "Single", "Classic", "Hard"],
 		"requires": "|N. Gin Labs|"
 	},
 	{
 		"name": "Hot Air Skyway - Easy - 5th",
-		"category": ["Hot Air Skyway", "Classic", "Easy"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Easy"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Easy - 3rd",
-		"category": ["Hot Air Skyway", "Classic", "Easy"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Easy"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Easy - 1st",
-		"category": ["Hot Air Skyway", "Classic", "Easy"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Easy"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Medium - 5th",
-		"category": ["Hot Air Skyway", "Classic", "Medium"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Medium"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Medium - 3rd",
-		"category": ["Hot Air Skyway", "Classic", "Medium"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Medium"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Medium - 1st",
-		"category": ["Hot Air Skyway", "Classic", "Medium"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Medium"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Hard - 5th",
-		"category": ["Hot Air Skyway", "Classic", "Hard"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Hard"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Hard - 3rd",
-		"category": ["Hot Air Skyway", "Classic", "Hard"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Hard"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Hot Air Skyway - Hard - 1st",
-		"category": ["Hot Air Skyway", "Classic", "Hard"],
+		"category": ["Hot Air Skyway", "Single", "Classic", "Hard"],
 		"requires": "|Hot Air Skyway|"
 	},
 	{
 		"name": "Slide Coliseum - Easy - 5th",
-		"category": ["Slide Coliseum", "Classic", "Easy"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Easy"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Easy - 3rd",
-		"category": ["Slide Coliseum", "Classic", "Easy"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Easy"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Easy - 1st",
-		"category": ["Slide Coliseum", "Classic", "Easy"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Easy"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Medium - 5th",
-		"category": ["Slide Coliseum", "Classic", "Medium"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Medium"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Medium - 3rd",
-		"category": ["Slide Coliseum", "Classic", "Medium"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Medium"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Medium - 1st",
-		"category": ["Slide Coliseum", "Classic", "Medium"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Medium"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Hard - 5th",
-		"category": ["Slide Coliseum", "Classic", "Hard"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Hard"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Hard - 3rd",
-		"category": ["Slide Coliseum", "Classic", "Hard"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Hard"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Slide Coliseum - Hard - 1st",
-		"category": ["Slide Coliseum", "Classic", "Hard"],
+		"category": ["Slide Coliseum", "Single", "Classic", "Hard"],
 		"requires": "|Slide Coliseum|"
 	},
 	{
 		"name": "Turbo Track - Easy - 5th",
-		"category": ["Turbo Track", "Classic", "Easy"],
+		"category": ["Turbo Track", "Single", "Classic", "Easy"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Easy - 3rd",
-		"category": ["Turbo Track", "Classic", "Easy"],
+		"category": ["Turbo Track", "Single", "Classic", "Easy"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Easy - 1st",
-		"category": ["Turbo Track", "Classic", "Easy"],
+		"category": ["Turbo Track", "Single", "Classic", "Easy"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Medium - 5th",
-		"category": ["Turbo Track", "Classic", "Medium"],
+		"category": ["Turbo Track", "Single", "Classic", "Medium"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Medium - 3rd",
-		"category": ["Turbo Track", "Classic", "Medium"],
+		"category": ["Turbo Track", "Single", "Classic", "Medium"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Medium - 1st",
-		"category": ["Turbo Track", "Classic", "Medium"],
+		"category": ["Turbo Track", "Single", "Classic", "Medium"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Hard - 5th",
-		"category": ["Turbo Track", "Classic", "Hard"],
+		"category": ["Turbo Track", "Single", "Classic", "Hard"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Hard - 3rd",
-		"category": ["Turbo Track", "Classic", "Hard"],
+		"category": ["Turbo Track", "Single", "Classic", "Hard"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Turbo Track - Hard - 1st",
-		"category": ["Turbo Track", "Classic", "Hard"],
+		"category": ["Turbo Track", "Single", "Classic", "Hard"],
 		"requires": "|Turbo Track|"
 	},
 	{
 		"name": "Oxide Station - Easy - 5th",
-		"category": ["Oxide Station", "Classic", "Easy"],
+		"category": ["Oxide Station", "Single", "Classic", "Easy"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Easy - 3rd",
-		"category": ["Oxide Station", "Classic", "Easy"],
+		"category": ["Oxide Station", "Single", "Classic", "Easy"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Easy - 1st",
-		"category": ["Oxide Station", "Classic", "Easy"],
+		"category": ["Oxide Station", "Single", "Classic", "Easy"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Medium - 5th",
-		"category": ["Oxide Station", "Classic", "Medium"],
+		"category": ["Oxide Station", "Single", "Classic", "Medium"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Medium - 3rd",
-		"category": ["Oxide Station", "Classic", "Medium"],
+		"category": ["Oxide Station", "Single", "Classic", "Medium"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Medium - 1st",
-		"category": ["Oxide Station", "Classic", "Medium"],
+		"category": ["Oxide Station", "Single", "Classic", "Medium"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Hard - 5th",
-		"category": ["Oxide Station", "Classic", "Hard"],
+		"category": ["Oxide Station", "Single", "Classic", "Hard"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Hard - 3rd",
-		"category": ["Oxide Station", "Classic", "Hard"],
+		"category": ["Oxide Station", "Single", "Classic", "Hard"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Oxide Station - Hard - 1st",
-		"category": ["Oxide Station", "Classic", "Hard"],
+		"category": ["Oxide Station", "Single", "Classic", "Hard"],
 		"requires": "|Oxide Station|"
 	},
 	{
 		"name": "Inferno Island - Easy - 5th",
-		"category": ["Inferno Island", "Nitro", "Easy"],
+		"category": ["Inferno Island", "Single", "Nitro", "Easy"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Easy - 3rd",
-		"category": ["Inferno Island", "Nitro", "Easy"],
+		"category": ["Inferno Island", "Single", "Nitro", "Easy"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Easy - 1st",
-		"category": ["Inferno Island", "Nitro", "Easy"],
+		"category": ["Inferno Island", "Single", "Nitro", "Easy"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Medium - 5th",
-		"category": ["Inferno Island", "Nitro", "Medium"],
+		"category": ["Inferno Island", "Single", "Nitro", "Medium"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Medium - 3rd",
-		"category": ["Inferno Island", "Nitro", "Medium"],
+		"category": ["Inferno Island", "Single", "Nitro", "Medium"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Medium - 1st",
-		"category": ["Inferno Island", "Nitro", "Medium"],
+		"category": ["Inferno Island", "Single", "Nitro", "Medium"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Hard - 5th",
-		"category": ["Inferno Island", "Nitro", "Hard"],
+		"category": ["Inferno Island", "Single", "Nitro", "Hard"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Hard - 3rd",
-		"category": ["Inferno Island", "Nitro", "Hard"],
+		"category": ["Inferno Island", "Single", "Nitro", "Hard"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Inferno Island - Hard - 1st",
-		"category": ["Inferno Island", "Nitro", "Hard"],
+		"category": ["Inferno Island", "Single", "Nitro", "Hard"],
 		"requires": "|Inferno Island|"
 	},
 	{
 		"name": "Jungle Boogie - Easy - 5th",
-		"category": ["Jungle Boogie", "Nitro", "Easy"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Easy"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Easy - 3rd",
-		"category": ["Jungle Boogie", "Nitro", "Easy"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Easy"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Easy - 1st",
-		"category": ["Jungle Boogie", "Nitro", "Easy"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Easy"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Medium - 5th",
-		"category": ["Jungle Boogie", "Nitro", "Medium"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Medium"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Medium - 3rd",
-		"category": ["Jungle Boogie", "Nitro", "Medium"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Medium"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Medium - 1st",
-		"category": ["Jungle Boogie", "Nitro", "Medium"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Medium"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Hard - 5th",
-		"category": ["Jungle Boogie", "Nitro", "Hard"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Hard"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Hard - 3rd",
-		"category": ["Jungle Boogie", "Nitro", "Hard"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Hard"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Jungle Boogie - Hard - 1st",
-		"category": ["Jungle Boogie", "Nitro", "Hard"],
+		"category": ["Jungle Boogie", "Single", "Nitro", "Hard"],
 		"requires": "|Jungle Boogie|"
 	},
 	{
 		"name": "Clockwork Wumpa - Easy - 5th",
-		"category": ["Clockwork Wumpa", "Nitro", "Easy"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Easy"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Easy - 3rd",
-		"category": ["Clockwork Wumpa", "Nitro", "Easy"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Easy"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Easy - 1st",
-		"category": ["Clockwork Wumpa", "Nitro", "Easy"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Easy"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Medium - 5th",
-		"category": ["Clockwork Wumpa", "Nitro", "Medium"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Medium"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Medium - 3rd",
-		"category": ["Clockwork Wumpa", "Nitro", "Medium"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Medium"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Medium - 1st",
-		"category": ["Clockwork Wumpa", "Nitro", "Medium"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Medium"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Hard - 5th",
-		"category": ["Clockwork Wumpa", "Nitro", "Hard"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Hard"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Hard - 3rd",
-		"category": ["Clockwork Wumpa", "Nitro", "Hard"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Hard"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Clockwork Wumpa - Hard - 1st",
-		"category": ["Clockwork Wumpa", "Nitro", "Hard"],
+		"category": ["Clockwork Wumpa", "Single", "Nitro", "Hard"],
 		"requires": "|Clockwork Wumpa|"
 	},
 	{
 		"name": "Android Alley - Easy - 5th",
-		"category": ["Android Alley", "Nitro", "Easy"],
+		"category": ["Android Alley", "Single", "Nitro", "Easy"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Easy - 3rd",
-		"category": ["Android Alley", "Nitro", "Easy"],
+		"category": ["Android Alley", "Single", "Nitro", "Easy"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Easy - 1st",
-		"category": ["Android Alley", "Nitro", "Easy"],
+		"category": ["Android Alley", "Single", "Nitro", "Easy"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Medium - 5th",
-		"category": ["Android Alley", "Nitro", "Medium"],
+		"category": ["Android Alley", "Single", "Nitro", "Medium"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Medium - 3rd",
-		"category": ["Android Alley", "Nitro", "Medium"],
+		"category": ["Android Alley", "Single", "Nitro", "Medium"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Medium - 1st",
-		"category": ["Android Alley", "Nitro", "Medium"],
+		"category": ["Android Alley", "Single", "Nitro", "Medium"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Hard - 5th",
-		"category": ["Android Alley", "Nitro", "Hard"],
+		"category": ["Android Alley", "Single", "Nitro", "Hard"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Hard - 3rd",
-		"category": ["Android Alley", "Nitro", "Hard"],
+		"category": ["Android Alley", "Single", "Nitro", "Hard"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Android Alley - Hard - 1st",
-		"category": ["Android Alley", "Nitro", "Hard"],
+		"category": ["Android Alley", "Single", "Nitro", "Hard"],
 		"requires": "|Android Alley|"
 	},
 	{
 		"name": "Electron Avenue - Easy - 5th",
-		"category": ["Electron Avenue", "Nitro", "Easy"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Easy"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Easy - 3rd",
-		"category": ["Electron Avenue", "Nitro", "Easy"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Easy"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Easy - 1st",
-		"category": ["Electron Avenue", "Nitro", "Easy"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Easy"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Medium - 5th",
-		"category": ["Electron Avenue", "Nitro", "Medium"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Medium"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Medium - 3rd",
-		"category": ["Electron Avenue", "Nitro", "Medium"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Medium"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Medium - 1st",
-		"category": ["Electron Avenue", "Nitro", "Medium"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Medium"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Hard - 5th",
-		"category": ["Electron Avenue", "Nitro", "Hard"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Hard"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Hard - 3rd",
-		"category": ["Electron Avenue", "Nitro", "Hard"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Hard"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Electron Avenue - Hard - 1st",
-		"category": ["Electron Avenue", "Nitro", "Hard"],
+		"category": ["Electron Avenue", "Single", "Nitro", "Hard"],
 		"requires": "|Electron Avenue|"
 	},
 	{
 		"name": "Deep Sea Driving - Easy - 5th",
-		"category": ["Deep Sea Driving", "Nitro", "Easy"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Easy"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Easy - 3rd",
-		"category": ["Deep Sea Driving", "Nitro", "Easy"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Easy"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Easy - 1st",
-		"category": ["Deep Sea Driving", "Nitro", "Easy"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Easy"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Medium - 5th",
-		"category": ["Deep Sea Driving", "Nitro", "Medium"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Medium"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Medium - 3rd",
-		"category": ["Deep Sea Driving", "Nitro", "Medium"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Medium"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Medium - 1st",
-		"category": ["Deep Sea Driving", "Nitro", "Medium"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Medium"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Hard - 5th",
-		"category": ["Deep Sea Driving", "Nitro", "Hard"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Hard"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Hard - 3rd",
-		"category": ["Deep Sea Driving", "Nitro", "Hard"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Hard"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Deep Sea Driving - Hard - 1st",
-		"category": ["Deep Sea Driving", "Nitro", "Hard"],
+		"category": ["Deep Sea Driving", "Single", "Nitro", "Hard"],
 		"requires": "|Deep Sea Driving|"
 	},
 	{
 		"name": "Thunder Struck - Easy - 5th",
-		"category": ["Thunder Struck", "Nitro", "Easy"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Easy"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Easy - 3rd",
-		"category": ["Thunder Struck", "Nitro", "Easy"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Easy"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Easy - 1st",
-		"category": ["Thunder Struck", "Nitro", "Easy"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Easy"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Medium - 5th",
-		"category": ["Thunder Struck", "Nitro", "Medium"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Medium"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Medium - 3rd",
-		"category": ["Thunder Struck", "Nitro", "Medium"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Medium"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Medium - 1st",
-		"category": ["Thunder Struck", "Nitro", "Medium"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Medium"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Hard - 5th",
-		"category": ["Thunder Struck", "Nitro", "Hard"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Hard"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Hard - 3rd",
-		"category": ["Thunder Struck", "Nitro", "Hard"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Hard"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Thunder Struck - Hard - 1st",
-		"category": ["Thunder Struck", "Nitro", "Hard"],
+		"category": ["Thunder Struck", "Single", "Nitro", "Hard"],
 		"requires": "|Thunder Struck|"
 	},
 	{
 		"name": "Tiny Temple - Easy - 5th",
-		"category": ["Tiny Temple", "Nitro", "Easy"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Easy"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Easy - 3rd",
-		"category": ["Tiny Temple", "Nitro", "Easy"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Easy"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Easy - 1st",
-		"category": ["Tiny Temple", "Nitro", "Easy"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Easy"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Medium - 5th",
-		"category": ["Tiny Temple", "Nitro", "Medium"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Medium"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Medium - 3rd",
-		"category": ["Tiny Temple", "Nitro", "Medium"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Medium"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Medium - 1st",
-		"category": ["Tiny Temple", "Nitro", "Medium"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Medium"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Hard - 5th",
-		"category": ["Tiny Temple", "Nitro", "Hard"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Hard"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Hard - 3rd",
-		"category": ["Tiny Temple", "Nitro", "Hard"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Hard"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Tiny Temple - Hard - 1st",
-		"category": ["Tiny Temple", "Nitro", "Hard"],
+		"category": ["Tiny Temple", "Single", "Nitro", "Hard"],
 		"requires": "|Tiny Temple|"
 	},
 	{
 		"name": "Meteor Gorge - Easy - 5th",
-		"category": ["Meteor Gorge", "Nitro", "Easy"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Easy"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Easy - 3rd",
-		"category": ["Meteor Gorge", "Nitro", "Easy"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Easy"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Easy - 1st",
-		"category": ["Meteor Gorge", "Nitro", "Easy"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Easy"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Medium - 5th",
-		"category": ["Meteor Gorge", "Nitro", "Medium"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Medium"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Medium - 3rd",
-		"category": ["Meteor Gorge", "Nitro", "Medium"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Medium"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Medium - 1st",
-		"category": ["Meteor Gorge", "Nitro", "Medium"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Medium"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Hard - 5th",
-		"category": ["Meteor Gorge", "Nitro", "Hard"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Hard"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Hard - 3rd",
-		"category": ["Meteor Gorge", "Nitro", "Hard"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Hard"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Meteor Gorge - Hard - 1st",
-		"category": ["Meteor Gorge", "Nitro", "Hard"],
+		"category": ["Meteor Gorge", "Single", "Nitro", "Hard"],
 		"requires": "|Meteor Gorge|"
 	},
 	{
 		"name": "Barin Ruins - Easy - 5th",
-		"category": ["Barin Ruins", "Nitro", "Easy"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Easy"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Easy - 3rd",
-		"category": ["Barin Ruins", "Nitro", "Easy"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Easy"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Easy - 1st",
-		"category": ["Barin Ruins", "Nitro", "Easy"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Easy"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Medium - 5th",
-		"category": ["Barin Ruins", "Nitro", "Medium"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Medium"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Medium - 3rd",
-		"category": ["Barin Ruins", "Nitro", "Medium"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Medium"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Medium - 1st",
-		"category": ["Barin Ruins", "Nitro", "Medium"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Medium"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Hard - 5th",
-		"category": ["Barin Ruins", "Nitro", "Hard"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Hard"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Hard - 3rd",
-		"category": ["Barin Ruins", "Nitro", "Hard"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Hard"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Barin Ruins - Hard - 1st",
-		"category": ["Barin Ruins", "Nitro", "Hard"],
+		"category": ["Barin Ruins", "Single", "Nitro", "Hard"],
 		"requires": "|Barin Ruins|"
 	},
 	{
 		"name": "Out Of Time - Easy - 5th",
-		"category": ["Out Of Time", "Nitro", "Easy"],
+		"category": ["Out Of Time", "Single", "Nitro", "Easy"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Easy - 3rd",
-		"category": ["Out Of Time", "Nitro", "Easy"],
+		"category": ["Out Of Time", "Single", "Nitro", "Easy"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Easy - 1st",
-		"category": ["Out Of Time", "Nitro", "Easy"],
+		"category": ["Out Of Time", "Single", "Nitro", "Easy"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Medium - 5th",
-		"category": ["Out Of Time", "Nitro", "Medium"],
+		"category": ["Out Of Time", "Single", "Nitro", "Medium"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Medium - 3rd",
-		"category": ["Out Of Time", "Nitro", "Medium"],
+		"category": ["Out Of Time", "Single", "Nitro", "Medium"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Medium - 1st",
-		"category": ["Out Of Time", "Nitro", "Medium"],
+		"category": ["Out Of Time", "Single", "Nitro", "Medium"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Hard - 5th",
-		"category": ["Out Of Time", "Nitro", "Hard"],
+		"category": ["Out Of Time", "Single", "Nitro", "Hard"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Hard - 3rd",
-		"category": ["Out Of Time", "Nitro", "Hard"],
+		"category": ["Out Of Time", "Single", "Nitro", "Hard"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Out Of Time - Hard - 1st",
-		"category": ["Out Of Time", "Nitro", "Hard"],
+		"category": ["Out Of Time", "Single", "Nitro", "Hard"],
 		"requires": "|Out Of Time|"
 	},
 	{
 		"name": "Assembly Lane - Easy - 5th",
-		"category": ["Assembly Lane", "Nitro", "Easy"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Easy"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Easy - 3rd",
-		"category": ["Assembly Lane", "Nitro", "Easy"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Easy"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Easy - 1st",
-		"category": ["Assembly Lane", "Nitro", "Easy"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Easy"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Medium - 5th",
-		"category": ["Assembly Lane", "Nitro", "Medium"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Medium"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Medium - 3rd",
-		"category": ["Assembly Lane", "Nitro", "Medium"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Medium"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Medium - 1st",
-		"category": ["Assembly Lane", "Nitro", "Medium"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Medium"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Hard - 5th",
-		"category": ["Assembly Lane", "Nitro", "Hard"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Hard"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Hard - 3rd",
-		"category": ["Assembly Lane", "Nitro", "Hard"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Hard"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Assembly Lane - Hard - 1st",
-		"category": ["Assembly Lane", "Nitro", "Hard"],
+		"category": ["Assembly Lane", "Single", "Nitro", "Hard"],
 		"requires": "|Assembly Lane|"
 	},
 	{
 		"name": "Hyper Spaceway - Easy - 5th",
-		"category": ["Hyper Spaceway", "Nitro", "Easy"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Easy"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Easy - 3rd",
-		"category": ["Hyper Spaceway", "Nitro", "Easy"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Easy"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Easy - 1st",
-		"category": ["Hyper Spaceway", "Nitro", "Easy"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Easy"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Medium - 5th",
-		"category": ["Hyper Spaceway", "Nitro", "Medium"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Medium"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Medium - 3rd",
-		"category": ["Hyper Spaceway", "Nitro", "Medium"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Medium"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Medium - 1st",
-		"category": ["Hyper Spaceway", "Nitro", "Medium"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Medium"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Hard - 5th",
-		"category": ["Hyper Spaceway", "Nitro", "Hard"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Hard"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Hard - 3rd",
-		"category": ["Hyper Spaceway", "Nitro", "Hard"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Hard"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Hyper Spaceway - Hard - 1st",
-		"category": ["Hyper Spaceway", "Nitro", "Hard"],
+		"category": ["Hyper Spaceway", "Single", "Nitro", "Hard"],
 		"requires": "|Hyper Spaceway|"
 	},
 	{
 		"name": "Twilight Tour - Easy - 5th",
-		"category": ["Twilight Tour", "Bonus", "Easy"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Easy"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Easy - 3rd",
-		"category": ["Twilight Tour", "Bonus", "Easy"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Easy"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Easy - 1st",
-		"category": ["Twilight Tour", "Bonus", "Easy"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Easy"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Medium - 5th",
-		"category": ["Twilight Tour", "Bonus", "Medium"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Medium"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Medium - 3rd",
-		"category": ["Twilight Tour", "Bonus", "Medium"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Medium"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Medium - 1st",
-		"category": ["Twilight Tour", "Bonus", "Medium"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Medium"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Hard - 5th",
-		"category": ["Twilight Tour", "Bonus", "Hard"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Hard"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Hard - 3rd",
-		"category": ["Twilight Tour", "Bonus", "Hard"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Hard"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Twilight Tour - Hard - 1st",
-		"category": ["Twilight Tour", "Bonus", "Hard"],
+		"category": ["Twilight Tour", "Single", "Bonus", "Hard"],
 		"requires": "|Twilight Tour|"
 	},
 	{
 		"name": "Prehistoric Playground - Easy - 5th",
-		"category": ["Prehistoric Playground", "Bonus", "Easy"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Easy"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Easy - 3rd",
-		"category": ["Prehistoric Playground", "Bonus", "Easy"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Easy"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Easy - 1st",
-		"category": ["Prehistoric Playground", "Bonus", "Easy"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Easy"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Medium - 5th",
-		"category": ["Prehistoric Playground", "Bonus", "Medium"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Medium"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Medium - 3rd",
-		"category": ["Prehistoric Playground", "Bonus", "Medium"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Medium"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Medium - 1st",
-		"category": ["Prehistoric Playground", "Bonus", "Medium"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Medium"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Hard - 5th",
-		"category": ["Prehistoric Playground", "Bonus", "Hard"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Hard"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Hard - 3rd",
-		"category": ["Prehistoric Playground", "Bonus", "Hard"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Hard"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Prehistoric Playground - Hard - 1st",
-		"category": ["Prehistoric Playground", "Bonus", "Hard"],
+		"category": ["Prehistoric Playground", "Single", "Bonus", "Hard"],
 		"requires": "|Prehistoric Playground|"
 	},
 	{
 		"name": "Spyro Circuit - Easy - 5th",
-		"category": ["Spyro Circuit", "Bonus", "Easy"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Easy"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Easy - 3rd",
-		"category": ["Spyro Circuit", "Bonus", "Easy"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Easy"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Easy - 1st",
-		"category": ["Spyro Circuit", "Bonus", "Easy"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Easy"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Medium - 5th",
-		"category": ["Spyro Circuit", "Bonus", "Medium"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Medium"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Medium - 3rd",
-		"category": ["Spyro Circuit", "Bonus", "Medium"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Medium"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Medium - 1st",
-		"category": ["Spyro Circuit", "Bonus", "Medium"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Medium"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Hard - 5th",
-		"category": ["Spyro Circuit", "Bonus", "Hard"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Hard"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Hard - 3rd",
-		"category": ["Spyro Circuit", "Bonus", "Hard"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Hard"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Spyro Circuit - Hard - 1st",
-		"category": ["Spyro Circuit", "Bonus", "Hard"],
+		"category": ["Spyro Circuit", "Single", "Bonus", "Hard"],
 		"requires": "|Spyro Circuit|"
 	},
 	{
 		"name": "Nina's Nightmare - Easy - 5th",
-		"category": ["Nina's Nightmare", "Bonus", "Easy"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Easy"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Easy - 3rd",
-		"category": ["Nina's Nightmare", "Bonus", "Easy"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Easy"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Easy - 1st",
-		"category": ["Nina's Nightmare", "Bonus", "Easy"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Easy"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Medium - 5th",
-		"category": ["Nina's Nightmare", "Bonus", "Medium"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Medium"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Medium - 3rd",
-		"category": ["Nina's Nightmare", "Bonus", "Medium"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Medium"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Medium - 1st",
-		"category": ["Nina's Nightmare", "Bonus", "Medium"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Medium"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Hard - 5th",
-		"category": ["Nina's Nightmare", "Bonus", "Hard"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Hard"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Hard - 3rd",
-		"category": ["Nina's Nightmare", "Bonus", "Hard"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Hard"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Nina's Nightmare - Hard - 1st",
-		"category": ["Nina's Nightmare", "Bonus", "Hard"],
+		"category": ["Nina's Nightmare", "Single", "Bonus", "Hard"],
 		"requires": "|Nina's Nightmare|"
 	},
 	{
 		"name": "Koala Carnival - Easy - 5th",
-		"category": ["Koala Carnival", "Bonus", "Easy"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Easy"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Easy - 3rd",
-		"category": ["Koala Carnival", "Bonus", "Easy"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Easy"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Easy - 1st",
-		"category": ["Koala Carnival", "Bonus", "Easy"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Easy"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Medium - 5th",
-		"category": ["Koala Carnival", "Bonus", "Medium"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Medium"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Medium - 3rd",
-		"category": ["Koala Carnival", "Bonus", "Medium"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Medium"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Medium - 1st",
-		"category": ["Koala Carnival", "Bonus", "Medium"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Medium"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Hard - 5th",
-		"category": ["Koala Carnival", "Bonus", "Hard"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Hard"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Hard - 3rd",
-		"category": ["Koala Carnival", "Bonus", "Hard"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Hard"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Koala Carnival - Hard - 1st",
-		"category": ["Koala Carnival", "Bonus", "Hard"],
+		"category": ["Koala Carnival", "Single", "Bonus", "Hard"],
 		"requires": "|Koala Carnival|"
 	},
 	{
 		"name": "Gingerbread Joyride - Easy - 5th",
-		"category": ["Gingerbread Joyride", "Bonus", "Easy"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Easy"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Easy - 3rd",
-		"category": ["Gingerbread Joyride", "Bonus", "Easy"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Easy"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Easy - 1st",
-		"category": ["Gingerbread Joyride", "Bonus", "Easy"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Easy"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Medium - 5th",
-		"category": ["Gingerbread Joyride", "Bonus", "Medium"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Medium"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Medium - 3rd",
-		"category": ["Gingerbread Joyride", "Bonus", "Medium"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Medium"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Medium - 1st",
-		"category": ["Gingerbread Joyride", "Bonus", "Medium"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Medium"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Hard - 5th",
-		"category": ["Gingerbread Joyride", "Bonus", "Hard"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Hard"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Hard - 3rd",
-		"category": ["Gingerbread Joyride", "Bonus", "Hard"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Hard"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Gingerbread Joyride - Hard - 1st",
-		"category": ["Gingerbread Joyride", "Bonus", "Hard"],
+		"category": ["Gingerbread Joyride", "Single", "Bonus", "Hard"],
 		"requires": "|Gingerbread Joyride|"
 	},
 	{
 		"name": "Megamix Mania - Easy - 5th",
-		"category": ["Megamix Mania", "Bonus", "Easy"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Easy"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Easy - 3rd",
-		"category": ["Megamix Mania", "Bonus", "Easy"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Easy"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Easy - 1st",
-		"category": ["Megamix Mania", "Bonus", "Easy"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Easy"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Medium - 5th",
-		"category": ["Megamix Mania", "Bonus", "Medium"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Medium"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Medium - 3rd",
-		"category": ["Megamix Mania", "Bonus", "Medium"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Medium"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Medium - 1st",
-		"category": ["Megamix Mania", "Bonus", "Medium"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Medium"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Hard - 5th",
-		"category": ["Megamix Mania", "Bonus", "Hard"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Hard"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Hard - 3rd",
-		"category": ["Megamix Mania", "Bonus", "Hard"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Hard"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Megamix Mania - Hard - 1st",
-		"category": ["Megamix Mania", "Bonus", "Hard"],
+		"category": ["Megamix Mania", "Single", "Bonus", "Hard"],
 		"requires": "|Megamix Mania|"
 	},
 	{
 		"name": "Drive-Thru Danger - Easy - 5th",
-		"category": ["Drive-Thru Danger", "Bonus", "Easy"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Easy"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Easy - 3rd",
-		"category": ["Drive-Thru Danger", "Bonus", "Easy"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Easy"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Easy - 1st",
-		"category": ["Drive-Thru Danger", "Bonus", "Easy"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Easy"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Medium - 5th",
-		"category": ["Drive-Thru Danger", "Bonus", "Medium"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Medium"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Medium - 3rd",
-		"category": ["Drive-Thru Danger", "Bonus", "Medium"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Medium"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Medium - 1st",
-		"category": ["Drive-Thru Danger", "Bonus", "Medium"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Medium"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Hard - 5th",
-		"category": ["Drive-Thru Danger", "Bonus", "Hard"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Hard"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Hard - 3rd",
-		"category": ["Drive-Thru Danger", "Bonus", "Hard"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Hard"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
 		"name": "Drive-Thru Danger - Hard - 1st",
-		"category": ["Drive-Thru Danger", "Bonus", "Hard"],
+		"category": ["Drive-Thru Danger", "Single", "Bonus", "Hard"],
 		"requires": "|Drive-Thru Danger|"
 	},
 	{
     "name": "Skull Rock - Limit Battle - Easy",
-    "category": ["Skull Rock", "Classic", "Easy"],
+    "category": ["Skull Rock", "Classic", "Easy", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Limit Battle - Medium",
-    "category": ["Skull Rock", "Classic", "Medium"],
+    "category": ["Skull Rock", "Classic", "Medium", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Limit Battle - Hard",
-    "category": ["Skull Rock", "Classic", "Hard"],
+    "category": ["Skull Rock", "Classic", "Hard", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Capture The Flag - Easy",
-    "category": ["Skull Rock", "Classic", "Easy"],
+    "category": ["Skull Rock", "Classic", "Easy", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Capture The Flag - Medium",
-    "category": ["Skull Rock", "Classic", "Medium"],
+    "category": ["Skull Rock", "Classic", "Medium", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Capture The Flag - Hard",
-    "category": ["Skull Rock", "Classic", "Hard"],
+    "category": ["Skull Rock", "Classic", "Hard", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Crystal Grab - Easy",
-    "category": ["Skull Rock", "Classic", "Easy"],
+    "category": ["Skull Rock", "Classic", "Easy", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Crystal Grab - Medium",
-    "category": ["Skull Rock", "Classic", "Medium"],
+    "category": ["Skull Rock", "Classic", "Medium", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Crystal Grab - Hard",
-    "category": ["Skull Rock", "Classic", "Hard"],
+    "category": ["Skull Rock", "Classic", "Hard", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Last Kart Driving - Easy",
-    "category": ["Skull Rock", "Classic", "Easy"],
+    "category": ["Skull Rock", "Classic", "Easy", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Last Kart Driving - Medium",
-    "category": ["Skull Rock", "Classic", "Medium"],
+    "category": ["Skull Rock", "Classic", "Medium", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Last Kart Driving - Hard",
-    "category": ["Skull Rock", "Classic", "Hard"],
+    "category": ["Skull Rock", "Classic", "Hard", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Steal The Bacon - Easy",
-    "category": ["Skull Rock", "Classic", "Easy"],
+    "category": ["Skull Rock", "Classic", "Easy", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Steal The Bacon - Medium",
-    "category": ["Skull Rock", "Classic", "Medium"],
+    "category": ["Skull Rock", "Classic", "Medium", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Steal The Bacon - Hard",
-    "category": ["Skull Rock", "Classic", "Hard"],
+    "category": ["Skull Rock", "Classic", "Hard", "Battle Map"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Nitro Court - Limit Battle - Easy",
-    "category": ["Nitro Court", "Classic", "Easy"],
+    "category": ["Nitro Court", "Classic", "Easy", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Limit Battle - Medium",
-    "category": ["Nitro Court", "Classic", "Medium"],
+    "category": ["Nitro Court", "Classic", "Medium", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Limit Battle - Hard",
-    "category": ["Nitro Court", "Classic", "Hard"],
+    "category": ["Nitro Court", "Classic", "Hard", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Capture The Flag - Easy",
-    "category": ["Nitro Court", "Classic", "Easy"],
+    "category": ["Nitro Court", "Classic", "Easy", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Capture The Flag - Medium",
-    "category": ["Nitro Court", "Classic", "Medium"],
+    "category": ["Nitro Court", "Classic", "Medium", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Capture The Flag - Hard",
-    "category": ["Nitro Court", "Classic", "Hard"],
+    "category": ["Nitro Court", "Classic", "Hard", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Crystal Grab - Easy",
-    "category": ["Nitro Court", "Classic", "Easy"],
+    "category": ["Nitro Court", "Classic", "Easy", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Crystal Grab - Medium",
-    "category": ["Nitro Court", "Classic", "Medium"],
+    "category": ["Nitro Court", "Classic", "Medium", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Crystal Grab - Hard",
-    "category": ["Nitro Court", "Classic", "Hard"],
+    "category": ["Nitro Court", "Classic", "Hard", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Last Kart Driving - Easy",
-    "category": ["Nitro Court", "Classic", "Easy"],
+    "category": ["Nitro Court", "Classic", "Easy", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Last Kart Driving - Medium",
-    "category": ["Nitro Court", "Classic", "Medium"],
+    "category": ["Nitro Court", "Classic", "Medium", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Last Kart Driving - Hard",
-    "category": ["Nitro Court", "Classic", "Hard"],
+    "category": ["Nitro Court", "Classic", "Hard", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Steal The Bacon - Easy",
-    "category": ["Nitro Court", "Classic", "Easy"],
+    "category": ["Nitro Court", "Classic", "Easy", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Steal The Bacon - Medium",
-    "category": ["Nitro Court", "Classic", "Medium"],
+    "category": ["Nitro Court", "Classic", "Medium", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Steal The Bacon - Hard",
-    "category": ["Nitro Court", "Classic", "Hard"],
+    "category": ["Nitro Court", "Classic", "Hard", "Battle Map"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Parking Lot - Limit Battle - Easy",
-    "category": ["Parking Lot", "Classic", "Easy"],
+    "category": ["Parking Lot", "Classic", "Easy", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Limit Battle - Medium",
-    "category": ["Parking Lot", "Classic", "Medium"],
+    "category": ["Parking Lot", "Classic", "Medium", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Limit Battle - Hard",
-    "category": ["Parking Lot", "Classic", "Hard"],
+    "category": ["Parking Lot", "Classic", "Hard", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Capture The Flag - Easy",
-    "category": ["Parking Lot", "Classic", "Easy"],
+    "category": ["Parking Lot", "Classic", "Easy", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Capture The Flag - Medium",
-    "category": ["Parking Lot", "Classic", "Medium"],
+    "category": ["Parking Lot", "Classic", "Medium", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Capture The Flag - Hard",
-    "category": ["Parking Lot", "Classic", "Hard"],
+    "category": ["Parking Lot", "Classic", "Hard", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Crystal Grab - Easy",
-    "category": ["Parking Lot", "Classic", "Easy"],
+    "category": ["Parking Lot", "Classic", "Easy", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Crystal Grab - Medium",
-    "category": ["Parking Lot", "Classic", "Medium"],
+    "category": ["Parking Lot", "Classic", "Medium", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Crystal Grab - Hard",
-    "category": ["Parking Lot", "Classic", "Hard"],
+    "category": ["Parking Lot", "Classic", "Hard", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Last Kart Driving - Easy",
-    "category": ["Parking Lot", "Classic", "Easy"],
+    "category": ["Parking Lot", "Classic", "Easy", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Last Kart Driving - Medium",
-    "category": ["Parking Lot", "Classic", "Medium"],
+    "category": ["Parking Lot", "Classic", "Medium", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Last Kart Driving - Hard",
-    "category": ["Parking Lot", "Classic", "Hard"],
+    "category": ["Parking Lot", "Classic", "Hard", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Steal The Bacon - Easy",
-    "category": ["Parking Lot", "Classic", "Easy"],
+    "category": ["Parking Lot", "Classic", "Easy", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Steal The Bacon - Medium",
-    "category": ["Parking Lot", "Classic", "Medium"],
+    "category": ["Parking Lot", "Classic", "Medium", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Steal The Bacon - Hard",
-    "category": ["Parking Lot", "Classic", "Hard"],
+    "category": ["Parking Lot", "Classic", "Hard", "Battle Map"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Rocky Road - Limit Battle - Easy",
-    "category": ["Rocky Road", "Classic", "Easy"],
+    "category": ["Rocky Road", "Classic", "Easy", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Limit Battle - Medium",
-    "category": ["Rocky Road", "Classic", "Medium"],
+    "category": ["Rocky Road", "Classic", "Medium", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Limit Battle - Hard",
-    "category": ["Rocky Road", "Classic", "Hard"],
+    "category": ["Rocky Road", "Classic", "Hard", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Capture The Flag - Easy",
-    "category": ["Rocky Road", "Classic", "Easy"],
+    "category": ["Rocky Road", "Classic", "Easy", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Capture The Flag - Medium",
-    "category": ["Rocky Road", "Classic", "Medium"],
+    "category": ["Rocky Road", "Classic", "Medium", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Capture The Flag - Hard",
-    "category": ["Rocky Road", "Classic", "Hard"],
+    "category": ["Rocky Road", "Classic", "Hard", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Crystal Grab - Easy",
-    "category": ["Rocky Road", "Classic", "Easy"],
+    "category": ["Rocky Road", "Classic", "Easy", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Crystal Grab - Medium",
-    "category": ["Rocky Road", "Classic", "Medium"],
+    "category": ["Rocky Road", "Classic", "Medium", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Crystal Grab - Hard",
-    "category": ["Rocky Road", "Classic", "Hard"],
+    "category": ["Rocky Road", "Classic", "Hard", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Last Kart Driving - Easy",
-    "category": ["Rocky Road", "Classic", "Easy"],
+    "category": ["Rocky Road", "Classic", "Easy", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Last Kart Driving - Medium",
-    "category": ["Rocky Road", "Classic", "Medium"],
+    "category": ["Rocky Road", "Classic", "Medium", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Last Kart Driving - Hard",
-    "category": ["Rocky Road", "Classic", "Hard"],
+    "category": ["Rocky Road", "Classic", "Hard", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Steal The Bacon - Easy",
-    "category": ["Rocky Road", "Classic", "Easy"],
+    "category": ["Rocky Road", "Classic", "Easy", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Steal The Bacon - Medium",
-    "category": ["Rocky Road", "Classic", "Medium"],
+    "category": ["Rocky Road", "Classic", "Medium", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Steal The Bacon - Hard",
-    "category": ["Rocky Road", "Classic", "Hard"],
+    "category": ["Rocky Road", "Classic", "Hard", "Battle Map"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Lab Basement - Limit Battle - Easy",
-    "category": ["Lab Basement", "Classic", "Easy"],
+    "category": ["Lab Basement", "Classic", "Easy", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Limit Battle - Medium",
-    "category": ["Lab Basement", "Classic", "Medium"],
+    "category": ["Lab Basement", "Classic", "Medium", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Limit Battle - Hard",
-    "category": ["Lab Basement", "Classic", "Hard"],
+    "category": ["Lab Basement", "Classic", "Hard", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Capture The Flag - Easy",
-    "category": ["Lab Basement", "Classic", "Easy"],
+    "category": ["Lab Basement", "Classic", "Easy", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Capture The Flag - Medium",
-    "category": ["Lab Basement", "Classic", "Medium"],
+    "category": ["Lab Basement", "Classic", "Medium", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Capture The Flag - Hard",
-    "category": ["Lab Basement", "Classic", "Hard"],
+    "category": ["Lab Basement", "Classic", "Hard", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Crystal Grab - Easy",
-    "category": ["Lab Basement", "Classic", "Easy"],
+    "category": ["Lab Basement", "Classic", "Easy", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Crystal Grab - Medium",
-    "category": ["Lab Basement", "Classic", "Medium"],
+    "category": ["Lab Basement", "Classic", "Medium", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Crystal Grab - Hard",
-    "category": ["Lab Basement", "Classic", "Hard"],
+    "category": ["Lab Basement", "Classic", "Hard", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Last Kart Driving - Easy",
-    "category": ["Lab Basement", "Classic", "Easy"],
+    "category": ["Lab Basement", "Classic", "Easy", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Last Kart Driving - Medium",
-    "category": ["Lab Basement", "Classic", "Medium"],
+    "category": ["Lab Basement", "Classic", "Medium", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Last Kart Driving - Hard",
-    "category": ["Lab Basement", "Classic", "Hard"],
+    "category": ["Lab Basement", "Classic", "Hard", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Steal The Bacon - Easy",
-    "category": ["Lab Basement", "Classic", "Easy"],
+    "category": ["Lab Basement", "Classic", "Easy", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Steal The Bacon - Medium",
-    "category": ["Lab Basement", "Classic", "Medium"],
+    "category": ["Lab Basement", "Classic", "Medium", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Steal The Bacon - Hard",
-    "category": ["Lab Basement", "Classic", "Hard"],
+    "category": ["Lab Basement", "Classic", "Hard", "Battle Map"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Rampage Ruins - Limit Battle - Easy",
-    "category": ["Rampage Ruins", "Classic", "Easy"],
+    "category": ["Rampage Ruins", "Classic", "Easy", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Limit Battle - Medium",
-    "category": ["Rampage Ruins", "Classic", "Medium"],
+    "category": ["Rampage Ruins", "Classic", "Medium", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Limit Battle - Hard",
-    "category": ["Rampage Ruins", "Classic", "Hard"],
+    "category": ["Rampage Ruins", "Classic", "Hard", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Capture The Flag - Easy",
-    "category": ["Rampage Ruins", "Classic", "Easy"],
+    "category": ["Rampage Ruins", "Classic", "Easy", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Capture The Flag - Medium",
-    "category": ["Rampage Ruins", "Classic", "Medium"],
+    "category": ["Rampage Ruins", "Classic", "Medium", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Capture The Flag - Hard",
-    "category": ["Rampage Ruins", "Classic", "Hard"],
+    "category": ["Rampage Ruins", "Classic", "Hard", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Crystal Grab - Easy",
-    "category": ["Rampage Ruins", "Classic", "Easy"],
+    "category": ["Rampage Ruins", "Classic", "Easy", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Crystal Grab - Medium",
-    "category": ["Rampage Ruins", "Classic", "Medium"],
+    "category": ["Rampage Ruins", "Classic", "Medium", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Crystal Grab - Hard",
-    "category": ["Rampage Ruins", "Classic", "Hard"],
+    "category": ["Rampage Ruins", "Classic", "Hard", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Last Kart Driving - Easy",
-    "category": ["Rampage Ruins", "Classic", "Easy"],
+    "category": ["Rampage Ruins", "Classic", "Easy", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Last Kart Driving - Medium",
-    "category": ["Rampage Ruins", "Classic", "Medium"],
+    "category": ["Rampage Ruins", "Classic", "Medium", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Last Kart Driving - Hard",
-    "category": ["Rampage Ruins", "Classic", "Hard"],
+    "category": ["Rampage Ruins", "Classic", "Hard", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Steal The Bacon - Easy",
-    "category": ["Rampage Ruins", "Classic", "Easy"],
+    "category": ["Rampage Ruins", "Classic", "Easy", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Steal The Bacon - Medium",
-    "category": ["Rampage Ruins", "Classic", "Medium"],
+    "category": ["Rampage Ruins", "Classic", "Medium", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Steal The Bacon - Hard",
-    "category": ["Rampage Ruins", "Classic", "Hard"],
+    "category": ["Rampage Ruins", "Classic", "Hard", "Battle Map"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "The North Bowl - Limit Battle - Easy",
-    "category": ["The North Bowl", "Classic", "Easy"],
+    "category": ["The North Bowl", "Classic", "Easy", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Limit Battle - Medium",
-    "category": ["The North Bowl", "Classic", "Medium"],
+    "category": ["The North Bowl", "Classic", "Medium", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Limit Battle - Hard",
-    "category": ["The North Bowl", "Classic", "Hard"],
+    "category": ["The North Bowl", "Classic", "Hard", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Capture The Flag - Easy",
-    "category": ["The North Bowl", "Classic", "Easy"],
+    "category": ["The North Bowl", "Classic", "Easy", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Capture The Flag - Medium",
-    "category": ["The North Bowl", "Classic", "Medium"],
+    "category": ["The North Bowl", "Classic", "Medium", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Capture The Flag - Hard",
-    "category": ["The North Bowl", "Classic", "Hard"],
+    "category": ["The North Bowl", "Classic", "Hard", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Crystal Grab - Easy",
-    "category": ["The North Bowl", "Classic", "Easy"],
+    "category": ["The North Bowl", "Classic", "Easy", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Crystal Grab - Medium",
-    "category": ["The North Bowl", "Classic", "Medium"],
+    "category": ["The North Bowl", "Classic", "Medium", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Crystal Grab - Hard",
-    "category": ["The North Bowl", "Classic", "Hard"],
+    "category": ["The North Bowl", "Classic", "Hard", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Last Kart Driving - Easy",
-    "category": ["The North Bowl", "Classic", "Easy"],
+    "category": ["The North Bowl", "Classic", "Easy", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Last Kart Driving - Medium",
-    "category": ["The North Bowl", "Classic", "Medium"],
+    "category": ["The North Bowl", "Classic", "Medium", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Last Kart Driving - Hard",
-    "category": ["The North Bowl", "Classic", "Hard"],
+    "category": ["The North Bowl", "Classic", "Hard", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Steal The Bacon - Easy",
-    "category": ["The North Bowl", "Classic", "Easy"],
+    "category": ["The North Bowl", "Classic", "Easy", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Steal The Bacon - Medium",
-    "category": ["The North Bowl", "Classic", "Medium"],
+    "category": ["The North Bowl", "Classic", "Medium", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Steal The Bacon - Hard",
-    "category": ["The North Bowl", "Classic", "Hard"],
+    "category": ["The North Bowl", "Classic", "Hard", "Battle Map"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "Temple Turmoil - Limit Battle - Easy",
-    "category": ["Temple Turmoil", "Nitro", "Easy"],
+    "category": ["Temple Turmoil", "Nitro", "Easy", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Limit Battle - Medium",
-    "category": ["Temple Turmoil", "Nitro", "Medium"],
+    "category": ["Temple Turmoil", "Nitro", "Medium", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Limit Battle - Hard",
-    "category": ["Temple Turmoil", "Nitro", "Hard"],
+    "category": ["Temple Turmoil", "Nitro", "Hard", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Capture The Flag - Easy",
-    "category": ["Temple Turmoil", "Nitro", "Easy"],
+    "category": ["Temple Turmoil", "Nitro", "Easy", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Capture The Flag - Medium",
-    "category": ["Temple Turmoil", "Nitro", "Medium"],
+    "category": ["Temple Turmoil", "Nitro", "Medium", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Capture The Flag - Hard",
-    "category": ["Temple Turmoil", "Nitro", "Hard"],
+    "category": ["Temple Turmoil", "Nitro", "Hard", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Crystal Grab - Easy",
-    "category": ["Temple Turmoil", "Nitro", "Easy"],
+    "category": ["Temple Turmoil", "Nitro", "Easy", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Crystal Grab - Medium",
-    "category": ["Temple Turmoil", "Nitro", "Medium"],
+    "category": ["Temple Turmoil", "Nitro", "Medium", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Crystal Grab - Hard",
-    "category": ["Temple Turmoil", "Nitro", "Hard"],
+    "category": ["Temple Turmoil", "Nitro", "Hard", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Last Kart Driving - Easy",
-    "category": ["Temple Turmoil", "Nitro", "Easy"],
+    "category": ["Temple Turmoil", "Nitro", "Easy", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Last Kart Driving - Medium",
-    "category": ["Temple Turmoil", "Nitro", "Medium"],
+    "category": ["Temple Turmoil", "Nitro", "Medium", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Last Kart Driving - Hard",
-    "category": ["Temple Turmoil", "Nitro", "Hard"],
+    "category": ["Temple Turmoil", "Nitro", "Hard", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Steal The Bacon - Easy",
-    "category": ["Temple Turmoil", "Nitro", "Easy"],
+    "category": ["Temple Turmoil", "Nitro", "Easy", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Steal The Bacon - Medium",
-    "category": ["Temple Turmoil", "Nitro", "Medium"],
+    "category": ["Temple Turmoil", "Nitro", "Medium", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Steal The Bacon - Hard",
-    "category": ["Temple Turmoil", "Nitro", "Hard"],
+    "category": ["Temple Turmoil", "Nitro", "Hard", "Battle Map"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Frozen Frenzy - Limit Battle - Easy",
-    "category": ["Frozen Frenzy", "Nitro", "Easy"],
+    "category": ["Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Limit Battle - Medium",
-    "category": ["Frozen Frenzy", "Nitro", "Medium"],
+    "category": ["Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Limit Battle - Hard",
-    "category": ["Frozen Frenzy", "Nitro", "Hard"],
+    "category": ["Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Capture The Flag - Easy",
-    "category": ["Frozen Frenzy", "Nitro", "Easy"],
+    "category": ["Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Capture The Flag - Medium",
-    "category": ["Frozen Frenzy", "Nitro", "Medium"],
+    "category": ["Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Capture The Flag - Hard",
-    "category": ["Frozen Frenzy", "Nitro", "Hard"],
+    "category": ["Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Crystal Grab - Easy",
-    "category": ["Frozen Frenzy", "Nitro", "Easy"],
+    "category": ["Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Crystal Grab - Medium",
-    "category": ["Frozen Frenzy", "Nitro", "Medium"],
+    "category": ["Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Crystal Grab - Hard",
-    "category": ["Frozen Frenzy", "Nitro", "Hard"],
+    "category": ["Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Last Kart Driving - Easy",
-    "category": ["Frozen Frenzy", "Nitro", "Easy"],
+    "category": ["Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Last Kart Driving - Medium",
-    "category": ["Frozen Frenzy", "Nitro", "Medium"],
+    "category": ["Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Last Kart Driving - Hard",
-    "category": ["Frozen Frenzy", "Nitro", "Hard"],
+    "category": ["Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Steal The Bacon - Easy",
-    "category": ["Frozen Frenzy", "Nitro", "Easy"],
+    "category": ["Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Steal The Bacon - Medium",
-    "category": ["Frozen Frenzy", "Nitro", "Medium"],
+    "category": ["Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Steal The Bacon - Hard",
-    "category": ["Frozen Frenzy", "Nitro", "Hard"],
+    "category": ["Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Desert Storm - Limit Battle - Easy",
-    "category": ["Desert Storm", "Nitro", "Easy"],
+    "category": ["Desert Storm", "Nitro", "Easy", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Limit Battle - Medium",
-    "category": ["Desert Storm", "Nitro", "Medium"],
+    "category": ["Desert Storm", "Nitro", "Medium", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Limit Battle - Hard",
-    "category": ["Desert Storm", "Nitro", "Hard"],
+    "category": ["Desert Storm", "Nitro", "Hard", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Capture The Flag - Easy",
-    "category": ["Desert Storm", "Nitro", "Easy"],
+    "category": ["Desert Storm", "Nitro", "Easy", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Capture The Flag - Medium",
-    "category": ["Desert Storm", "Nitro", "Medium"],
+    "category": ["Desert Storm", "Nitro", "Medium", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Capture The Flag - Hard",
-    "category": ["Desert Storm", "Nitro", "Hard"],
+    "category": ["Desert Storm", "Nitro", "Hard", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Crystal Grab - Easy",
-    "category": ["Desert Storm", "Nitro", "Easy"],
+    "category": ["Desert Storm", "Nitro", "Easy", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Crystal Grab - Medium",
-    "category": ["Desert Storm", "Nitro", "Medium"],
+    "category": ["Desert Storm", "Nitro", "Medium", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Crystal Grab - Hard",
-    "category": ["Desert Storm", "Nitro", "Hard"],
+    "category": ["Desert Storm", "Nitro", "Hard", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Last Kart Driving - Easy",
-    "category": ["Desert Storm", "Nitro", "Easy"],
+    "category": ["Desert Storm", "Nitro", "Easy", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Last Kart Driving - Medium",
-    "category": ["Desert Storm", "Nitro", "Medium"],
+    "category": ["Desert Storm", "Nitro", "Medium", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Last Kart Driving - Hard",
-    "category": ["Desert Storm", "Nitro", "Hard"],
+    "category": ["Desert Storm", "Nitro", "Hard", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Steal The Bacon - Easy",
-    "category": ["Desert Storm", "Nitro", "Easy"],
+    "category": ["Desert Storm", "Nitro", "Easy", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Steal The Bacon - Medium",
-    "category": ["Desert Storm", "Nitro", "Medium"],
+    "category": ["Desert Storm", "Nitro", "Medium", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Steal The Bacon - Hard",
-    "category": ["Desert Storm", "Nitro", "Hard"],
+    "category": ["Desert Storm", "Nitro", "Hard", "Battle Map"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Magnetic Mayhem - Limit Battle - Easy",
-    "category": ["Magnetic Mayhem", "Nitro", "Easy"],
+    "category": ["Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Limit Battle - Medium",
-    "category": ["Magnetic Mayhem", "Nitro", "Medium"],
+    "category": ["Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Limit Battle - Hard",
-    "category": ["Magnetic Mayhem", "Nitro", "Hard"],
+    "category": ["Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Capture The Flag - Easy",
-    "category": ["Magnetic Mayhem", "Nitro", "Easy"],
+    "category": ["Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Capture The Flag - Medium",
-    "category": ["Magnetic Mayhem", "Nitro", "Medium"],
+    "category": ["Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Capture The Flag - Hard",
-    "category": ["Magnetic Mayhem", "Nitro", "Hard"],
+    "category": ["Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Crystal Grab - Easy",
-    "category": ["Magnetic Mayhem", "Nitro", "Easy"],
+    "category": ["Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Crystal Grab - Medium",
-    "category": ["Magnetic Mayhem", "Nitro", "Medium"],
+    "category": ["Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Crystal Grab - Hard",
-    "category": ["Magnetic Mayhem", "Nitro", "Hard"],
+    "category": ["Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Last Kart Driving - Easy",
-    "category": ["Magnetic Mayhem", "Nitro", "Easy"],
+    "category": ["Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Last Kart Driving - Medium",
-    "category": ["Magnetic Mayhem", "Nitro", "Medium"],
+    "category": ["Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Last Kart Driving - Hard",
-    "category": ["Magnetic Mayhem", "Nitro", "Hard"],
+    "category": ["Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Steal The Bacon - Easy",
-    "category": ["Magnetic Mayhem", "Nitro", "Easy"],
+    "category": ["Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Steal The Bacon - Medium",
-    "category": ["Magnetic Mayhem", "Nitro", "Medium"],
+    "category": ["Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Steal The Bacon - Hard",
-    "category": ["Magnetic Mayhem", "Nitro", "Hard"],
+    "category": ["Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Terra Drome - Limit Battle - Easy",
-    "category": ["Terra Drome", "Nitro", "Easy"],
+    "category": ["Terra Drome", "Nitro", "Easy", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Limit Battle - Medium",
-    "category": ["Terra Drome", "Nitro", "Medium"],
+    "category": ["Terra Drome", "Nitro", "Medium", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Limit Battle - Hard",
-    "category": ["Terra Drome", "Nitro", "Hard"],
+    "category": ["Terra Drome", "Nitro", "Hard", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Capture The Flag - Easy",
-    "category": ["Terra Drome", "Nitro", "Easy"],
+    "category": ["Terra Drome", "Nitro", "Easy", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Capture The Flag - Medium",
-    "category": ["Terra Drome", "Nitro", "Medium"],
+    "category": ["Terra Drome", "Nitro", "Medium", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Capture The Flag - Hard",
-    "category": ["Terra Drome", "Nitro", "Hard"],
+    "category": ["Terra Drome", "Nitro", "Hard", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Crystal Grab - Easy",
-    "category": ["Terra Drome", "Nitro", "Easy"],
+    "category": ["Terra Drome", "Nitro", "Easy", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Crystal Grab - Medium",
-    "category": ["Terra Drome", "Nitro", "Medium"],
+    "category": ["Terra Drome", "Nitro", "Medium", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Crystal Grab - Hard",
-    "category": ["Terra Drome", "Nitro", "Hard"],
+    "category": ["Terra Drome", "Nitro", "Hard", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Last Kart Driving - Easy",
-    "category": ["Terra Drome", "Nitro", "Easy"],
+    "category": ["Terra Drome", "Nitro", "Easy", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Last Kart Driving - Medium",
-    "category": ["Terra Drome", "Nitro", "Medium"],
+    "category": ["Terra Drome", "Nitro", "Medium", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Last Kart Driving - Hard",
-    "category": ["Terra Drome", "Nitro", "Hard"],
+    "category": ["Terra Drome", "Nitro", "Hard", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Steal The Bacon - Easy",
-    "category": ["Terra Drome", "Nitro", "Easy"],
+    "category": ["Terra Drome", "Nitro", "Easy", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Steal The Bacon - Medium",
-    "category": ["Terra Drome", "Nitro", "Medium"],
+    "category": ["Terra Drome", "Nitro", "Medium", "Battle Map"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Steal The Bacon - Hard",
-    "category": ["Terra Drome", "Nitro", "Hard"],
+    "category": ["Terra Drome", "Nitro", "Hard", "Battle Map"],
     "requires": "|Terra Drome|"
+  },
+  {
+    "name": "Crash Cove Time Trial - Beat N. Tropy",
+    "category": ["Crash Cove", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Crash Cove| and |Crash Cove - N. Tropy|"
+  },
+  {
+    "name": "Crash Cove Time Trial - Beat Nitros Oxide",
+    "category": ["Crash Cove", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Crash Cove| and |Crash Cove - N. Tropy| and |Crash Cove - N. Oxide|"
+  },
+  {
+    "name": "Crash Cove Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Crash Cove", "Classic", "Time Trial", "Velo"],
+    "requires": "|Crash Cove| and |Crash Cove - N. Tropy| and |Crash Cove - N. Oxide| and |Crash Cove - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Crash Cove Time Trial - Beat Beenox Developer",
+    "category": ["Crash Cove", "Classic", "Time Trial", "Dev"],
+    "requires": "|Crash Cove| and |Crash Cove - N. Tropy| and |Crash Cove - N. Oxide| and |Crash Cove - Emperor Velo XXVII| and |Crash Cove - Beenox Developer|"
+  },
+  {
+    "name": "Roo's Tubes Time Trial - Beat N. Tropy",
+    "category": ["Roo's Tubes", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Roo's Tubes| and |Roo's Tubes - N. Tropy|"
+  },
+  {
+    "name": "Roo's Tubes Time Trial - Beat Nitros Oxide",
+    "category": ["Roo's Tubes", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Roo's Tubes| and |Roo's Tubes - N. Tropy| and |Roo's Tubes - N. Oxide|"
+  },
+  {
+    "name": "Roo's Tubes Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Roo's Tubes", "Classic", "Time Trial", "Velo"],
+    "requires": "|Roo's Tubes| and |Roo's Tubes - N. Tropy| and |Roo's Tubes - N. Oxide| and |Roo's Tubes - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Roo's Tubes Time Trial - Beat Beenox Developer",
+    "category": ["Roo's Tubes", "Classic", "Time Trial", "Dev"],
+    "requires": "|Roo's Tubes| and |Roo's Tubes - N. Tropy| and |Roo's Tubes - N. Oxide| and |Roo's Tubes - Emperor Velo XXVII| and |Roo's Tubes - Beenox Developer|"
+  },
+  {
+    "name": "Mystery Caves Time Trial - Beat N. Tropy",
+    "category": ["Mystery Caves", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Mystery Caves| and |Mystery Caves - N. Tropy|"
+  },
+  {
+    "name": "Mystery Caves Time Trial - Beat Nitros Oxide",
+    "category": ["Mystery Caves", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Mystery Caves| and |Mystery Caves - N. Tropy| and |Mystery Caves - N. Oxide|"
+  },
+  {
+    "name": "Mystery Caves Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Mystery Caves", "Classic", "Time Trial", "Velo"],
+    "requires": "|Mystery Caves| and |Mystery Caves - N. Tropy| and |Mystery Caves - N. Oxide| and |Mystery Caves - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Mystery Caves Time Trial - Beat Beenox Developer",
+    "category": ["Mystery Caves", "Classic", "Time Trial", "Dev"],
+    "requires": "|Mystery Caves| and |Mystery Caves - N. Tropy| and |Mystery Caves - N. Oxide| and |Mystery Caves - Emperor Velo XXVII| and |Mystery Caves - Beenox Developer|"
+  },
+  {
+    "name": "Sewer Speedway Time Trial - Beat N. Tropy",
+    "category": ["Sewer Speedway", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Sewer Speedway| and |Sewer Speedway - N. Tropy|"
+  },
+  {
+    "name": "Sewer Speedway Time Trial - Beat Nitros Oxide",
+    "category": ["Sewer Speedway", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Sewer Speedway| and |Sewer Speedway - N. Tropy| and |Sewer Speedway - N. Oxide|"
+  },
+  {
+    "name": "Sewer Speedway Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Sewer Speedway", "Classic", "Time Trial", "Velo"],
+    "requires": "|Sewer Speedway| and |Sewer Speedway - N. Tropy| and |Sewer Speedway - N. Oxide| and |Sewer Speedway - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Sewer Speedway Time Trial - Beat Beenox Developer",
+    "category": ["Sewer Speedway", "Classic", "Time Trial", "Dev"],
+    "requires": "|Sewer Speedway| and |Sewer Speedway - N. Tropy| and |Sewer Speedway - N. Oxide| and |Sewer Speedway - Emperor Velo XXVII| and |Sewer Speedway - Beenox Developer|"
+  },
+  {
+    "name": "Slide Coliseum Time Trial - Beat N. Tropy",
+    "category": ["Slide Coliseum", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Slide Coliseum| and |Slide Coliseum - N. Tropy|"
+  },
+  {
+    "name": "Slide Coliseum Time Trial - Beat Nitros Oxide",
+    "category": ["Slide Coliseum", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Slide Coliseum| and |Slide Coliseum - N. Tropy| and |Slide Coliseum - N. Oxide|"
+  },
+  {
+    "name": "Slide Coliseum Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Slide Coliseum", "Classic", "Time Trial", "Velo"],
+    "requires": "|Slide Coliseum| and |Slide Coliseum - N. Tropy| and |Slide Coliseum - N. Oxide| and |Slide Coliseum - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Slide Coliseum Time Trial - Beat Beenox Developer",
+    "category": ["Slide Coliseum", "Classic", "Time Trial", "Dev"],
+    "requires": "|Slide Coliseum| and |Slide Coliseum - N. Tropy| and |Slide Coliseum - N. Oxide| and |Slide Coliseum - Emperor Velo XXVII| and |Slide Coliseum - Beenox Developer|"
+  },
+  {
+    "name": "Turbo Track Time Trial - Beat N. Tropy",
+    "category": ["Turbo Track", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Turbo Track| and |Turbo Track - N. Tropy|"
+  },
+  {
+    "name": "Turbo Track Time Trial - Beat Nitros Oxide",
+    "category": ["Turbo Track", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Turbo Track| and |Turbo Track - N. Tropy| and |Turbo Track - N. Oxide|"
+  },
+  {
+    "name": "Turbo Track Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Turbo Track", "Classic", "Time Trial", "Velo"],
+    "requires": "|Turbo Track| and |Turbo Track - N. Tropy| and |Turbo Track - N. Oxide| and |Turbo Track - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Turbo Track Time Trial - Beat Beenox Developer",
+    "category": ["Turbo Track", "Classic", "Time Trial", "Dev"],
+    "requires": "|Turbo Track| and |Turbo Track - N. Tropy| and |Turbo Track - N. Oxide| and |Turbo Track - Emperor Velo XXVII| and |Turbo Track - Beenox Developer|"
+  },
+  {
+    "name": "Coco Park Time Trial - Beat N. Tropy",
+    "category": ["Coco Park", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Coco Park| and |Coco Park - N. Tropy|"
+  },
+  {
+    "name": "Coco Park Time Trial - Beat Nitros Oxide",
+    "category": ["Coco Park", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Coco Park| and |Coco Park - N. Tropy| and |Coco Park - N. Oxide|"
+  },
+  {
+    "name": "Coco Park Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Coco Park", "Classic", "Time Trial", "Velo"],
+    "requires": "|Coco Park| and |Coco Park - N. Tropy| and |Coco Park - N. Oxide| and |Coco Park - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Coco Park Time Trial - Beat Beenox Developer",
+    "category": ["Coco Park", "Classic", "Time Trial", "Dev"],
+    "requires": "|Coco Park| and |Coco Park - N. Tropy| and |Coco Park - N. Oxide| and |Coco Park - Emperor Velo XXVII| and |Coco Park - Beenox Developer|"
+  },
+  {
+    "name": "Tiger Temple Time Trial - Beat N. Tropy",
+    "category": ["Tiger Temple", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Tiger Temple| and |Tiger Temple - N. Tropy|"
+  },
+  {
+    "name": "Tiger Temple Time Trial - Beat Nitros Oxide",
+    "category": ["Tiger Temple", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Tiger Temple| and |Tiger Temple - N. Tropy| and |Tiger Temple - N. Oxide|"
+  },
+  {
+    "name": "Tiger Temple Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Tiger Temple", "Classic", "Time Trial", "Velo"],
+    "requires": "|Tiger Temple| and |Tiger Temple - N. Tropy| and |Tiger Temple - N. Oxide| and |Tiger Temple - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Tiger Temple Time Trial - Beat Beenox Developer",
+    "category": ["Tiger Temple", "Classic", "Time Trial", "Dev"],
+    "requires": "|Tiger Temple| and |Tiger Temple - N. Tropy| and |Tiger Temple - N. Oxide| and |Tiger Temple - Emperor Velo XXVII| and |Tiger Temple - Beenox Developer|"
+  },
+  {
+    "name": "Papu's Pyramid Time Trial - Beat N. Tropy",
+    "category": ["Papu's Pyramid", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Papu's Pyramid| and |Papu's Pyramid - N. Tropy|"
+  },
+  {
+    "name": "Papu's Pyramid Time Trial - Beat Nitros Oxide",
+    "category": ["Papu's Pyramid", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Papu's Pyramid| and |Papu's Pyramid - N. Tropy| and |Papu's Pyramid - N. Oxide|"
+  },
+  {
+    "name": "Papu's Pyramid Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Papu's Pyramid", "Classic", "Time Trial", "Velo"],
+    "requires": "|Papu's Pyramid| and |Papu's Pyramid - N. Tropy| and |Papu's Pyramid - N. Oxide| and |Papu's Pyramid - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Papu's Pyramid Time Trial - Beat Beenox Developer",
+    "category": ["Papu's Pyramid", "Classic", "Time Trial", "Dev"],
+    "requires": "|Papu's Pyramid| and |Papu's Pyramid - N. Tropy| and |Papu's Pyramid - N. Oxide| and |Papu's Pyramid - Emperor Velo XXVII| and |Papu's Pyramid - Beenox Developer|"
+  },
+  {
+    "name": "Dingo Canyon Time Trial - Beat N. Tropy",
+    "category": ["Dingo Canyon", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Dingo Canyon| and |Dingo Canyon - N. Tropy|"
+  },
+  {
+    "name": "Dingo Canyon Time Trial - Beat Nitros Oxide",
+    "category": ["Dingo Canyon", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Dingo Canyon| and |Dingo Canyon - N. Tropy| and |Dingo Canyon - N. Oxide|"
+  },
+  {
+    "name": "Dingo Canyon Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Dingo Canyon", "Classic", "Time Trial", "Velo"],
+    "requires": "|Dingo Canyon| and |Dingo Canyon - N. Tropy| and |Dingo Canyon - N. Oxide| and |Dingo Canyon - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Dingo Canyon Time Trial - Beat Beenox Developer",
+    "category": ["Dingo Canyon", "Classic", "Time Trial", "Dev"],
+    "requires": "|Dingo Canyon| and |Dingo Canyon - N. Tropy| and |Dingo Canyon - N. Oxide| and |Dingo Canyon - Emperor Velo XXVII| and |Dingo Canyon - Beenox Developer|"
+  },
+  {
+    "name": "Blizzard Bluff Time Trial - Beat N. Tropy",
+    "category": ["Blizzard Bluff", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Blizzard Bluff| and |Blizzard Bluff - N. Tropy|"
+  },
+  {
+    "name": "Blizzard Bluff Time Trial - Beat Nitros Oxide",
+    "category": ["Blizzard Bluff", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Blizzard Bluff| and |Blizzard Bluff - N. Tropy| and |Blizzard Bluff - N. Oxide|"
+  },
+  {
+    "name": "Blizzard Bluff Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Blizzard Bluff", "Classic", "Time Trial", "Velo"],
+    "requires": "|Blizzard Bluff| and |Blizzard Bluff - N. Tropy| and |Blizzard Bluff - N. Oxide| and |Blizzard Bluff - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Blizzard Bluff Time Trial - Beat Beenox Developer",
+    "category": ["Blizzard Bluff", "Classic", "Time Trial", "Dev"],
+    "requires": "|Blizzard Bluff| and |Blizzard Bluff - N. Tropy| and |Blizzard Bluff - N. Oxide| and |Blizzard Bluff - Emperor Velo XXVII| and |Blizzard Bluff - Beenox Developer|"
+  },
+  {
+    "name": "Dragon Mines Time Trial - Beat N. Tropy",
+    "category": ["Dragon Mines", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Dragon Mines| and |Dragon Mines - N. Tropy|"
+  },
+  {
+    "name": "Dragon Mines Time Trial - Beat Nitros Oxide",
+    "category": ["Dragon Mines", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Dragon Mines| and |Dragon Mines - N. Tropy| and |Dragon Mines - N. Oxide|"
+  },
+  {
+    "name": "Dragon Mines Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Dragon Mines", "Classic", "Time Trial", "Velo"],
+    "requires": "|Dragon Mines| and |Dragon Mines - N. Tropy| and |Dragon Mines - N. Oxide| and |Dragon Mines - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Dragon Mines Time Trial - Beat Beenox Developer",
+    "category": ["Dragon Mines", "Classic", "Time Trial", "Dev"],
+    "requires": "|Dragon Mines| and |Dragon Mines - N. Tropy| and |Dragon Mines - N. Oxide| and |Dragon Mines - Emperor Velo XXVII| and |Dragon Mines - Beenox Developer|"
+  },
+  {
+    "name": "Polar Pass Time Trial - Beat N. Tropy",
+    "category": ["Polar Pass", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Polar Pass| and |Polar Pass - N. Tropy|"
+  },
+  {
+    "name": "Polar Pass Time Trial - Beat Nitros Oxide",
+    "category": ["Polar Pass", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Polar Pass| and |Polar Pass - N. Tropy| and |Polar Pass - N. Oxide|"
+  },
+  {
+    "name": "Polar Pass Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Polar Pass", "Classic", "Time Trial", "Velo"],
+    "requires": "|Polar Pass| and |Polar Pass - N. Tropy| and |Polar Pass - N. Oxide| and |Polar Pass - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Polar Pass Time Trial - Beat Beenox Developer",
+    "category": ["Polar Pass", "Classic", "Time Trial", "Dev"],
+    "requires": "|Polar Pass| and |Polar Pass - N. Tropy| and |Polar Pass - N. Oxide| and |Polar Pass - Emperor Velo XXVII| and |Polar Pass - Beenox Developer|"
+  },
+  {
+    "name": "Tiny Arena Time Trial - Beat N. Tropy",
+    "category": ["Tiny Arena", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Tiny Arena| and |Tiny Arena - N. Tropy|"
+  },
+  {
+    "name": "Tiny Arena Time Trial - Beat Nitros Oxide",
+    "category": ["Tiny Arena", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Tiny Arena| and |Tiny Arena - N. Tropy| and |Tiny Arena - N. Oxide|"
+  },
+  {
+    "name": "Tiny Arena Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Tiny Arena", "Classic", "Time Trial", "Velo"],
+    "requires": "|Tiny Arena| and |Tiny Arena - N. Tropy| and |Tiny Arena - N. Oxide| and |Tiny Arena - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Tiny Arena Time Trial - Beat Beenox Developer",
+    "category": ["Tiny Arena", "Classic", "Time Trial", "Dev"],
+    "requires": "|Tiny Arena| and |Tiny Arena - N. Tropy| and |Tiny Arena - N. Oxide| and |Tiny Arena - Emperor Velo XXVII| and |Tiny Arena - Beenox Developer|"
+  },
+  {
+    "name": "N. Gin Labs Time Trial - Beat N. Tropy",
+    "category": ["N. Gin Labs", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|N. Gin Labs| and |N. Gin Labs - N. Tropy|"
+  },
+  {
+    "name": "N. Gin Labs Time Trial - Beat Nitros Oxide",
+    "category": ["N. Gin Labs", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|N. Gin Labs| and |N. Gin Labs - N. Tropy| and |N. Gin Labs - N. Oxide|"
+  },
+  {
+    "name": "N. Gin Labs Time Trial - Beat Emperor Velo XXVII",
+    "category": ["N. Gin Labs", "Classic", "Time Trial", "Velo"],
+    "requires": "|N. Gin Labs| and |N. Gin Labs - N. Tropy| and |N. Gin Labs - N. Oxide| and |N. Gin Labs - Emperor Velo XXVII|"
+  },
+  {
+    "name": "N. Gin Labs Time Trial - Beat Beenox Developer",
+    "category": ["N. Gin Labs", "Classic", "Time Trial", "Dev"],
+    "requires": "|N. Gin Labs| and |N. Gin Labs - N. Tropy| and |N. Gin Labs - N. Oxide| and |N. Gin Labs - Emperor Velo XXVII| and |N. Gin Labs - Beenox Developer|"
+  },
+  {
+    "name": "Cortex Castle Time Trial - Beat N. Tropy",
+    "category": ["Cortex Castle", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Cortex Castle| and |Cortex Castle - N. Tropy|"
+  },
+  {
+    "name": "Cortex Castle Time Trial - Beat Nitros Oxide",
+    "category": ["Cortex Castle", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Cortex Castle| and |Cortex Castle - N. Tropy| and |Cortex Castle - N. Oxide|"
+  },
+  {
+    "name": "Cortex Castle Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Cortex Castle", "Classic", "Time Trial", "Velo"],
+    "requires": "|Cortex Castle| and |Cortex Castle - N. Tropy| and |Cortex Castle - N. Oxide| and |Cortex Castle - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Cortex Castle Time Trial - Beat Beenox Developer",
+    "category": ["Cortex Castle", "Classic", "Time Trial", "Dev"],
+    "requires": "|Cortex Castle| and |Cortex Castle - N. Tropy| and |Cortex Castle - N. Oxide| and |Cortex Castle - Emperor Velo XXVII| and |Cortex Castle - Beenox Developer|"
+  },
+  {
+    "name": "Hot Air Skyway Time Trial - Beat N. Tropy",
+    "category": ["Hot Air Skyway", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Hot Air Skyway| and |Hot Air Skyway - N. Tropy|"
+  },
+  {
+    "name": "Hot Air Skyway Time Trial - Beat Nitros Oxide",
+    "category": ["Hot Air Skyway", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Hot Air Skyway| and |Hot Air Skyway - N. Tropy| and |Hot Air Skyway - N. Oxide|"
+  },
+  {
+    "name": "Hot Air Skyway Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Hot Air Skyway", "Classic", "Time Trial", "Velo"],
+    "requires": "|Hot Air Skyway| and |Hot Air Skyway - N. Tropy| and |Hot Air Skyway - N. Oxide| and |Hot Air Skyway - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Hot Air Skyway Time Trial - Beat Beenox Developer",
+    "category": ["Hot Air Skyway", "Classic", "Time Trial", "Dev"],
+    "requires": "|Hot Air Skyway| and |Hot Air Skyway - N. Tropy| and |Hot Air Skyway - N. Oxide| and |Hot Air Skyway - Emperor Velo XXVII| and |Hot Air Skyway - Beenox Developer|"
+  },
+  {
+    "name": "Oxide Station Time Trial - Beat N. Tropy",
+    "category": ["Oxide Station", "Classic", "Time Trial", "N. Tropy"],
+    "requires": "|Oxide Station| and |Oxide Station - N. Tropy|"
+  },
+  {
+    "name": "Oxide Station Time Trial - Beat Nitros Oxide",
+    "category": ["Oxide Station", "Classic", "Time Trial", "N. Oxide"],
+    "requires": "|Oxide Station| and |Oxide Station - N. Tropy| and |Oxide Station - N. Oxide|"
+  },
+  {
+    "name": "Oxide Station Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Oxide Station", "Classic", "Time Trial", "Velo"],
+    "requires": "|Oxide Station| and |Oxide Station - N. Tropy| and |Oxide Station - N. Oxide| and |Oxide Station - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Oxide Station Time Trial - Beat Beenox Developer",
+    "category": ["Oxide Station", "Classic", "Time Trial", "Dev"],
+    "requires": "|Oxide Station| and |Oxide Station - N. Tropy| and |Oxide Station - N. Oxide| and |Oxide Station - Emperor Velo XXVII| and |Oxide Station - Beenox Developer|"
+  },
+  {
+    "name": "Inferno Island Time Trial - Beat N. Tropy",
+    "category": ["Inferno Island", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Inferno Island| and |Inferno Island - N. Tropy|"
+  },
+  {
+    "name": "Inferno Island Time Trial - Beat Nitros Oxide",
+    "category": ["Inferno Island", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Inferno Island| and |Inferno Island - N. Tropy| and |Inferno Island - N. Oxide|"
+  },
+  {
+    "name": "Inferno Island Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Inferno Island", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Inferno Island| and |Inferno Island - N. Tropy| and |Inferno Island - N. Oxide| and |Inferno Island - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Inferno Island Time Trial - Beat Beenox Developer",
+    "category": ["Inferno Island", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Inferno Island| and |Inferno Island - N. Tropy| and |Inferno Island - N. Oxide| and |Inferno Island - Emperor Velo XXVII| and |Inferno Island - Beenox Developer|"
+  },
+  {
+    "name": "Jungle Boogie Time Trial - Beat N. Tropy",
+    "category": ["Jungle Boogie", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Jungle Boogie| and |Jungle Boogie - N. Tropy|"
+  },
+  {
+    "name": "Jungle Boogie Time Trial - Beat Nitros Oxide",
+    "category": ["Jungle Boogie", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Jungle Boogie| and |Jungle Boogie - N. Tropy| and |Jungle Boogie - N. Oxide|"
+  },
+  {
+    "name": "Jungle Boogie Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Jungle Boogie", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Jungle Boogie| and |Jungle Boogie - N. Tropy| and |Jungle Boogie - N. Oxide| and |Jungle Boogie - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Jungle Boogie Time Trial - Beat Beenox Developer",
+    "category": ["Jungle Boogie", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Jungle Boogie| and |Jungle Boogie - N. Tropy| and |Jungle Boogie - N. Oxide| and |Jungle Boogie - Emperor Velo XXVII| and |Jungle Boogie - Beenox Developer|"
+  },
+  {
+    "name": "Clockwork Wumpa Time Trial - Beat N. Tropy",
+    "category": ["Clockwork Wumpa", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Clockwork Wumpa| and |Clockwork Wumpa - N. Tropy|"
+  },
+  {
+    "name": "Clockwork Wumpa Time Trial - Beat Nitros Oxide",
+    "category": ["Clockwork Wumpa", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Clockwork Wumpa| and |Clockwork Wumpa - N. Tropy| and |Clockwork Wumpa - N. Oxide|"
+  },
+  {
+    "name": "Clockwork Wumpa Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Clockwork Wumpa", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Clockwork Wumpa| and |Clockwork Wumpa - N. Tropy| and |Clockwork Wumpa - N. Oxide| and |Clockwork Wumpa - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Clockwork Wumpa Time Trial - Beat Beenox Developer",
+    "category": ["Clockwork Wumpa", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Clockwork Wumpa| and |Clockwork Wumpa - N. Tropy| and |Clockwork Wumpa - N. Oxide| and |Clockwork Wumpa - Emperor Velo XXVII| and |Clockwork Wumpa - Beenox Developer|"
+  },
+  {
+    "name": "Android Alley Time Trial - Beat N. Tropy",
+    "category": ["Android Alley", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Android Alley| and |Android Alley - N. Tropy|"
+  },
+  {
+    "name": "Android Alley Time Trial - Beat Nitros Oxide",
+    "category": ["Android Alley", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Android Alley| and |Android Alley - N. Tropy| and |Android Alley - N. Oxide|"
+  },
+  {
+    "name": "Android Alley Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Android Alley", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Android Alley| and |Android Alley - N. Tropy| and |Android Alley - N. Oxide| and |Android Alley - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Android Alley Time Trial - Beat Beenox Developer",
+    "category": ["Android Alley", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Android Alley| and |Android Alley - N. Tropy| and |Android Alley - N. Oxide| and |Android Alley - Emperor Velo XXVII| and |Android Alley - Beenox Developer|"
+  },
+  {
+    "name": "Electron Avenue Time Trial - Beat N. Tropy",
+    "category": ["Electron Avenue", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Electron Avenue| and |Electron Avenue - N. Tropy|"
+  },
+  {
+    "name": "Electron Avenue Time Trial - Beat Nitros Oxide",
+    "category": ["Electron Avenue", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Electron Avenue| and |Electron Avenue - N. Tropy| and |Electron Avenue - N. Oxide|"
+  },
+  {
+    "name": "Electron Avenue Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Electron Avenue", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Electron Avenue| and |Electron Avenue - N. Tropy| and |Electron Avenue - N. Oxide| and |Electron Avenue - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Electron Avenue Time Trial - Beat Beenox Developer",
+    "category": ["Electron Avenue", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Electron Avenue| and |Electron Avenue - N. Tropy| and |Electron Avenue - N. Oxide| and |Electron Avenue - Emperor Velo XXVII| and |Electron Avenue - Beenox Developer|"
+  },
+  {
+    "name": "Deep Sea Driving Time Trial - Beat N. Tropy",
+    "category": ["Deep Sea Driving", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Deep Sea Driving| and |Deep Sea Driving - N. Tropy|"
+  },
+  {
+    "name": "Deep Sea Driving Time Trial - Beat Nitros Oxide",
+    "category": ["Deep Sea Driving", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Deep Sea Driving| and |Deep Sea Driving - N. Tropy| and |Deep Sea Driving - N. Oxide|"
+  },
+  {
+    "name": "Deep Sea Driving Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Deep Sea Driving", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Deep Sea Driving| and |Deep Sea Driving - N. Tropy| and |Deep Sea Driving - N. Oxide| and |Deep Sea Driving - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Deep Sea Driving Time Trial - Beat Beenox Developer",
+    "category": ["Deep Sea Driving", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Deep Sea Driving| and |Deep Sea Driving - N. Tropy| and |Deep Sea Driving - N. Oxide| and |Deep Sea Driving - Emperor Velo XXVII| and |Deep Sea Driving - Beenox Developer|"
+  },
+  {
+    "name": "Thunder Struck Time Trial - Beat N. Tropy",
+    "category": ["Thunder Struck", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Thunder Struck| and |Thunder Struck - N. Tropy|"
+  },
+  {
+    "name": "Thunder Struck Time Trial - Beat Nitros Oxide",
+    "category": ["Thunder Struck", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Thunder Struck| and |Thunder Struck - N. Tropy| and |Thunder Struck - N. Oxide|"
+  },
+  {
+    "name": "Thunder Struck Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Thunder Struck", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Thunder Struck| and |Thunder Struck - N. Tropy| and |Thunder Struck - N. Oxide| and |Thunder Struck - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Thunder Struck Time Trial - Beat Beenox Developer",
+    "category": ["Thunder Struck", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Thunder Struck| and |Thunder Struck - N. Tropy| and |Thunder Struck - N. Oxide| and |Thunder Struck - Emperor Velo XXVII| and |Thunder Struck - Beenox Developer|"
+  },
+  {
+    "name": "Tiny Temple Time Trial - Beat N. Tropy",
+    "category": ["Tiny Temple", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Tiny Temple| and |Tiny Temple - N. Tropy|"
+  },
+  {
+    "name": "Tiny Temple Time Trial - Beat Nitros Oxide",
+    "category": ["Tiny Temple", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Tiny Temple| and |Tiny Temple - N. Tropy| and |Tiny Temple - N. Oxide|"
+  },
+  {
+    "name": "Tiny Temple Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Tiny Temple", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Tiny Temple| and |Tiny Temple - N. Tropy| and |Tiny Temple - N. Oxide| and |Tiny Temple - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Tiny Temple Time Trial - Beat Beenox Developer",
+    "category": ["Tiny Temple", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Tiny Temple| and |Tiny Temple - N. Tropy| and |Tiny Temple - N. Oxide| and |Tiny Temple - Emperor Velo XXVII| and |Tiny Temple - Beenox Developer|"
+  },
+  {
+    "name": "Meteor Gorge Time Trial - Beat N. Tropy",
+    "category": ["Meteor Gorge", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Meteor Gorge| and |Meteor Gorge - N. Tropy|"
+  },
+  {
+    "name": "Meteor Gorge Time Trial - Beat Nitros Oxide",
+    "category": ["Meteor Gorge", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Meteor Gorge| and |Meteor Gorge - N. Tropy| and |Meteor Gorge - N. Oxide|"
+  },
+  {
+    "name": "Meteor Gorge Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Meteor Gorge", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Meteor Gorge| and |Meteor Gorge - N. Tropy| and |Meteor Gorge - N. Oxide| and |Meteor Gorge - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Meteor Gorge Time Trial - Beat Beenox Developer",
+    "category": ["Meteor Gorge", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Meteor Gorge| and |Meteor Gorge - N. Tropy| and |Meteor Gorge - N. Oxide| and |Meteor Gorge - Emperor Velo XXVII| and |Meteor Gorge - Beenox Developer|"
+  },
+  {
+    "name": "Barin Ruins Time Trial - Beat N. Tropy",
+    "category": ["Barin Ruins", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Barin Ruins| and |Barin Ruins - N. Tropy|"
+  },
+  {
+    "name": "Barin Ruins Time Trial - Beat Nitros Oxide",
+    "category": ["Barin Ruins", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Barin Ruins| and |Barin Ruins - N. Tropy| and |Barin Ruins - N. Oxide|"
+  },
+  {
+    "name": "Barin Ruins Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Barin Ruins", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Barin Ruins| and |Barin Ruins - N. Tropy| and |Barin Ruins - N. Oxide| and |Barin Ruins - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Barin Ruins Time Trial - Beat Beenox Developer",
+    "category": ["Barin Ruins", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Barin Ruins| and |Barin Ruins - N. Tropy| and |Barin Ruins - N. Oxide| and |Barin Ruins - Emperor Velo XXVII| and |Barin Ruins - Beenox Developer|"
+  },
+  {
+    "name": "Out Of Time Time Trial - Beat N. Tropy",
+    "category": ["Out Of Time", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Out Of Time| and |Out Of Time - N. Tropy|"
+  },
+  {
+    "name": "Out Of Time Time Trial - Beat Nitros Oxide",
+    "category": ["Out Of Time", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Out Of Time| and |Out Of Time - N. Tropy| and |Out Of Time - N. Oxide|"
+  },
+  {
+    "name": "Out Of Time Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Out Of Time", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Out Of Time| and |Out Of Time - N. Tropy| and |Out Of Time - N. Oxide| and |Out Of Time - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Out Of Time Time Trial - Beat Beenox Developer",
+    "category": ["Out Of Time", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Out Of Time| and |Out Of Time - N. Tropy| and |Out Of Time - N. Oxide| and |Out Of Time - Emperor Velo XXVII| and |Out Of Time - Beenox Developer|"
+  },
+  {
+    "name": "Assembly Lane Time Trial - Beat N. Tropy",
+    "category": ["Assembly Lane", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Assembly Lane| and |Assembly Lane - N. Tropy|"
+  },
+  {
+    "name": "Assembly Lane Time Trial - Beat Nitros Oxide",
+    "category": ["Assembly Lane", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Assembly Lane| and |Assembly Lane - N. Tropy| and |Assembly Lane - N. Oxide|"
+  },
+  {
+    "name": "Assembly Lane Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Assembly Lane", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Assembly Lane| and |Assembly Lane - N. Tropy| and |Assembly Lane - N. Oxide| and |Assembly Lane - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Assembly Lane Time Trial - Beat Beenox Developer",
+    "category": ["Assembly Lane", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Assembly Lane| and |Assembly Lane - N. Tropy| and |Assembly Lane - N. Oxide| and |Assembly Lane - Emperor Velo XXVII| and |Assembly Lane - Beenox Developer|"
+  },
+  {
+    "name": "Hyper Spaceway Time Trial - Beat N. Tropy",
+    "category": ["Hyper Spaceway", "Nitro", "Time Trial", "N. Tropy"],
+    "requires": "|Hyper Spaceway| and |Hyper Spaceway - N. Tropy|"
+  },
+  {
+    "name": "Hyper Spaceway Time Trial - Beat Nitros Oxide",
+    "category": ["Hyper Spaceway", "Nitro", "Time Trial", "N. Oxide"],
+    "requires": "|Hyper Spaceway| and |Hyper Spaceway - N. Tropy| and |Hyper Spaceway - N. Oxide|"
+  },
+  {
+    "name": "Hyper Spaceway Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Hyper Spaceway", "Nitro", "Time Trial", "Velo"],
+    "requires": "|Hyper Spaceway| and |Hyper Spaceway - N. Tropy| and |Hyper Spaceway - N. Oxide| and |Hyper Spaceway - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Hyper Spaceway Time Trial - Beat Beenox Developer",
+    "category": ["Hyper Spaceway", "Nitro", "Time Trial", "Dev"],
+    "requires": "|Hyper Spaceway| and |Hyper Spaceway - N. Tropy| and |Hyper Spaceway - N. Oxide| and |Hyper Spaceway - Emperor Velo XXVII| and |Hyper Spaceway - Beenox Developer|"
+  },
+  {
+    "name": "Twilight Tour Time Trial - Beat N. Tropy",
+    "category": ["Twilight Tour", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Twilight Tour| and |Twilight Tour - N. Tropy|"
+  },
+  {
+    "name": "Twilight Tour Time Trial - Beat Nitros Oxide",
+    "category": ["Twilight Tour", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Twilight Tour| and |Twilight Tour - N. Tropy| and |Twilight Tour - N. Oxide|"
+  },
+  {
+    "name": "Twilight Tour Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Twilight Tour", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Twilight Tour| and |Twilight Tour - N. Tropy| and |Twilight Tour - N. Oxide| and |Twilight Tour - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Twilight Tour Time Trial - Beat Beenox Developer",
+    "category": ["Twilight Tour", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Twilight Tour| and |Twilight Tour - N. Tropy| and |Twilight Tour - N. Oxide| and |Twilight Tour - Emperor Velo XXVII| and |Twilight Tour - Beenox Developer|"
+  },
+  {
+    "name": "Prehistoric Playground Time Trial - Beat N. Tropy",
+    "category": ["Prehistoric Playground", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Prehistoric Playground| and |Prehistoric Playground - N. Tropy|"
+  },
+  {
+    "name": "Prehistoric Playground Time Trial - Beat Nitros Oxide",
+    "category": ["Prehistoric Playground", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Prehistoric Playground| and |Prehistoric Playground - N. Tropy| and |Prehistoric Playground - N. Oxide|"
+  },
+  {
+    "name": "Prehistoric Playground Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Prehistoric Playground", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Prehistoric Playground| and |Prehistoric Playground - N. Tropy| and |Prehistoric Playground - N. Oxide| and |Prehistoric Playground - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Prehistoric Playground Time Trial - Beat Beenox Developer",
+    "category": ["Prehistoric Playground", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Prehistoric Playground| and |Prehistoric Playground - N. Tropy| and |Prehistoric Playground - N. Oxide| and |Prehistoric Playground - Emperor Velo XXVII| and |Prehistoric Playground - Beenox Developer|"
+  },
+  {
+    "name": "Spyro Circuit Time Trial - Beat N. Tropy",
+    "category": ["Spyro Circuit", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Spyro Circuit| and |Spyro Circuit - N. Tropy|"
+  },
+  {
+    "name": "Spyro Circuit Time Trial - Beat Nitros Oxide",
+    "category": ["Spyro Circuit", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Spyro Circuit| and |Spyro Circuit - N. Tropy| and |Spyro Circuit - N. Oxide|"
+  },
+  {
+    "name": "Spyro Circuit Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Spyro Circuit", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Spyro Circuit| and |Spyro Circuit - N. Tropy| and |Spyro Circuit - N. Oxide| and |Spyro Circuit - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Spyro Circuit Time Trial - Beat Beenox Developer",
+    "category": ["Spyro Circuit", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Spyro Circuit| and |Spyro Circuit - N. Tropy| and |Spyro Circuit - N. Oxide| and |Spyro Circuit - Emperor Velo XXVII| and |Spyro Circuit - Beenox Developer|"
+  },
+  {
+    "name": "Nina's Nightmare Time Trial - Beat N. Tropy",
+    "category": ["Nina's Nightmare", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Nina's Nightmare| and |Nina's Nightmare - N. Tropy|"
+  },
+  {
+    "name": "Nina's Nightmare Time Trial - Beat Nitros Oxide",
+    "category": ["Nina's Nightmare", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Nina's Nightmare| and |Nina's Nightmare - N. Tropy| and |Nina's Nightmare - N. Oxide|"
+  },
+  {
+    "name": "Nina's Nightmare Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Nina's Nightmare", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Nina's Nightmare| and |Nina's Nightmare - N. Tropy| and |Nina's Nightmare - N. Oxide| and |Nina's Nightmare - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Nina's Nightmare Time Trial - Beat Beenox Developer",
+    "category": ["Nina's Nightmare", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Nina's Nightmare| and |Nina's Nightmare - N. Tropy| and |Nina's Nightmare - N. Oxide| and |Nina's Nightmare - Emperor Velo XXVII| and |Nina's Nightmare - Beenox Developer|"
+  },
+  {
+    "name": "Koala Carnival Time Trial - Beat N. Tropy",
+    "category": ["Koala Carnival", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Koala Carnival| and |Koala Carnival - N. Tropy|"
+  },
+  {
+    "name": "Koala Carnival Time Trial - Beat Nitros Oxide",
+    "category": ["Koala Carnival", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Koala Carnival| and |Koala Carnival - N. Tropy| and |Koala Carnival - N. Oxide|"
+  },
+  {
+    "name": "Koala Carnival Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Koala Carnival", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Koala Carnival| and |Koala Carnival - N. Tropy| and |Koala Carnival - N. Oxide| and |Koala Carnival - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Koala Carnival Time Trial - Beat Beenox Developer",
+    "category": ["Koala Carnival", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Koala Carnival| and |Koala Carnival - N. Tropy| and |Koala Carnival - N. Oxide| and |Koala Carnival - Emperor Velo XXVII| and |Koala Carnival - Beenox Developer|"
+  },
+  {
+    "name": "Gingerbread Joyride Time Trial - Beat N. Tropy",
+    "category": ["Gingerbread Joyride", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Gingerbread Joyride| and |Gingerbread Joyride - N. Tropy|"
+  },
+  {
+    "name": "Gingerbread Joyride Time Trial - Beat Nitros Oxide",
+    "category": ["Gingerbread Joyride", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Gingerbread Joyride| and |Gingerbread Joyride - N. Tropy| and |Gingerbread Joyride - N. Oxide|"
+  },
+  {
+    "name": "Gingerbread Joyride Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Gingerbread Joyride", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Gingerbread Joyride| and |Gingerbread Joyride - N. Tropy| and |Gingerbread Joyride - N. Oxide| and |Gingerbread Joyride - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Gingerbread Joyride Time Trial - Beat Beenox Developer",
+    "category": ["Gingerbread Joyride", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Gingerbread Joyride| and |Gingerbread Joyride - N. Tropy| and |Gingerbread Joyride - N. Oxide| and |Gingerbread Joyride - Emperor Velo XXVII| and |Gingerbread Joyride - Beenox Developer|"     
+  },
+  {
+    "name": "Megamix Mania Time Trial - Beat N. Tropy",
+    "category": ["Megamix Mania", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Megamix Mania| and |Megamix Mania - N. Tropy|"
+  },
+  {
+    "name": "Megamix Mania Time Trial - Beat Nitros Oxide",
+    "category": ["Megamix Mania", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Megamix Mania| and |Megamix Mania - N. Tropy| and |Megamix Mania - N. Oxide|"
+  },
+  {
+    "name": "Megamix Mania Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Megamix Mania", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Megamix Mania| and |Megamix Mania - N. Tropy| and |Megamix Mania - N. Oxide| and |Megamix Mania - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Megamix Mania Time Trial - Beat Beenox Developer",
+    "category": ["Megamix Mania", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Megamix Mania| and |Megamix Mania - N. Tropy| and |Megamix Mania - N. Oxide| and |Megamix Mania - Emperor Velo XXVII| and |Megamix Mania - Beenox Developer|"
+  },
+  {
+    "name": "Drive-Thru Danger Time Trial - Beat N. Tropy",
+    "category": ["Drive-Thru Danger", "Bonus", "Time Trial", "N. Tropy"],
+    "requires": "|Drive-Thru Danger| and |Drive-Thru Danger - N. Tropy|"
+  },
+  {
+    "name": "Drive-Thru Danger Time Trial - Beat Nitros Oxide",
+    "category": ["Drive-Thru Danger", "Bonus", "Time Trial", "N. Oxide"],
+    "requires": "|Drive-Thru Danger| and |Drive-Thru Danger - N. Tropy| and |Drive-Thru Danger - N. Oxide|"
+  },
+  {
+    "name": "Drive-Thru Danger Time Trial - Beat Emperor Velo XXVII",
+    "category": ["Drive-Thru Danger", "Bonus", "Time Trial", "Velo"],
+    "requires": "|Drive-Thru Danger| and |Drive-Thru Danger - N. Tropy| and |Drive-Thru Danger - N. Oxide| and |Drive-Thru Danger - Emperor Velo XXVII|"
+  },
+  {
+    "name": "Drive-Thru Danger Time Trial - Beat Beenox Developer",
+    "category": ["Drive-Thru Danger", "Bonus", "Time Trial", "Dev"],
+    "requires": "|Drive-Thru Danger| and |Drive-Thru Danger - N. Tropy| and |Drive-Thru Danger - N. Oxide| and |Drive-Thru Danger - Emperor Velo XXVII| and |Drive-Thru Danger - Beenox Developer|"
+  },
+  {
+    "name": "Wumpa Cup - Easy - 5th",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Easy - 3rd",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Easy - 1st",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Medium - 5th",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Medium - 3rd",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Medium - 1st",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Hard - 5th",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Hard - 3rd",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Wumpa Cup - Hard - 1st",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+  },
+  {
+    "name": "Nitro Cup - Easy - 5th",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Easy - 3rd",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Easy - 1st",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Medium - 5th",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Medium - 3rd",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Medium - 1st",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Hard - 5th",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Hard - 3rd",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Nitro Cup - Hard - 1st",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+  },
+  {
+    "name": "Crystal Cup - Easy - 5th",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Easy - 3rd",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Easy - 1st",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Medium - 5th",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Medium - 3rd",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Medium - 1st",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Hard - 5th",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Hard - 3rd",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crystal Cup - Hard - 1st",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+  },
+  {
+    "name": "Crash Cup - Easy - 5th",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Easy - 3rd",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Easy - 1st",
+    "category": ["Cups", "Classic", "Easy"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Medium - 5th",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Medium - 3rd",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Medium - 1st",
+    "category": ["Cups", "Classic", "Medium"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Hard - 5th",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Hard - 3rd",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Crash Cup - Hard - 1st",
+    "category": ["Cups", "Classic", "Hard"],
+    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+  },
+  {
+    "name": "Velo Cup - Easy - 5th",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Easy - 3rd",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Easy - 1st",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Medium - 5th",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Medium - 3rd",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Medium - 1st",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Hard - 5th",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Hard - 3rd",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Velo Cup - Hard - 1st",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+  },
+  {
+    "name": "Aku Cup - Easy - 5th",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Easy - 3rd",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Easy - 1st",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Medium - 5th",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Medium - 3rd",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Medium - 1st",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Hard - 5th",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Hard - 3rd",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Aku Cup - Hard - 1st",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+  },
+  {
+    "name": "Uka Cup - Easy - 5th",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Easy - 3rd",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Easy - 1st",
+    "category": ["Cups", "Nitro", "Easy"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Medium - 5th",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Medium - 3rd",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Medium - 1st",
+    "category": ["Cups", "Nitro", "Medium"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Hard - 5th",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Hard - 3rd",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Uka Cup - Hard - 1st",
+    "category": ["Cups", "Nitro", "Hard"],
+    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+  },
+  {
+    "name": "Lost Cup - Easy - 5th",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Easy"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Easy - 3rd",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Easy"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Easy - 1st",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Easy"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Medium - 5th",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Medium"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Medium - 3rd",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Medium"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Medium - 1st",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Medium"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Hard - 5th",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Hard"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Hard - 3rd",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Hard"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Lost Cup - Hard - 1st",
+    "category": ["Cups", "Nitro", "Classic", "Bonus", "Hard"],
+    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+  },
+  {
+    "name": "Bonus Cup - Easy - 5th",
+    "category": ["Cups", "Bonus", "Easy"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Easy - 3rd",
+    "category": ["Cups", "Bonus", "Easy"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Easy - 1st",
+    "category": ["Cups", "Bonus", "Easy"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Medium - 5th",
+    "category": ["Cups", "Bonus", "Medium"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Medium - 3rd",
+    "category": ["Cups", "Bonus", "Medium"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Medium - 1st",
+    "category": ["Cups", "Bonus", "Medium"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Hard - 5th",
+    "category": ["Cups", "Bonus", "Hard"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Hard - 3rd",
+    "category": ["Cups", "Bonus", "Hard"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Bonus Cup - Hard - 1st",
+    "category": ["Cups", "Bonus", "Hard"],
+    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+  },
+  {
+    "name": "Desert Cup - Easy - 5th",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Easy - 3rd",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Easy - 1st",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Medium - 5th",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Medium - 3rd",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Medium - 1st",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Hard - 5th",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Hard - 3rd",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Desert Cup - Hard - 1st",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+  },
+  {
+    "name": "Space Cup - Easy - 5th",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Easy - 3rd",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Easy - 1st",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Medium - 5th",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Medium - 3rd",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Medium - 1st",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Hard - 5th",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Hard - 3rd",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+  },
+  {
+    "name": "Space Cup - Hard - 1st",
+    "category": ["Cups", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
   }
 ]
