@@ -317,7 +317,7 @@ class ManualWorld(World):
         extras = len(self.multiworld.get_unfilled_locations(player=self.player)) - len(item_pool) - 1 # subtracting 1 because of Victory; seems right
 
         if extras > 0:
-            trap_percent = get_option_value(self.multiworld, self.player, "filler_traps")
+            trap_percent = 0 #get_option_value(self.multiworld, self.player, "filler_traps")
             if not traps:
                 trap_percent = 0
 
