@@ -131,11 +131,11 @@ class included_ghosts(Choice):
 def before_options_defined(options: dict) -> dict:
     options["percentage_trophies"] = percentage_trophies
     options["select_difficulty"] = select_difficulty
-    options["include_single_race"] = include_single_race
+    #options["include_single_race"] = include_single_race
     options["select_race_tracks"] = select_race_tracks
     options["include_cups"] = include_cups
-    options["include_battle"] = include_battle
-    options["select_battle_tracks"] = select_battle_tracks
+    #options["include_battle"] = include_battle
+    #options["select_battle_tracks"] = select_battle_tracks
     options["include_time_trial"] = include_time_trial
     options["included_ghosts"] = included_ghosts
 
