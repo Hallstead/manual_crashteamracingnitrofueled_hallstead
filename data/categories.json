@@ -33,6 +33,9 @@
         "hidden": true
     },
     "Cups": {
+        "hidden": false
+    },
+    "Cups_option": {
         "hidden": true
     },
     "Battle": {

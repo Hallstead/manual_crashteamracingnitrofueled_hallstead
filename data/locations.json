@@ -5948,497 +5948,497 @@
   },
   {
     "name": "Wumpa Cup - Easy - 5th",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Easy - 3rd",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Easy - 1st",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Medium - 5th",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Medium - 3rd",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Medium - 1st",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Hard - 5th",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Hard - 3rd",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Wumpa Cup - Hard - 1st",
-    "category": ["Cup - Wumpa Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Crash Cove| and |Tiger Temple| and |Blizzard Bluff| and |Coco Park|"
+    "category": ["Cup - Wumpa Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Wumpa Cup|"
   },
   {
     "name": "Nitro Cup - Easy - 5th",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Easy - 3rd",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Easy - 1st",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Medium - 5th",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Medium - 3rd",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Medium - 1st",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Hard - 5th",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Hard - 3rd",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Nitro Cup - Hard - 1st",
-    "category": ["Cup - Nitro Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Mystery Caves| and |Papu's Pyramid| and |Cortex Castle| and |Tiny Arena|"
+    "category": ["Cup - Nitro Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Nitro Cup|"
   },
   {
     "name": "Crystal Cup - Easy - 5th",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Easy - 3rd",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Easy - 1st",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Medium - 5th",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Medium - 3rd",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Medium - 1st",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Hard - 5th",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Hard - 3rd",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crystal Cup - Hard - 1st",
-    "category": ["Cup - Crystal Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Roo's Tubes| and |Dingo Canyon| and |Dragon Mines| and |Sewer Speedway|"
+    "category": ["Cup - Crystal Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Crystal Cup|"
   },
   {
     "name": "Crash Cup - Easy - 5th",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Easy - 3rd",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Easy - 1st",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Easy"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Easy"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Medium - 5th",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Medium - 3rd",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Medium - 1st",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Medium"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Medium"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Hard - 5th",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Hard - 3rd",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Crash Cup - Hard - 1st",
-    "category": ["Cup - Crash Cup", "Cups", "Classic", "Hard"],
-    "requires": "|Polar Pass| and |N. Gin Labs| and |Hot Air Skyway| and |Slide Coliseum|"
+    "category": ["Cup - Crash Cup", "Cups_option", "Classic", "Hard"],
+    "requires": "|Crash Cup|"
   },
   {
     "name": "Velo Cup - Easy - 5th",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Easy - 3rd",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Easy - 1st",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Medium - 5th",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Medium - 3rd",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Medium - 1st",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Hard - 5th",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Hard - 3rd",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Velo Cup - Hard - 1st",
-    "category": ["Cup - Velo Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Inferno Island| and |Meteor Gorge| and |Assembly Lane| and |Hyper Spaceway|"
+    "category": ["Cup - Velo Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Velo Cup|"
   },
   {
     "name": "Aku Cup - Easy - 5th",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Easy - 3rd",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Easy - 1st",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Medium - 5th",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Medium - 3rd",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Medium - 1st",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Hard - 5th",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Hard - 3rd",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Aku Cup - Hard - 1st",
-    "category": ["Cup - Aku Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Android Alley| and |Tiny Temple| and |Thunder Struck| and |Barin Ruins|"
+    "category": ["Cup - Aku Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Aku Cup|"
   },
   {
     "name": "Uka Cup - Easy - 5th",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Easy - 3rd",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Easy - 1st",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Easy"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Easy"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Medium - 5th",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Medium - 3rd",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Medium - 1st",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Medium"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Medium"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Hard - 5th",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Hard - 3rd",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Uka Cup - Hard - 1st",
-    "category": ["Cup - Uka Cup", "Cups", "Nitro", "Hard"],
-    "requires": "|Jungle Boogie| and |Deep Sea Driving| and |Out Of Time| and |Electron Avenue|"
-  },
-  {
-    "name": "Lost Cup - Easy - 5th",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Easy"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Easy - 3rd",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Easy"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Easy - 1st",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Easy"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Medium - 5th",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Medium"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Medium - 3rd",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Medium"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Medium - 1st",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Medium"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Hard - 5th",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Hard"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Hard - 3rd",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Hard"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
-  },
-  {
-    "name": "Lost Cup - Hard - 1st",
-    "category": ["Cup - Lost Cup", "Cups", "Nitro", "Classic", "Bonus", "Hard"],
-    "requires": "|Clockwork Wumpa| and |Oxide Station| and |Twilight Tour| and |Prehistoric Playground|"
+    "category": ["Cup - Uka Cup", "Cups_option", "Nitro", "Hard"],
+    "requires": "|Uka Cup|"
   },
   {
     "name": "Bonus Cup - Easy - 5th",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Easy"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Easy"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Easy - 3rd",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Easy"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Easy"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Easy - 1st",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Easy"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Easy"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Medium - 5th",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Medium"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Medium"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Medium - 3rd",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Medium"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Medium"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Medium - 1st",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Medium"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Medium"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Hard - 5th",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Hard"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Hard"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Hard - 3rd",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Hard"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Hard"],
+    "requires": "|Bonus Cup|"
   },
   {
     "name": "Bonus Cup - Hard - 1st",
-    "category": ["Cup - Bonus Cup", "Cups", "Bonus", "Hard"],
-    "requires": "|Spyro Circuit| and |Nina's Nightmare| and |Koala Carnival| and |Gingerbread Joyride|"
+    "category": ["Cup - Bonus Cup", "Cups_option", "Bonus", "Hard"],
+    "requires": "|Bonus Cup|"
+  },
+  {
+    "name": "Lost Cup - Easy - 5th",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Easy - 3rd",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Easy - 1st",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Medium - 5th",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Medium - 3rd",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Medium - 1st",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Hard - 5th",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Hard - 3rd",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Lost Cup|"
+  },
+  {
+    "name": "Lost Cup - Hard - 1st",
+    "category": ["Cup - Lost Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Lost Cup|"
   },
   {
     "name": "Desert Cup - Easy - 5th",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Easy"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Easy - 3rd",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Easy"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Easy - 1st",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Easy"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Medium - 5th",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Medium"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Medium - 3rd",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Medium"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Medium - 1st",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Medium"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Hard - 5th",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Hard"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Hard - 3rd",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Hard"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Desert Cup - Hard - 1st",
-    "category": ["Cup - Desert Cup", "Cups", "Bonus", "Nitro", "Classic", "Hard"],
-    "requires": "|Megamix Mania| and |Out Of Time| and |Twilight Tour| and |Dingo Canyon|"
+    "category": ["Cup - Desert Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Desert Cup|"
   },
   {
     "name": "Space Cup - Easy - 5th",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Easy"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Easy - 3rd",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Easy"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Easy - 1st",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Easy"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Easy"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Medium - 5th",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Medium"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Medium - 3rd",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Medium"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Medium - 1st",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Medium"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Medium"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Hard - 5th",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Hard"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Hard - 3rd",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Hard"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Space Cup|"
   },
   {
     "name": "Space Cup - Hard - 1st",
-    "category": ["Cup - Space Cup", "Cups", "Bonus", "Nitro", "Classic", "Hard"],
-    "requires": "|Drive-Thru Danger| and |Hyper Spaceway| and |Oxide Station| and |Electron Avenue|"
+    "category": ["Cup - Space Cup", "Cups_option", "Bonus", "Nitro", "Classic", "Hard"],
+    "requires": "|Space Cup|"
   }
 ]

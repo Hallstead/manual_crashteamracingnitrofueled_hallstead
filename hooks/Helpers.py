@@ -47,7 +47,7 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
     if category_name == "Battle Map":
         return False
     
-    if category_name == "Cups":
+    if category_name == "Cups" or category_name == "Cups_option":
         if Helpers.get_option_value(world, player, "include_cups") == 1:
             return True
         else:

@@ -141,25 +141,25 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     if timeTrial is True:
         timetrial = len(track_list)
 
-    cups_dict = {}
+    cups_list = []
     if cups is True:
         if classic is True:
-            cups_dict["Wumpa Cup"] = ["Crash Cove", "Tiger Temple", "Blizzard Bluff", "Coco Park"]
-            cups_dict["Nitro Cup"] = ["Mystery Caves", "Papu's Pyramid", "Cortex Castle", "Tiny Arena"]
-            cups_dict["Crystal Cup"] = ["Roo's Tubes", "Dingo Canyon", "Dragon Mines", "Sewer Speedway"]
-            cups_dict["Crash Cup"] = ["Polar Pass", "N. Gin Labs", "Hot Air Skyway", "Slide Coliseum"]
+            cups_list.append("Wumpa Cup")
+            cups_list.append("Nitro Cup")
+            cups_list.append("Crystal Cup")
+            cups_list.append("Crash Cup")
         if nitro is True:
-            cups_dict["Velo Cup"] = ["Inferno Island", "Meteor Gorge", "Assembly Lane", "Hyper Spaceway"]
-            cups_dict["Aku Cup"] = ["Android Alley", "Tiny Temple", "Thunder Struck", "Barin Ruins"]
-            cups_dict["Uka Cup"] = ["Jungle Boogie", "Deep Sea Driving", "Out Of Time", "Electron Avenue"]
+            cups_list.append("Velo Cup")
+            cups_list.append("Aku Cup")
+            cups_list.append("Uka Cup")
         if bonus is True:
-            cups_dict["Bonus Cup"] = ["Spyro Circuit", "Nina's Nightmare", "Koala Carnival", "Gingerbread Joyride"]
+            cups_list.append("Bonus Cup")
             if classic is True and nitro is True:
-                cups_dict["Lost Cup"] = ["Clockwork Wumpa", "Oxide Station", "Twilight Tour", "Prehistoric Playground"]
-                cups_dict["Desert Cup"] = ["Megamix Mania", "Out Of Time", "Twilight Tour", "Dingo Canyon"]
-                cups_dict["Space Cup"] = ["Drive-Thru Danger", "Hyper Spaceway", "Oxide Station", "Electron Avenue"]
+                cups_list.append("Lost Cup")
+                cups_list.append("Desert Cup")
+                cups_list.append("Space Cup")
     
-    tracks = len(track_list) + len(cups_dict)
+    tracks = len(track_list) + len(cups_list)
 
     difficulties = 0
     if easy is True:
@@ -195,12 +195,11 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
 
     # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
     if cups is True:
-        final_cup_name = random.choice(list(cups_dict))
-        final_track_name = random.choice(cups_dict[final_cup_name])
+        final_track_name = random.choice(list(cups_list))
         for d in ["Easy", "Medium", "Hard"]:
             if locals()[d.lower()] is True:
                 for p in ["5th", "3rd", "1st"]:
-                    gather_loc_list.append(f"{final_cup_name} - {d} - {p}")
+                    gather_loc_list.append(f"{final_track_name} - {d} - {p}")
     else:
         final_track_name = random.choice(track_list)
         for d in ["Easy", "Medium", "Hard"]:
