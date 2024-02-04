@@ -42,16 +42,30 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             elif selection == 0 or selection == 1 or selection == 3:
                 return False
         
-    if category_name == "Battle":
-        return False
-    if category_name == "Battle Map":
-        return False
-    
+    if category_name == "Tracks":
+        if Helpers.get_option_value(world, player, "include_single_race") == 1:
+            return True
+        elif Helpers.get_option_value(world, player, "include_time_trial") == 1:
+            return True
+        else:
+            return False
+
+    if category_name == "Single":
+        if Helpers.get_option_value(world, player, "include_single_race") == 1:
+            return True
+        else:
+            return False
+
     if category_name == "Cups" or category_name == "Cups_option":
         if Helpers.get_option_value(world, player, "include_cups") == 1:
             return True
         else:
             return False
+    
+    if category_name == "Battle":
+        return False
+    if category_name == "Battle Map":
+        return False
     
     if category_name == "Time Trial":
         if Helpers.get_option_value(world, player, "include_time_trial") == 1:

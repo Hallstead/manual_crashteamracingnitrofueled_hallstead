@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Starting Track",
+		"name": "Starting Map",
 		"category": ["((~Start~))"],
 		"requires": [],
-		"place_item_category": ["Tracks"]
+		"place_item_category": ["Tracks", "Cups", "Battle Map"]
 	},
 	{
 		"name": "Goal (All Trophies)",

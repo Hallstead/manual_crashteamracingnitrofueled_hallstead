@@ -83,59 +83,63 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     # to the list multiple times if you want to remove multiple copies of it.
     
     # Get Trophy Information
-    tracks = 0
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
     bonus = is_category_enabled(multiworld, player, "Bonus")
     easy = is_category_enabled(multiworld, player, "Easy")
     medium = is_category_enabled(multiworld, player, "Medium")
     hard = is_category_enabled(multiworld, player, "Hard")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
 
+    if not tracksIncluded and not cups:
+        raise Exception("No mode set for play!")
+
     track_list = []
-    if classic is True:
-        track_list.append("Crash Cove")
-        track_list.append("Mystery Caves")
-        track_list.append("Sewer Speedway")
-        track_list.append("Roo's Tubes")
-        track_list.append("Coco Park")
-        track_list.append("Tiger Temple")
-        track_list.append("Papu's Pyramid")
-        track_list.append("Dingo Canyon")
-        track_list.append("Polar Pass")
-        track_list.append("Tiny Arena")
-        track_list.append("Dragon Mines")
-        track_list.append("Blizzard Bluff")
-        track_list.append("Hot Air Skyway")
-        track_list.append("Cortex Castle")
-        track_list.append("N. Gin Labs")
-        track_list.append("Slide Coliseum")
-        track_list.append("Turbo Track")
-        track_list.append("Oxide Station")
-    if nitro is True:
-        track_list.append("Inferno Island")
-        track_list.append("Jungle Boogie")
-        track_list.append("Clockwork Wumpa")
-        track_list.append("Android Alley")
-        track_list.append("Electron Avenue")
-        track_list.append("Deep Sea Driving")
-        track_list.append("Thunder Struck")
-        track_list.append("Tiny Temple")
-        track_list.append("Meteor Gorge")
-        track_list.append("Barin Ruins")
-        track_list.append("Out Of Time")
-        track_list.append("Assembly Lane")
-        track_list.append("Hyper Spaceway")
-    if bonus is True:
-        track_list.append("Twilight Tour")
-        track_list.append("Prehistoric Playground")
-        track_list.append("Spyro Circuit")
-        track_list.append("Nina's Nightmare")
-        track_list.append("Koala Carnival")
-        track_list.append("Gingerbread Joyride")
-        track_list.append("Megamix Mania")
-        track_list.append("Drive-Thru Danger")
+    if tracksIncluded is True:
+        if classic is True:
+            track_list.append("Crash Cove")
+            track_list.append("Mystery Caves")
+            track_list.append("Sewer Speedway")
+            track_list.append("Roo's Tubes")
+            track_list.append("Coco Park")
+            track_list.append("Tiger Temple")
+            track_list.append("Papu's Pyramid")
+            track_list.append("Dingo Canyon")
+            track_list.append("Polar Pass")
+            track_list.append("Tiny Arena")
+            track_list.append("Dragon Mines")
+            track_list.append("Blizzard Bluff")
+            track_list.append("Hot Air Skyway")
+            track_list.append("Cortex Castle")
+            track_list.append("N. Gin Labs")
+            track_list.append("Slide Coliseum")
+            track_list.append("Turbo Track")
+            track_list.append("Oxide Station")
+        if nitro is True:
+            track_list.append("Inferno Island")
+            track_list.append("Jungle Boogie")
+            track_list.append("Clockwork Wumpa")
+            track_list.append("Android Alley")
+            track_list.append("Electron Avenue")
+            track_list.append("Deep Sea Driving")
+            track_list.append("Thunder Struck")
+            track_list.append("Tiny Temple")
+            track_list.append("Meteor Gorge")
+            track_list.append("Barin Ruins")
+            track_list.append("Out Of Time")
+            track_list.append("Assembly Lane")
+            track_list.append("Hyper Spaceway")
+        if bonus is True:
+            track_list.append("Twilight Tour")
+            track_list.append("Prehistoric Playground")
+            track_list.append("Spyro Circuit")
+            track_list.append("Nina's Nightmare")
+            track_list.append("Koala Carnival")
+            track_list.append("Gingerbread Joyride")
+            track_list.append("Megamix Mania")
+            track_list.append("Drive-Thru Danger")
 
     timetrial = 0
     if timeTrial is True:
@@ -217,7 +221,7 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
     gather_location.place_locked_item(final_track_item)
     final_track_location.place_locked_item(victory_item)
-    
+
     # Remove the extra gather locations and unneeded final track locations
     for region in multiworld.regions:
         if region.player == player:
