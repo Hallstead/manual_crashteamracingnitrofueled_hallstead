@@ -14,7 +14,7 @@ from ..Data import game_table, item_table, location_table, region_table
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value, is_category_enabled
 
-
+import random
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -82,43 +82,95 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
     
-    # Get the victory item out of the pool:
-    victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
-    item_pool.remove(victory_item)
-    
     # Get Trophy Information
-    tracks = 0
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
     bonus = is_category_enabled(multiworld, player, "Bonus")
+    easy = is_category_enabled(multiworld, player, "Easy")
+    medium = is_category_enabled(multiworld, player, "Medium")
+    hard = is_category_enabled(multiworld, player, "Hard")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+    cups = is_category_enabled(multiworld, player, "Cups")
+    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
 
-    if classic is True:
-        tracks += 18
-    if nitro is True:
-        tracks += 13
-    if bonus is True:
-        tracks += 8
+    if not tracksIncluded and not cups:
+        raise Exception("No mode set for play!")
+
+    track_list = []
+    if tracksIncluded is True:
+        if classic is True:
+            track_list.append("Crash Cove")
+            track_list.append("Mystery Caves")
+            track_list.append("Sewer Speedway")
+            track_list.append("Roo's Tubes")
+            track_list.append("Coco Park")
+            track_list.append("Tiger Temple")
+            track_list.append("Papu's Pyramid")
+            track_list.append("Dingo Canyon")
+            track_list.append("Polar Pass")
+            track_list.append("Tiny Arena")
+            track_list.append("Dragon Mines")
+            track_list.append("Blizzard Bluff")
+            track_list.append("Hot Air Skyway")
+            track_list.append("Cortex Castle")
+            track_list.append("N. Gin Labs")
+            track_list.append("Slide Coliseum")
+            track_list.append("Turbo Track")
+            track_list.append("Oxide Station")
+        if nitro is True:
+            track_list.append("Inferno Island")
+            track_list.append("Jungle Boogie")
+            track_list.append("Clockwork Wumpa")
+            track_list.append("Android Alley")
+            track_list.append("Electron Avenue")
+            track_list.append("Deep Sea Driving")
+            track_list.append("Thunder Struck")
+            track_list.append("Tiny Temple")
+            track_list.append("Meteor Gorge")
+            track_list.append("Barin Ruins")
+            track_list.append("Out Of Time")
+            track_list.append("Assembly Lane")
+            track_list.append("Hyper Spaceway")
+        if bonus is True:
+            track_list.append("Twilight Tour")
+            track_list.append("Prehistoric Playground")
+            track_list.append("Spyro Circuit")
+            track_list.append("Nina's Nightmare")
+            track_list.append("Koala Carnival")
+            track_list.append("Gingerbread Joyride")
+            track_list.append("Megamix Mania")
+            track_list.append("Drive-Thru Danger")
 
     timetrial = 0
-    if is_category_enabled(multiworld, player, "Time Trial") is True:
-        timetrial = tracks
+    if timeTrial is True:
+        timetrial = len(track_list)
 
-    if is_category_enabled(multiworld, player, "Cups") is True:
+    cups_list = []
+    if cups is True:
         if classic is True:
-            tracks += 4
+            cups_list.append("Wumpa Cup")
+            cups_list.append("Nitro Cup")
+            cups_list.append("Crystal Cup")
+            cups_list.append("Crash Cup")
         if nitro is True:
-            tracks += 3
+            cups_list.append("Velo Cup")
+            cups_list.append("Aku Cup")
+            cups_list.append("Uka Cup")
         if bonus is True:
-            tracks += 1
+            cups_list.append("Bonus Cup")
             if classic is True and nitro is True:
-                tracks += 3
+                cups_list.append("Lost Cup")
+                cups_list.append("Desert Cup")
+                cups_list.append("Space Cup")
     
+    tracks = len(track_list) + len(cups_list)
+
     difficulties = 0
-    if is_category_enabled(multiworld, player, "Easy") is True:
+    if easy is True:
         difficulties += 1
-    if is_category_enabled(multiworld, player, "Medium") is True:
+    if medium is True:
         difficulties += 1
-    if is_category_enabled(multiworld, player, "Hard") is True:
+    if hard is True:
         difficulties += 1
 
     max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
@@ -131,31 +183,55 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
         item_pool.remove(item)
         #itemNamesToRemove.append("Trophy")
 
-    # Get the victory location and place the victory item there
-    victory_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
-    for i in range(2, 501):
-        victory_loc_list.append(f"Gather {i} Trophies")
+    # Get the victory item out of the pool:
+    victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
+    item_pool.remove(victory_item)
     
-    for i in range(len(victory_loc_list)):
-        if str(trophies) in victory_loc_list[i]:
+    # Get the victory location and place the victory item there
+    gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
+    for i in range(2, 501):
+        gather_loc_list.append(f"Gather {i} Trophies")
+    
+    for i in range(len(gather_loc_list)):
+        if str(trophies) in gather_loc_list[i]:
             victory_id = i
             break
 
-    #victory_id = get_option_value(multiworld, player, "victory_condition") # This needs to be added in the hooks/Options.py file
-    victory_location_name = victory_loc_list[victory_id]
-    victory_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == victory_location_name)
-    victory_location.place_locked_item(victory_item)
-    
-    # Remove the extra victory locations
+    # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
+    if cups is True:
+        final_track_name = random.choice(list(cups_list))
+        for d in ["Easy", "Medium", "Hard"]:
+            if locals()[d.lower()] is True:
+                for p in ["5th", "3rd", "1st"]:
+                    gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+    else:
+        final_track_name = random.choice(track_list)
+        for d in ["Easy", "Medium", "Hard"]:
+            if locals()[d.lower()] is True:
+                for p in ["5th", "3rd", "1st"]:
+                    gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+
+    # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
+    final_track_location_name = gather_loc_list[-1]
+    final_track_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == final_track_location_name)
+    final_track_item = next(i for i in item_pool if i.name == final_track_name)
+    item_pool.remove(final_track_item)
+        
+    gather_location_name = gather_loc_list[victory_id]
+    gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
+    gather_location.place_locked_item(final_track_item)
+    final_track_location.place_locked_item(victory_item)
+
+    # Remove the extra gather locations and unneeded final track locations
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name in victory_loc_list and location.name != victory_location_name:
+                if location.name in gather_loc_list and location.name != gather_location_name and location.name != final_track_location_name:
                     region.locations.remove(location)
-    
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        item_pool.remove(item)
+
+    #for itemName in itemNamesToRemove:
+    #    item = next(i for i in item_pool if i.name == itemName)
+    #    item_pool.remove(item)
     
     return item_pool
     
