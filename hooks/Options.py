@@ -37,6 +37,15 @@ class percentage_trophies(Range):
     range_end = 100
     default = 100
 
+class starting_locations(Range):
+    """
+    Select the number (1-3) of starting locations.
+    """
+    display_name = "Select the number of starting locations."
+    range_start = 1
+    range_end = 3
+    default = 2
+
 class select_difficulty(Choice):
     """
     Select what difficulty locations are included in the randomizer.
@@ -130,6 +139,7 @@ class included_ghosts(Choice):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["percentage_trophies"] = percentage_trophies
+    options["starting_locations"] = starting_locations
     options["select_difficulty"] = select_difficulty
     options["include_single_race"] = include_single_race
     options["select_race_tracks"] = select_race_tracks

@@ -163,7 +163,7 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
                 cups_list.append("Desert Cup")
                 cups_list.append("Space Cup")
     
-    tracks = len(track_list) + len(cups_list)
+    tracks = len(track_list) + len(cups_list) - 1
 
     difficulties = 0
     if easy is True:
