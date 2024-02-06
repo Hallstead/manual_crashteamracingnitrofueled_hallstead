@@ -3,7 +3,19 @@
 		"name": "Starting Map",
 		"category": ["((~Start~))"],
 		"requires": [],
-		"place_item_category": ["Tracks", "Cups", "Battle Map"]
+		"place_item_category": ["Tracks", "Cups", "Arenas"]
+	},
+	{
+		"name": "Starting Map 2",
+		"category": ["((~Start~))", "SM2"],
+		"requires": [],
+		"place_item_category": ["Tracks", "Cups", "Arenas"]
+	},
+	{
+		"name": "Starting Map 3",
+		"category": ["((~Start~))", "SM3"],
+		"requires": [],
+		"place_item_category": ["Tracks", "Cups", "Arenas"]
 	},
 	{
 		"name": "Goal (All Trophies)",
@@ -4268,902 +4280,902 @@
 	},
 	{
     "name": "Skull Rock - Limit Battle - Easy",
-    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Limit Battle - Medium",
-    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Limit Battle - Hard",
-    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Capture The Flag - Easy",
-    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Capture The Flag - Medium",
-    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Capture The Flag - Hard",
-    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Crystal Grab - Easy",
-    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Crystal Grab - Medium",
-    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Crystal Grab - Hard",
-    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Last Kart Driving - Easy",
-    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Last Kart Driving - Medium",
-    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Last Kart Driving - Hard",
-    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Steal The Bacon - Easy",
-    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Easy", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Steal The Bacon - Medium",
-    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Medium", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Skull Rock - Steal The Bacon - Hard",
-    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Skull Rock", "Classic", "Hard", "Battle"],
     "requires": "|Skull Rock|"
   },
   {
     "name": "Nitro Court - Limit Battle - Easy",
-    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Limit Battle - Medium",
-    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Limit Battle - Hard",
-    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Capture The Flag - Easy",
-    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Capture The Flag - Medium",
-    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Capture The Flag - Hard",
-    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Crystal Grab - Easy",
-    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Crystal Grab - Medium",
-    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Crystal Grab - Hard",
-    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Last Kart Driving - Easy",
-    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Last Kart Driving - Medium",
-    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Last Kart Driving - Hard",
-    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Steal The Bacon - Easy",
-    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Easy", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Steal The Bacon - Medium",
-    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Medium", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Nitro Court - Steal The Bacon - Hard",
-    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Nitro Court", "Classic", "Hard", "Battle"],
     "requires": "|Nitro Court|"
   },
   {
     "name": "Parking Lot - Limit Battle - Easy",
-    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Limit Battle - Medium",
-    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Limit Battle - Hard",
-    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Capture The Flag - Easy",
-    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Capture The Flag - Medium",
-    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Capture The Flag - Hard",
-    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Crystal Grab - Easy",
-    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Crystal Grab - Medium",
-    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Crystal Grab - Hard",
-    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Last Kart Driving - Easy",
-    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Last Kart Driving - Medium",
-    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Last Kart Driving - Hard",
-    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Steal The Bacon - Easy",
-    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Easy", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Steal The Bacon - Medium",
-    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Medium", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Parking Lot - Steal The Bacon - Hard",
-    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Parking Lot", "Classic", "Hard", "Battle"],
     "requires": "|Parking Lot|"
   },
   {
     "name": "Rocky Road - Limit Battle - Easy",
-    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Limit Battle - Medium",
-    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Limit Battle - Hard",
-    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Capture The Flag - Easy",
-    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Capture The Flag - Medium",
-    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Capture The Flag - Hard",
-    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Crystal Grab - Easy",
-    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Crystal Grab - Medium",
-    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Crystal Grab - Hard",
-    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Last Kart Driving - Easy",
-    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Last Kart Driving - Medium",
-    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Last Kart Driving - Hard",
-    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Steal The Bacon - Easy",
-    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Easy", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Steal The Bacon - Medium",
-    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Medium", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Rocky Road - Steal The Bacon - Hard",
-    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rocky Road", "Classic", "Hard", "Battle"],
     "requires": "|Rocky Road|"
   },
   {
     "name": "Lab Basement - Limit Battle - Easy",
-    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Limit Battle - Medium",
-    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Limit Battle - Hard",
-    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Capture The Flag - Easy",
-    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Capture The Flag - Medium",
-    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Capture The Flag - Hard",
-    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Crystal Grab - Easy",
-    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Crystal Grab - Medium",
-    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Crystal Grab - Hard",
-    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Last Kart Driving - Easy",
-    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Last Kart Driving - Medium",
-    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Last Kart Driving - Hard",
-    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Steal The Bacon - Easy",
-    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Easy", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Steal The Bacon - Medium",
-    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Medium", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Lab Basement - Steal The Bacon - Hard",
-    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Lab Basement", "Classic", "Hard", "Battle"],
     "requires": "|Lab Basement|"
   },
   {
     "name": "Rampage Ruins - Limit Battle - Easy",
-    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Limit Battle - Medium",
-    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Limit Battle - Hard",
-    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Capture The Flag - Easy",
-    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Capture The Flag - Medium",
-    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Capture The Flag - Hard",
-    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Crystal Grab - Easy",
-    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Crystal Grab - Medium",
-    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Crystal Grab - Hard",
-    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Last Kart Driving - Easy",
-    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Last Kart Driving - Medium",
-    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Last Kart Driving - Hard",
-    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Steal The Bacon - Easy",
-    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Easy", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Steal The Bacon - Medium",
-    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Medium", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "Rampage Ruins - Steal The Bacon - Hard",
-    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - Rampage Ruins", "Classic", "Hard", "Battle"],
     "requires": "|Rampage Ruins|"
   },
   {
     "name": "The North Bowl - Limit Battle - Easy",
-    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Limit Battle - Medium",
-    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Limit Battle - Hard",
-    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Capture The Flag - Easy",
-    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Capture The Flag - Medium",
-    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Capture The Flag - Hard",
-    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Crystal Grab - Easy",
-    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Crystal Grab - Medium",
-    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Crystal Grab - Hard",
-    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Last Kart Driving - Easy",
-    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Last Kart Driving - Medium",
-    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Last Kart Driving - Hard",
-    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Steal The Bacon - Easy",
-    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Easy", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Steal The Bacon - Medium",
-    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Medium", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "The North Bowl - Steal The Bacon - Hard",
-    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle Map"],
+    "category": ["Arena - The North Bowl", "Classic", "Hard", "Battle"],
     "requires": "|The North Bowl|"
   },
   {
     "name": "Temple Turmoil - Limit Battle - Easy",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Limit Battle - Medium",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Limit Battle - Hard",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Capture The Flag - Easy",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Capture The Flag - Medium",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Capture The Flag - Hard",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Crystal Grab - Easy",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Crystal Grab - Medium",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Crystal Grab - Hard",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Last Kart Driving - Easy",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Last Kart Driving - Medium",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Last Kart Driving - Hard",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Steal The Bacon - Easy",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Easy", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Steal The Bacon - Medium",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Medium", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Temple Turmoil - Steal The Bacon - Hard",
-    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Temple Turmoil", "Nitro", "Hard", "Battle"],
     "requires": "|Temple Turmoil|"
   },
   {
     "name": "Frozen Frenzy - Limit Battle - Easy",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Limit Battle - Medium",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Limit Battle - Hard",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Capture The Flag - Easy",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Capture The Flag - Medium",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Capture The Flag - Hard",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Crystal Grab - Easy",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Crystal Grab - Medium",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Crystal Grab - Hard",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Last Kart Driving - Easy",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Last Kart Driving - Medium",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Last Kart Driving - Hard",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Steal The Bacon - Easy",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Easy", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Steal The Bacon - Medium",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Medium", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Frozen Frenzy - Steal The Bacon - Hard",
-    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Frozen Frenzy", "Nitro", "Hard", "Battle"],
     "requires": "|Frozen Frenzy|"
   },
   {
     "name": "Desert Storm - Limit Battle - Easy",
-    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Limit Battle - Medium",
-    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Limit Battle - Hard",
-    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Capture The Flag - Easy",
-    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Capture The Flag - Medium",
-    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Capture The Flag - Hard",
-    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Crystal Grab - Easy",
-    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Crystal Grab - Medium",
-    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Crystal Grab - Hard",
-    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Last Kart Driving - Easy",
-    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Last Kart Driving - Medium",
-    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Last Kart Driving - Hard",
-    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Steal The Bacon - Easy",
-    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Easy", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Steal The Bacon - Medium",
-    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Medium", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Desert Storm - Steal The Bacon - Hard",
-    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Desert Storm", "Nitro", "Hard", "Battle"],
     "requires": "|Desert Storm|"
   },
   {
     "name": "Magnetic Mayhem - Limit Battle - Easy",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Limit Battle - Medium",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Limit Battle - Hard",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Capture The Flag - Easy",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Capture The Flag - Medium",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Capture The Flag - Hard",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Crystal Grab - Easy",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Crystal Grab - Medium",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Crystal Grab - Hard",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Last Kart Driving - Easy",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Last Kart Driving - Medium",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Last Kart Driving - Hard",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Steal The Bacon - Easy",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Easy", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Steal The Bacon - Medium",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Medium", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Magnetic Mayhem - Steal The Bacon - Hard",
-    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Magnetic Mayhem", "Nitro", "Hard", "Battle"],
     "requires": "|Magnetic Mayhem|"
   },
   {
     "name": "Terra Drome - Limit Battle - Easy",
-    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Limit Battle - Medium",
-    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Limit Battle - Hard",
-    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Capture The Flag - Easy",
-    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Capture The Flag - Medium",
-    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Capture The Flag - Hard",
-    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Crystal Grab - Easy",
-    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Crystal Grab - Medium",
-    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Crystal Grab - Hard",
-    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Last Kart Driving - Easy",
-    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Last Kart Driving - Medium",
-    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Last Kart Driving - Hard",
-    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Steal The Bacon - Easy",
-    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Easy", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Steal The Bacon - Medium",
-    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Medium", "Battle"],
     "requires": "|Terra Drome|"
   },
   {
     "name": "Terra Drome - Steal The Bacon - Hard",
-    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle Map"],
+    "category": ["Arena - Terra Drome", "Nitro", "Hard", "Battle"],
     "requires": "|Terra Drome|"
   },
   {

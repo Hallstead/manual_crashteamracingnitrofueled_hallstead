@@ -64,7 +64,7 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
     
     if category_name == "Battle":
         return False
-    if category_name == "Battle Map":
+    if category_name == "Arenas":
         return False
     
     if category_name == "Time Trial":
@@ -91,4 +91,12 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             if Helpers.get_option_value(world, player, "included_ghosts") >= 3:
                 return True
         return False
+    if category_name == "SM2" or category_name == "SM3":
+        if category_name == "SM2" and Helpers.get_option_value(world, player, "starting_locations") >= 2:
+            return True
+        elif category_name == "SM3" and Helpers.get_option_value(world, player, "starting_locations") >= 3:
+            return True
+        else:
+            return False
     return None
+ 
