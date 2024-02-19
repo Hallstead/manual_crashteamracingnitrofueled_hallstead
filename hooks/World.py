@@ -92,8 +92,9 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+    battle = is_category_enabled(multiworld, player, "Battle")
 
-    if not tracksIncluded and not cups:
+    if not tracksIncluded and not cups and not battle:
         raise Exception("No mode set for play!")
 
     track_list = []
@@ -162,8 +163,25 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
                 cups_list.append("Lost Cup")
                 cups_list.append("Desert Cup")
                 cups_list.append("Space Cup")
+
+    battle_list = []
+    if battle is True:
+        if classic is True:
+            battle_list.append("Skull Rock")
+            battle_list.append("Nitro Court")
+            battle_list.append("Parking Lot")
+            battle_list.append("Rocky Road")
+            battle_list.append("Lab Basement")
+            battle_list.append("Rampage Ruins")
+            battle_list.append("The North Bowl")
+        if nitro is True:
+            battle_list.append("Temple Turmoil")
+            battle_list.append("Frozen Frenzy")
+            battle_list.append("Desert Storm")
+            battle_list.append("Magnetic Mayhem")
+            battle_list.append("Terra Drome")
     
-    tracks = len(track_list) + len(cups_list) - 1
+    tracks = len(track_list) + len(cups_list) + len(battle_list) - 1
 
     difficulties = 0
     if easy is True:
