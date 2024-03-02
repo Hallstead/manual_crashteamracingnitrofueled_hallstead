@@ -15,6 +15,7 @@ from ..Data import game_table, item_table, location_table, region_table
 from ..Helpers import is_option_enabled, get_option_value, is_category_enabled
 
 import random
+import math
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -39,6 +40,48 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove = [] # List of location names
     
     # Add your code here to calculate which locations to remove
+    chunks = is_category_enabled(multiworld, player, "Chunks")
+    
+    if chunks is True:
+        classic = is_category_enabled(multiworld, player, "Classic")
+        nitro = is_category_enabled(multiworld, player, "Nitro")
+        bonus = is_category_enabled(multiworld, player, "Bonus")
+        tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+        cups = is_category_enabled(multiworld, player, "Cups")
+        timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+        battle = is_category_enabled(multiworld, player, "Battle")
+
+        numTracks = 0
+        if tracksIncluded is True:
+            if classic is True:
+                numTracks += 18
+            if nitro is True:
+                numTracks += 13
+            if bonus is True:
+                numTracks += 8
+
+        numCups = 0
+        if cups is True:
+            if classic is True:
+                numCups += 4
+            if nitro is True:
+                numCups += 3
+            if bonus is True:
+                numCups += 1
+                if classic is True and nitro is True:
+                    numCups += 3
+
+        countLeft = numTracks
+        for i in range(1, numCups+1):
+            chunkTracks = math.ceil(countLeft/(numCups-(i-1)))
+            countLeft -= chunkTracks
+            for j in range(chunkTracks+1, 9):
+                locationNamesToRemove.append(f"Chunk {i} Track {j}")
+        for i in range(numCups+1, 12):
+            for j in range(1, 9):
+                locationNamesToRemove.append(f"Chunk {i} Track {j}")
+        for i in range(numCups, 12):
+            locationNamesToRemove.append(f"Chunk {i} Cup")
     
     for region in multiworld.regions:
         if region.player == player:
@@ -56,12 +99,117 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
     
-    def Example_Rule(state: CollectionState) -> bool:
-        # Calculated rules take a CollectionState object and return a boolean 
-        # True if the player can access the location
-        # CollectionState is defined in BaseClasses
-        return True
+    multiplier = get_option_value(multiworld, player, "percentage_trophies")/100
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    easy = is_category_enabled(multiworld, player, "Easy")
+    medium = is_category_enabled(multiworld, player, "Medium")
+    hard = is_category_enabled(multiworld, player, "Hard")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+    cups = is_category_enabled(multiworld, player, "Cups")
+    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+    battle = is_category_enabled(multiworld, player, "Battle")
+    chunks = is_category_enabled(multiworld, player, "Chunks")
+
+    numTracks = 0
+    if tracksIncluded is True:
+        if classic is True:
+            numTracks += 18
+        if nitro is True:
+            numTracks += 13
+        if bonus is True:
+            numTracks += 8
+
+    numCups = 0
+    if cups is True:
+        if classic is True:
+            numCups += 4
+        if nitro is True:
+            numCups += 3
+        if bonus is True:
+            numCups += 1
+            if classic is True and nitro is True:
+                numCups += 3
+
+    difficulties = 0
+    if easy is True:
+        difficulties += 1
+    if medium is True:
+        difficulties += 1
+    if hard is True:
+        difficulties += 1
+
+    maxTrophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
+
+    def needed_trophies(chunkNum):
+        reqTrophies = round(multiplier * maxTrophies / numCups * chunkNum)
+        return reqTrophies
+
+    def req_trophies1(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(1):
+            return True
+        return False
     
+    def req_trophies2(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(2):
+            return True
+        return False
+    
+    def req_trophies3(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(3):
+            return True
+        return False
+    
+    def req_trophies4(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(4):
+            return True
+        return False
+    
+    def req_trophies5(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(5):
+            return True
+        return False
+    
+    def req_trophies6(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(6):
+            return True
+        return False
+    
+    def req_trophies7(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(7):
+            return True
+        return False
+    
+    def req_trophies8(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(8):
+            return True
+        return False
+    
+    def req_trophies9(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(9):
+            return True
+        return False
+    
+    def req_trophies10(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(10):
+            return True
+        return False
+    
+    def req_trophies11(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(11):
+            return True
+        return False
+    
+    
+    if chunks is True:
+        for i in range(1, numCups):
+            chunk_loc = f"Chunk {i} Cup"
+            req_func = f"req_trophies{i}"
+            location = multiworld.get_location(chunk_loc, player)
+            location.access_rule = locals()[req_func]
+    
+
     ## Common functions:
     # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
@@ -93,7 +241,8 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     cups = is_category_enabled(multiworld, player, "Cups")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     battle = is_category_enabled(multiworld, player, "Battle")
-
+    chunks = is_category_enabled(multiworld, player, "Chunks")
+    
     if not tracksIncluded and not cups and not battle:
         raise Exception("No mode set for play!")
 
@@ -182,6 +331,8 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
             battle_list.append("Terra Drome")
     
     tracks = len(track_list) + len(cups_list) + len(battle_list) - 1
+    if chunks is True:
+        tracks = len(track_list) + len(battle_list)
 
     difficulties = 0
     if easy is True:
@@ -239,7 +390,36 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
     gather_location.place_locked_item(final_track_item)
     final_track_location.place_locked_item(victory_item)
+    
+    #If using Chunks, remove access Chunk Unlocks, then assign the rest to the cup locations.
+    if chunks is True:
+        diff = ""
+        if hard:
+            diff = "Hard"
+        elif medium:
+            diff = "Medium"
+        elif easy:
+            diff = "Easy"
+        for i in range(len(cups_list), 11):
+            item = next(i for i in item_pool if i.name == "Chunk Unlock")
+            item_pool.remove(item)
+        for cup in cups_list:
+            if cup in final_track_location_name:
+                continue
+            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == f"{cup} - {diff} - 1st")
+            item = next(i for i in item_pool if i.name == "Chunk Unlock")
+            item_pool.remove(item)
+            location.place_locked_item(item)
+            if hard:
+                if easy:
+                    gather_loc_list.append(f"{cup} - Easy - 1st")
+                if medium:
+                    gather_loc_list.append(f"{cup} - Medium - 1st")
+            elif medium:
+                if easy:
+                    gather_loc_list.append(f"{cup} - Easy - 1st")
 
+    
     # Remove the extra gather locations and unneeded final track locations
     for region in multiworld.regions:
         if region.player == player:

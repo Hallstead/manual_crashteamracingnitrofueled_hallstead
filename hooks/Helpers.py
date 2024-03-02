@@ -98,5 +98,13 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
             return True
         else:
             return False
+    if category_name == "Chunks":
+        if Helpers.get_option_value(world, player, "unlock_mode") == 1:
+            return True
+        return False
+    if category_name == "Not Chunks":
+        if Helpers.get_option_value(world, player, "unlock_mode") == 0:
+            return True
+        return False
     return None
  
