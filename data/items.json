@@ -12,6 +12,12 @@
 		"progression": true
 	},
 	{
+		"count":10,
+		"name": "Chunk Unlock",
+		"category": ["Chunks"],
+		"progression": true
+	},
+	{
 		"count":1,
 		"name": "Crash Cove",
 		"category": ["Tracks", "Classic"],

@@ -62,6 +62,17 @@ class select_difficulty(Choice):
     option_all = 6
     default = 2
 
+class unlock_mode(Choice):
+    """
+    Individual: Tracks are unlocked as their unlock item is obtained.
+    Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.
+        This option forces Cups to be included.
+    """
+    display_name = "Game Unlock Mode"
+    option_individual = 0
+    option_chunks = 1
+    default = 0
+
 class include_single_race(DefaultOnToggle):
     """
     Choose whether to include Single Race arcade mode.
@@ -119,7 +130,7 @@ class select_battle_tracks(Choice):
 class include_time_trial(Toggle):
     """
     Choose whether to include Time Trial mode.
-    At least one game mode must be included to generate.
+    Presently, this mode cannot be on by itself.
     """
     display_name = "Include Time Trial Mode?"
     
@@ -139,6 +150,7 @@ class included_ghosts(Choice):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["percentage_trophies"] = percentage_trophies
+    options["unlock_mode"] = unlock_mode
     options["starting_locations"] = starting_locations
     options["select_difficulty"] = select_difficulty
     options["include_single_race"] = include_single_race
