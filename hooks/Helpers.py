@@ -59,6 +59,8 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
     if category_name == "Cups" or category_name == "Cups_option":
         if Helpers.get_option_value(world, player, "include_cups") == 1:
             return True
+        elif Helpers.get_option_value(world, player, "unlock_mode") == 1:
+            return True
         else:
             return False
     

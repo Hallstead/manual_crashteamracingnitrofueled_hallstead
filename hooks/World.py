@@ -121,6 +121,11 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         if bonus is True:
             numTracks += 8
 
+    timetrial_locs = 0
+    if timeTrial is True:
+        ghosts = get_option_value(world, player, "included_ghosts") + 1
+        timetrial_locs = numTracks * ghosts
+
     numCups = 0
     if cups is True:
         if classic is True:
@@ -140,10 +145,13 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     if hard is True:
         difficulties += 1
 
-    maxTrophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
+    if not chunks:
+        max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
+    else:
+        max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
 
     def needed_trophies(chunkNum):
-        reqTrophies = round(multiplier * maxTrophies / numCups * chunkNum)
+        reqTrophies = round(multiplier * max_trophies / numCups * chunkNum)
         return reqTrophies
 
     def req_trophies1(state: CollectionState) -> bool:
@@ -291,9 +299,10 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
             track_list.append("Megamix Mania")
             track_list.append("Drive-Thru Danger")
 
-    timetrial = 0
+    timetrial_locs = 0
     if timeTrial is True:
-        timetrial = len(track_list)
+        ghosts = get_option_value(multiworld, player, "included_ghosts") + 1
+        timetrial_locs = len(track_list) * ghosts
 
     cups_list = []
     if cups is True:
@@ -342,16 +351,19 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     if hard is True:
         difficulties += 1
 
-    max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
+    if not chunks:
+        max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
+    else:
+        max_trophies = round(((tracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
     trophies = round(max_trophies * multiplier / 100)
-
+    
     bad_trophies = 500-max_trophies
-    for i in range(bad_trophies):
+    for _ in range(bad_trophies):
         item = next(i for i in item_pool if i.name == "Trophy")
         item_pool.remove(item)
-        #itemNamesToRemove.append("Trophy")
-
+        itemNamesToRemove.append("Trophy")
+    
     # Get the victory item out of the pool:
     victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
     item_pool.remove(victory_item)
@@ -400,24 +412,24 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
             diff = "Medium"
         elif easy:
             diff = "Easy"
-        for i in range(len(cups_list), 11):
+        
+        for _ in range(len(cups_list), 11): # Remove excess Chunk Unlock items
             item = next(i for i in item_pool if i.name == "Chunk Unlock")
             item_pool.remove(item)
-        for cup in cups_list:
+        for cup in cups_list: # Assign the remaining Chunk Unlock items to the cup locations
             if cup in final_track_location_name:
                 continue
             location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == f"{cup} - {diff} - 1st")
             item = next(i for i in item_pool if i.name == "Chunk Unlock")
             item_pool.remove(item)
             location.place_locked_item(item)
-            if hard:
-                if easy:
+            # add extra cup locations to gather_loc_list for deletion
+            if easy:
+                if medium or hard:
                     gather_loc_list.append(f"{cup} - Easy - 1st")
-                if medium:
+            if medium:
+                if hard:
                     gather_loc_list.append(f"{cup} - Medium - 1st")
-            elif medium:
-                if easy:
-                    gather_loc_list.append(f"{cup} - Easy - 1st")
 
     
     # Remove the extra gather locations and unneeded final track locations

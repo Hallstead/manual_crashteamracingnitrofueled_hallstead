@@ -38,8 +38,7 @@ def before_location_table_processed(location_table: list) -> list:
             location = {}
             location["name"] = f"Chunk {i} Track {j}"
             location["category"] = ["Chunks", f"Chunk {i}"]
-            if i != 1:
-                location["requires"] = f"|Chunk Unlock:{i-1}|"
+            location["requires"] = f"|Chunk Unlock:{i}|"
             location["place_item_category"] = ["Tracks", "Arenas"]
             location_table.append(location)
         location = {}
