@@ -1,4 +1,5 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
+import random
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState
 
@@ -12,17 +13,17 @@ from ..Locations import ManualLocation
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_option_enabled, get_option_value, is_category_enabled
+from ..Helpers import is_category_enabled, is_option_enabled, get_option_value
 
-import random
-import math
+
 
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
-##    2. set_rules - Creates rules for accessing regions and locations
-##    3. generate_basic - Creates the item pool and runs any place_item options
-##    4. pre_fill - Creates the victory location
+##    2. create_items - Creates the item pool
+##    3. set_rules - Creates rules for accessing regions and locations
+##    4. generate_basic - Runs any post item pool options, like place item/category
+##    5. pre_fill - Creates the victory location
 ##
 ## The create_item method is used by plando and start_inventory settings to create an item from an item name.
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
@@ -30,11 +31,11 @@ import math
 
 
 
-# Called before regions and locations are created. Not clear why you'd want this, but it's here.
+# Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     pass
 
-# Called after regions and locations are created, in case you want to see or modify that information.
+# Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
@@ -91,145 +92,12 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if hasattr(multiworld, "clear_location_cache"):
         multiworld.clear_location_cache()
 
-# Called before rules for accessing regions and locations are created. Not clear why you'd want this, but it's here.
-def before_set_rules(world: World, multiworld: MultiWorld, player: int):
-    pass
+# The item pool before starting items are processed, in case you want to see the raw item pool at that stage
+def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    return item_pool
 
-# Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
-def after_set_rules(world: World, multiworld: MultiWorld, player: int):
-    # Use this hook to modify the access rules for a given location
-    
-    multiplier = get_option_value(multiworld, player, "percentage_trophies")/100
-    classic = is_category_enabled(multiworld, player, "Classic")
-    nitro = is_category_enabled(multiworld, player, "Nitro")
-    bonus = is_category_enabled(multiworld, player, "Bonus")
-    easy = is_category_enabled(multiworld, player, "Easy")
-    medium = is_category_enabled(multiworld, player, "Medium")
-    hard = is_category_enabled(multiworld, player, "Hard")
-    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
-    cups = is_category_enabled(multiworld, player, "Cups")
-    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-    battle = is_category_enabled(multiworld, player, "Battle")
-    chunks = is_category_enabled(multiworld, player, "Chunks")
-
-    numTracks = 0
-    if tracksIncluded is True:
-        if classic is True:
-            numTracks += 18
-        if nitro is True:
-            numTracks += 13
-        if bonus is True:
-            numTracks += 8
-
-    timetrial_locs = 0
-    if timeTrial is True:
-        ghosts = get_option_value(world, player, "included_ghosts") + 1
-        timetrial_locs = numTracks * ghosts
-
-    numCups = 0
-    if cups is True:
-        if classic is True:
-            numCups += 4
-        if nitro is True:
-            numCups += 3
-        if bonus is True:
-            numCups += 1
-            if classic is True and nitro is True:
-                numCups += 3
-
-    difficulties = 0
-    if easy is True:
-        difficulties += 1
-    if medium is True:
-        difficulties += 1
-    if hard is True:
-        difficulties += 1
-
-    if not chunks:
-        max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
-    else:
-        max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
-
-    def needed_trophies(chunkNum):
-        reqTrophies = round(multiplier * max_trophies / numCups * chunkNum)
-        return reqTrophies
-
-    def req_trophies1(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(1):
-            return True
-        return False
-    
-    def req_trophies2(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(2):
-            return True
-        return False
-    
-    def req_trophies3(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(3):
-            return True
-        return False
-    
-    def req_trophies4(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(4):
-            return True
-        return False
-    
-    def req_trophies5(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(5):
-            return True
-        return False
-    
-    def req_trophies6(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(6):
-            return True
-        return False
-    
-    def req_trophies7(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(7):
-            return True
-        return False
-    
-    def req_trophies8(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(8):
-            return True
-        return False
-    
-    def req_trophies9(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(9):
-            return True
-        return False
-    
-    def req_trophies10(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(10):
-            return True
-        return False
-    
-    def req_trophies11(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(11):
-            return True
-        return False
-    
-    
-    if chunks is True:
-        for i in range(1, numCups):
-            chunk_loc = f"Chunk {i} Cup"
-            req_func = f"req_trophies{i}"
-            location = multiworld.get_location(chunk_loc, player)
-            location.access_rule = locals()[req_func]
-    
-
-    ## Common functions:
-    # location = world.get_location(location_name, player)
-    # location.access_rule = Example_Rule
-    
-    ## Combine rules:
-    # old_rule = location.access_rule
-    # location.access_rule = lambda state: old_rule(state) and Example_Rule(state)
-    # OR
-    # location.access_rule = lambda state: old_rule(state) or Example_Rule(state)
-
-# The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
-def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+# The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
+def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
     itemNamesToRemove = [] # List of item names
     
@@ -403,7 +271,7 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     gather_location.place_locked_item(final_track_item)
     final_track_location.place_locked_item(victory_item)
     
-    #If using Chunks, remove access Chunk Unlocks, then assign the rest to the cup locations.
+    #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
     if chunks is True:
         diff = ""
         if hard:
@@ -444,26 +312,154 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     #    item_pool.remove(item)
     
     return item_pool
-    
+
     # Some other useful hook options:
-    
+
     ## Place an item at a specific location
     # location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Location Name")
     # item_to_place = next(i for i in item_pool if i.name == "Item Name")
     # location.place_locked_item(item_to_place)
     # item_pool.remove(item_to_place)
 
-# This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
-def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
+# The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
+def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    return item_pool
+
+# Called before rules for accessing regions and locations are created. Not clear why you'd want this, but it's here.
+def before_set_rules(world: World, multiworld: MultiWorld, player: int):
     pass
 
-# This method is called before the victory location has the victory event placed and locked
-def before_pre_fill(world: World, multiworld: MultiWorld, player: int):
-    pass
+# Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
+def after_set_rules(world: World, multiworld: MultiWorld, player: int):
+    # Use this hook to modify the access rules for a given location
 
-# This method is called after the victory location has the victory event placed and locked
-def after_pre_fill(world: World, multiworld: MultiWorld, player: int):
-    pass
+    multiplier = get_option_value(multiworld, player, "percentage_trophies")/100
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    easy = is_category_enabled(multiworld, player, "Easy")
+    medium = is_category_enabled(multiworld, player, "Medium")
+    hard = is_category_enabled(multiworld, player, "Hard")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+    cups = is_category_enabled(multiworld, player, "Cups")
+    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+    battle = is_category_enabled(multiworld, player, "Battle")
+    chunks = is_category_enabled(multiworld, player, "Chunks")
+
+    numTracks = 0
+    if tracksIncluded is True:
+        if classic is True:
+            numTracks += 18
+        if nitro is True:
+            numTracks += 13
+        if bonus is True:
+            numTracks += 8
+
+    timetrial_locs = 0
+    if timeTrial is True:
+        ghosts = get_option_value(world, player, "included_ghosts") + 1
+        timetrial_locs = numTracks * ghosts
+
+    numCups = 0
+    if cups is True:
+        if classic is True:
+            numCups += 4
+        if nitro is True:
+            numCups += 3
+        if bonus is True:
+            numCups += 1
+            if classic is True and nitro is True:
+                numCups += 3
+
+    difficulties = 0
+    if easy is True:
+        difficulties += 1
+    if medium is True:
+        difficulties += 1
+    if hard is True:
+        difficulties += 1
+
+    if not chunks:
+        max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
+    else:
+        max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
+
+    def needed_trophies(chunkNum):
+        reqTrophies = round(multiplier * max_trophies / numCups * chunkNum)
+        return reqTrophies
+
+    def req_trophies1(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(1):
+            return True
+        return False
+    
+    def req_trophies2(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(2):
+            return True
+        return False
+    
+    def req_trophies3(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(3):
+            return True
+        return False
+    
+    def req_trophies4(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(4):
+            return True
+        return False
+    
+    def req_trophies5(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(5):
+            return True
+        return False
+    
+    def req_trophies6(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(6):
+            return True
+        return False
+    
+    def req_trophies7(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(7):
+            return True
+        return False
+    
+    def req_trophies8(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(8):
+            return True
+        return False
+    
+    def req_trophies9(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(9):
+            return True
+        return False
+    
+    def req_trophies10(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(10):
+            return True
+        return False
+    
+    def req_trophies11(state: CollectionState) -> bool:
+        if state.count("Trophy", player) >= needed_trophies(11):
+            return True
+        return False
+    
+    
+    if chunks is True:
+        for i in range(1, numCups):
+            chunk_loc = f"Chunk {i} Cup"
+            req_func = f"req_trophies{i}"
+            location = multiworld.get_location(chunk_loc, player)
+            location.access_rule = locals()[req_func]
+
+    ## Common functions:
+    # location = world.get_location(location_name, player)
+    # location.access_rule = Example_Rule
+
+    ## Combine rules:
+    # old_rule = location.access_rule
+    # location.access_rule = lambda state: old_rule(state) and Example_Rule(state)
+    # OR
+    # location.access_rule = lambda state: old_rule(state) or Example_Rule(state)
 
 # The item name to create is provided before the item is created, in case you want to make changes to it
 def before_create_item(item_name: str, world: World, multiworld: MultiWorld, player: int) -> str:
@@ -473,6 +469,14 @@ def before_create_item(item_name: str, world: World, multiworld: MultiWorld, pla
 def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, player: int) -> ManualItem:
     return item
 
+# This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
+def before_generate_basic(world: World, multiworld: MultiWorld, player: int) -> list:
+    pass
+
+# This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
+def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
+    pass
+
 # This is called before slot data is set and provides an empty dict ({}), in case you want to modify it before Manual does
 def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
     return slot_data
@@ -480,3 +484,7 @@ def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld,
 # This is called after slot data is set and provides the slot data at the time, in case you want to check and modify it after Manual is done with it
 def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
     return slot_data
+
+# This is called right at the end, in case you want to write stuff to the spoiler log
+def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -> None:
+    pass
