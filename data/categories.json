@@ -59,6 +59,9 @@
     "Time Trial": {
         "hidden": false
     },
+    "Time Trial Option": {
+        "hidden": true
+    },
     "N. Tropy": {
         "hidden": true
     },

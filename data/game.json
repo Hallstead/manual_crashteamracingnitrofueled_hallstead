@@ -2,5 +2,12 @@
   "game": "CrashTeamRacingNitroFueled",
   "player": "Hallstead",
   "filler_item_name": "WOAH",
-  "starting_items": []
+  "starting_items": [
+    {
+      "items": [
+        "Chunk Unlock"
+      ],
+      "random": 1
+    }
+  ]
 }
