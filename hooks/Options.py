@@ -130,7 +130,7 @@ class select_battle_tracks(Choice):
 class include_time_trial(Toggle):
     """
     Choose whether to include Time Trial mode.
-    Presently, this mode cannot be on by itself.
+    Presently, this mode also requires individual tracks to be on or generation will error.
     """
     display_name = "Include Time Trial Mode?"
     

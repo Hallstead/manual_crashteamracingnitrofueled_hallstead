@@ -1,4 +1,5 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
+import math
 import random
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState
@@ -39,7 +40,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
-    
+
     # Add your code here to calculate which locations to remove
     chunks = is_category_enabled(multiworld, player, "Chunks")
     
@@ -100,9 +101,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
     itemNamesToRemove = [] # List of item names
-    
+
     # Add your code here to calculate which items to remove.
-    # 
+    #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
     
@@ -357,7 +358,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
 
     timetrial_locs = 0
     if timeTrial is True:
-        ghosts = get_option_value(world, player, "included_ghosts") + 1
+        ghosts = get_option_value(multiworld, player, "included_ghosts") + 1
         timetrial_locs = numTracks * ghosts
 
     numCups = 0
@@ -452,7 +453,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             location.access_rule = locals()[req_func]
 
     ## Common functions:
-    # location = world.get_location(location_name, player)
+    # location = multiworld.get_location(location_name, player)
     # location.access_rule = Example_Rule
 
     ## Combine rules:
