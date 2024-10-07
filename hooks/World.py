@@ -16,7 +16,8 @@ from ..Data import game_table, item_table, location_table, region_table
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_category_enabled, is_option_enabled, get_option_value
 
-
+# calling logging.info("message") anywhere below in this file will output the message to both console and log file
+import logging
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -453,7 +454,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             location.access_rule = locals()[req_func]
 
     ## Common functions:
-    # location = multiworld.get_location(location_name, player)
+    # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
 
     ## Combine rules:
