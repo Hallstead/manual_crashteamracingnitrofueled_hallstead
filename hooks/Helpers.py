@@ -64,6 +64,16 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         else:
             return False
+        
+    if category_name == "Cups Items":
+        if Helpers.get_option_value(multiworld, player, "include_cups") == 0: # Cups = False
+            return False
+        elif Helpers.get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
+            return True
+        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
+            return True
+        else:
+            return False
     
     if category_name == "Battle":
         return False

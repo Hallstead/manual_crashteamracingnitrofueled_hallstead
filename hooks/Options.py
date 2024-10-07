@@ -35,7 +35,7 @@ class percentage_trophies(Range):
     display_name = "What percentage of trophies to collect?"
     range_start = 1
     range_end = 100
-    default = 100
+    default = 80
 
 class starting_locations(Range):
     """
@@ -45,6 +45,15 @@ class starting_locations(Range):
     range_start = 1
     range_end = 3
     default = 2
+
+class final_challenge(Toggle):
+    """
+    This option determines if there is a final challenge after collecting the number of trophies.
+    If disabled, collecting the trophies will be the goal.
+    If enabled, a random track or cup (if enabled) will be selected as a final challenge to beat.
+    At this time, enabling this option forces cups_unlock_method to use Cup Items.
+    """
+    display_name = "Enable Final Challenge?"
 
 class select_difficulty(Choice):
     """
@@ -66,7 +75,7 @@ class unlock_mode(Choice):
     """
     Individual: Tracks are unlocked as their unlock item is obtained.
     Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.
-        This option forces Cups to be included.
+        This option forces Cups to be included with Cup Items in the pool.
     """
     display_name = "Game Unlock Mode"
     option_individual = 0
@@ -105,6 +114,17 @@ class include_cups(Toggle):
     At least one game mode must be included to generate.
     """
     display_name = "Include Cup Race Mode?"
+
+class cups_unlock_method(Choice):
+    """
+    Choose the method for unlocking cups.
+    Four Tracks uses the four tracks included in each cup to unlock it. Having access to all four tracks unlocks access to the corresponding cup.
+    Cup Item adds a cup item to the pool for each cup that unlocks that cup. Having the cup item unlocks the cup regardless of if you have access to its four tracks.
+    This setting does nothing if Cups are not included.
+    """
+    display_name = "Cups Unlock Method"
+    option_four_tracks = 0
+    option_cup_item = 1
 
 class include_battle(Toggle):
     """
@@ -152,10 +172,12 @@ def before_options_defined(options: dict) -> dict:
     options["percentage_trophies"] = percentage_trophies
     options["unlock_mode"] = unlock_mode
     options["starting_locations"] = starting_locations
+    options["final_challenge"] = final_challenge
     options["select_difficulty"] = select_difficulty
     options["include_single_race"] = include_single_race
     options["select_race_tracks"] = select_race_tracks
     options["include_cups"] = include_cups
+    options["cups_unlock_method"] = cups_unlock_method
     #options["include_battle"] = include_battle
     #options["select_battle_tracks"] = select_battle_tracks
     options["include_time_trial"] = include_time_trial
