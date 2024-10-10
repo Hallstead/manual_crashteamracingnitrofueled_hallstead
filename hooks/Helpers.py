@@ -43,16 +43,12 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             elif selection == 0 or selection == 1 or selection == 3:
                 return False
         
-    if category_name == "Tracks":
+    if category_name == "Tracks" or category_name == "Single":
         if Helpers.get_option_value(multiworld, player, "include_single_race") == 1:
             return True
         elif Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             return True
-        else:
-            return False
-
-    if category_name == "Single":
-        if Helpers.get_option_value(multiworld, player, "include_single_race") == 1:
+        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
             return True
         else:
             return False
@@ -60,17 +56,19 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "Cups" or category_name == "Cups_option":
         if Helpers.get_option_value(multiworld, player, "include_cups") == 1:
             return True
-        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1:
+        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
             return True
         else:
             return False
         
     if category_name == "Cups Items":
-        if Helpers.get_option_value(multiworld, player, "include_cups") == 0: # Cups = False
-            return False
-        elif Helpers.get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
+        if Helpers.get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
             return True
         elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
+            return True
+        elif Helpers.get_option_value(multiworld, player, "include_single_race") == 0: # Tracks not included
+            return True
+        elif Helpers.get_option_value(multiworld, player, "goal_type") == 1: # Final Challenge:
             return True
         else:
             return False

@@ -35,7 +35,16 @@ import logging
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    pass
+    # Get goal location index
+    if get_option_value(multiworld, player, "unlock_mode") == 1:
+        goal_index = world.victory_names.index("Goal (Final Challenge)")
+    elif get_option_value(multiworld, player, "goal_type") == 0:
+        goal_index = world.victory_names.index("Goal (Trophy Hunt)")
+    else:
+        goal_index = world.victory_names.index("Goal (Final Challenge)")
+
+    # Set goal location
+    world.options.goal.value = goal_index
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -121,7 +130,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     battle = is_category_enabled(multiworld, player, "Battle")
     chunks = is_category_enabled(multiworld, player, "Chunks")
-    final_challenge = get_option_value(multiworld, player, "final_challenge")
+    final_challenge = get_option_value(multiworld, player, "goal_type")
     if chunks:
         final_challenge = 1
     

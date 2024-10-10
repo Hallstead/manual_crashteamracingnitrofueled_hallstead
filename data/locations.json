@@ -1,8 +1,14 @@
 [
 	{
-		"name": "Goal (All Trophies)",
+		"name": "Goal (Trophy Hunt)",
 		"victory": true,
 		"requires": "|Ultimate Trophy (Victory)|",
-		"category": []
+		"category": ["((~Goal~))"]
+	},
+	{
+		"name": "Goal (Final Challenge)",
+		"victory": true,
+		"requires": "|Ultimate Trophy (Victory)|",
+		"category": ["((~Goal~))"]
 	}
 ]
