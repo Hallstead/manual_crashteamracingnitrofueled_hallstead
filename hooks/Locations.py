@@ -8,13 +8,13 @@ import pkgutil
 def before_location_table_processed(location_table: list) -> list:
     location = {}
     location["name"] = "Gather 1 Trophy"
-    location["category"] = ["((~Goal~))"]
+    location["category"] = ["((~Objective~))"]
     location["requires"] = "|@Trophies:1|"
     location_table.append(location)
     for i in range(2, 501):
         location = {}
         location["name"] = f"Gather {i} Trophies"
-        location["category"] = ["((~Goal~))"]
+        location["category"] = ["((~Objective~))"]
         location["requires"] = f"|@Trophies:{i}|"
         location_table.append(location)
 

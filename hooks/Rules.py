@@ -1,7 +1,9 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, is_category_enabled
 from BaseClasses import MultiWorld, CollectionState
+from worlds.AutoWorld import World
+
 
 import re
 
@@ -135,3 +137,13 @@ def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionStat
     if state.can_reach_location(location, player):
         return True
     return False
+
+# Rule for is category disabled
+def CategoryEnabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int, param: str) -> bool:
+    """Is a yaml option enabled?"""
+    return is_category_enabled(multiworld, player, param)
+
+# Rule for is category disabled
+def CategoryDisabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int, param: str) -> bool:
+    """Is a yaml option disabled?"""
+    return not is_category_enabled(multiworld, player, param)

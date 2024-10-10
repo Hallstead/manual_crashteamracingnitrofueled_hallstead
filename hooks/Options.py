@@ -27,6 +27,19 @@ from ..Helpers import is_option_enabled, get_option_value
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 
+class goal_type(Choice):
+    """
+    This option determines the goal. if there is a final challenge after collecting the number of trophies.
+    Trophy Hunt sets collecting the trophies to be the goal.
+    Final Challenge still has you collect trophies, but after gathering the necessary amount, a random track
+        or cup (if enabled) will be selected as a final challenge to beat.
+        At this time, enabling this option forces cups_unlock_method to use Cup Items.
+    """
+    display_name = "Enable Final Challenge?"
+    option_trophy_hunt = 0
+    option_final_challenge = 1
+    default = 0
+
 class percentage_trophies(Range):
     """
     Select what percentage (1-100) of trophies are needed to achieve the goal.
@@ -45,15 +58,6 @@ class starting_locations(Range):
     range_start = 1
     range_end = 3
     default = 2
-
-class final_challenge(Toggle):
-    """
-    This option determines if there is a final challenge after collecting the number of trophies.
-    If disabled, collecting the trophies will be the goal.
-    If enabled, a random track or cup (if enabled) will be selected as a final challenge to beat.
-    At this time, enabling this option forces cups_unlock_method to use Cup Items.
-    """
-    display_name = "Enable Final Challenge?"
 
 class select_difficulty(Choice):
     """
@@ -76,6 +80,7 @@ class unlock_mode(Choice):
     Individual: Tracks are unlocked as their unlock item is obtained.
     Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.
         This option forces Cups to be included with Cup Items in the pool.
+        Final Challenge is the goal for this option.
     """
     display_name = "Game Unlock Mode"
     option_individual = 0
@@ -169,10 +174,10 @@ class included_ghosts(Choice):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
+    options["goal_type"] = goal_type
     options["percentage_trophies"] = percentage_trophies
     options["unlock_mode"] = unlock_mode
     options["starting_locations"] = starting_locations
-    options["final_challenge"] = final_challenge
     options["select_difficulty"] = select_difficulty
     options["include_single_race"] = include_single_race
     options["select_race_tracks"] = select_race_tracks
@@ -187,4 +192,5 @@ def before_options_defined(options: dict) -> dict:
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
 def after_options_defined(options: dict) -> dict:
+    options["goal"].visibility = 8 #hidden
     return options
