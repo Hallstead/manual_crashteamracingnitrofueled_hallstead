@@ -271,13 +271,13 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             final_track_name = random.choice(list(cups_list))
             for d in ["Easy", "Medium", "Hard"]:
                 if locals()[d.lower()] is True:
-                    for p in ["5th", "3rd", "1st"]:
+                    for p in ["Top 5", "Top 3", "1st"]:
                         gather_loc_list.append(f"{final_track_name} - {d} - {p}")
         else:
             final_track_name = random.choice(track_list)
             for d in ["Easy", "Medium", "Hard"]:
                 if locals()[d.lower()] is True:
-                    for p in ["5th", "3rd", "1st"]:
+                    for p in ["Top 5", "Top 3", "1st"]:
                         gather_loc_list.append(f"{final_track_name} - {d} - {p}")
 
         # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
