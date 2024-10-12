@@ -16,7 +16,8 @@ from ..Data import game_table, item_table, location_table, region_table
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_category_enabled, is_option_enabled, get_option_value
 
-
+# calling logging.info("message") anywhere below in this file will output the message to both console and log file
+import logging
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -34,7 +35,16 @@ from ..Helpers import is_category_enabled, is_option_enabled, get_option_value
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    pass
+    # Get goal location index
+    if get_option_value(multiworld, player, "unlock_mode") == 1:
+        goal_index = world.victory_names.index("Goal (Final Challenge)")
+    elif get_option_value(multiworld, player, "goal_type") == 0:
+        goal_index = world.victory_names.index("Goal (Trophy Hunt)")
+    else:
+        goal_index = world.victory_names.index("Goal (Final Challenge)")
+
+    # Set goal location
+    world.options.goal.value = goal_index
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -116,9 +126,13 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     hard = is_category_enabled(multiworld, player, "Hard")
     tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
+    cups_items = is_category_enabled(multiworld, player, "Cups Items")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     battle = is_category_enabled(multiworld, player, "Battle")
     chunks = is_category_enabled(multiworld, player, "Chunks")
+    final_challenge = get_option_value(multiworld, player, "goal_type")
+    if chunks:
+        final_challenge = 1
     
     if not tracksIncluded and not cups and not battle:
         raise Exception("No mode set for play!")
@@ -247,30 +261,35 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             victory_id = i
             break
 
-    # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
-    if cups is True:
-        final_track_name = random.choice(list(cups_list))
-        for d in ["Easy", "Medium", "Hard"]:
-            if locals()[d.lower()] is True:
-                for p in ["5th", "3rd", "1st"]:
-                    gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-    else:
-        final_track_name = random.choice(track_list)
-        for d in ["Easy", "Medium", "Hard"]:
-            if locals()[d.lower()] is True:
-                for p in ["5th", "3rd", "1st"]:
-                    gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-
-    # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
-    final_track_location_name = gather_loc_list[-1]
-    final_track_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == final_track_location_name)
-    final_track_item = next(i for i in item_pool if i.name == final_track_name)
-    item_pool.remove(final_track_item)
-        
     gather_location_name = gather_loc_list[victory_id]
     gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
-    gather_location.place_locked_item(final_track_item)
-    final_track_location.place_locked_item(victory_item)
+    final_track_location_name = ""
+
+    # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
+    if final_challenge:
+        if cups is True:
+            final_track_name = random.choice(list(cups_list))
+            for d in ["Easy", "Medium", "Hard"]:
+                if locals()[d.lower()] is True:
+                    for p in ["Top 5", "Top 3", "1st"]:
+                        gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+        else:
+            final_track_name = random.choice(track_list)
+            for d in ["Easy", "Medium", "Hard"]:
+                if locals()[d.lower()] is True:
+                    for p in ["Top 5", "Top 3", "1st"]:
+                        gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+
+        # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
+        final_track_location_name = gather_loc_list[-1]
+        final_track_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == final_track_location_name)
+        final_track_item = next(i for i in item_pool if i.name == final_track_name)
+        item_pool.remove(final_track_item)
+
+        gather_location.place_locked_item(final_track_item)
+        final_track_location.place_locked_item(victory_item)
+    else:
+        gather_location.place_locked_item(victory_item)
     
     #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
     if chunks is True:
@@ -305,6 +324,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
+
                 if location.name in gather_loc_list and location.name != gather_location_name and location.name != final_track_location_name:
                     region.locations.remove(location)
 
@@ -453,7 +473,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             location.access_rule = locals()[req_func]
 
     ## Common functions:
-    # location = multiworld.get_location(location_name, player)
+    # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
 
     ## Combine rules:

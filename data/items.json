@@ -1262,67 +1262,67 @@
   {
     "count":1,
     "name": "Wumpa Cup",
-    "category": ["Cups", "Classic"],
+    "category": ["Cups", "Cups Items", "Classic"],
     "progression": true
   },
   {
     "count":1,
     "name": "Nitro Cup",
-    "category": ["Cups", "Classic"],
+    "category": ["Cups", "Cups Items", "Classic"],
     "progression": true
   },
   {
     "count":1,
     "name": "Crystal Cup",
-    "category": ["Cups", "Classic"],
+    "category": ["Cups", "Cups Items", "Classic"],
     "progression": true
   },
   {
     "count":1,
     "name": "Crash Cup",
-    "category": ["Cups", "Classic"],
+    "category": ["Cups", "Cups Items", "Classic"],
     "progression": true
   },
   {
     "count":1,
     "name": "Velo Cup",
-    "category": ["Cups", "Nitro"],
+    "category": ["Cups", "Cups Items", "Nitro"],
     "progression": true
   },
   {
     "count":1,
     "name": "Aku Cup",
-    "category": ["Cups", "Nitro"],
+    "category": ["Cups", "Cups Items", "Nitro"],
     "progression": true
   },
   {
     "count":1,
     "name": "Uka Cup",
-    "category": ["Cups", "Nitro"],
+    "category": ["Cups", "Cups Items", "Nitro"],
     "progression": true
   },
   {
     "count":1,
     "name": "Bonus Cup",
-    "category": ["Cups", "Bonus"],
+    "category": ["Cups", "Cups Items", "Bonus"],
     "progression": true
   },
   {
     "count":1,
     "name": "Lost Cup",
-    "category": ["Cups", "Bonus", "Nitro", "Classic"],
+    "category": ["Cups", "Cups Items", "Bonus", "Nitro", "Classic"],
     "progression": true
   },
   {
     "count":1,
     "name": "Desert Cup",
-    "category": ["Cups", "Bonus", "Nitro", "Classic"],
+    "category": ["Cups", "Cups Items", "Bonus", "Nitro", "Classic"],
     "progression": true
   },
   {
     "count":1,
     "name": "Space Cup",
-    "category": ["Cups", "Bonus", "Nitro", "Classic"],
+    "category": ["Cups", "Cups Items", "Bonus", "Nitro", "Classic"],
     "progression": true
   },
 	{

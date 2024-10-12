@@ -50,6 +50,9 @@
     "Cups_option": {
         "hidden": true
     },
+    "Cups Items": {
+        "hidden": true
+    },
     "Battle": {
         "hidden": false
     },
