@@ -133,9 +133,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     final_challenge = get_option_value(multiworld, player, "goal_type")
     if chunks:
         final_challenge = 1
+    characters = is_category_enabled(multiworld, player, "Characters")
+    oxide_edition = get_option_value(multiworld, player, "oxide_edition")
     
     if not tracksIncluded and not cups and not battle:
-        raise Exception("No mode set for play!")
+        raise Exception("No valid mode set for play! Single race and/or Cups must be enabled.")
 
     track_list = []
     if tracksIncluded is True:
@@ -243,8 +245,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     
     bad_trophies = 500-max_trophies
     for _ in range(bad_trophies):
-        item = next(i for i in item_pool if i.name == "Trophy")
-        item_pool.remove(item)
         itemNamesToRemove.append("Trophy")
     
     # Get the victory item out of the pool:
@@ -324,13 +324,20 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-
                 if location.name in gather_loc_list and location.name != gather_location_name and location.name != final_track_location_name:
                     region.locations.remove(location)
 
-    #for itemName in itemNamesToRemove:
-    #    item = next(i for i in item_pool if i.name == itemName)
-    #    item_pool.remove(item)
+    # Handle Nitros Oxide Edition characters
+    if characters:
+        if (not oxide_edition) and characters < 3 and classic:
+            itemNamesToRemove.append("Nitros Oxide")
+        if (not oxide_edition) and characters < 4 and nitro:
+            itemNamesToRemove.append("Zam")
+            itemNamesToRemove.append("Zem")
+
+    for itemName in itemNamesToRemove:
+        item = next(i for i in item_pool if i.name == itemName)
+        item_pool.remove(item)
     
     return item_pool
 
