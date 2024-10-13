@@ -139,7 +139,7 @@ def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionStat
     return False
 
 # Rule for is category enabled
-def CupItemsEnabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int, param: str) -> bool:
+def CupItemsEnabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int) -> bool:
     """Is a category option enabled?"""
     if get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
         return True
