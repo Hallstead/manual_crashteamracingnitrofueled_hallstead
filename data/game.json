@@ -8,6 +8,18 @@
         "Chunk Unlock"
       ],
       "random": 1
+    },
+    {
+      "item_categories": [
+        "Driving Styles"
+      ],
+      "random": 1
+    },
+    {
+      "item_categories": [
+        "Characters"
+      ],
+      "random": 1
     }
   ]
 }

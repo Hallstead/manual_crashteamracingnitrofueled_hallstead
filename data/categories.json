@@ -76,5 +76,47 @@
     },
     "Dev": {
         "hidden": true
+    },
+    "Characters": {
+        "hidden": false
+    },
+    "Beginner": {
+        "hidden": true
+    },
+    "Intermediate": {
+        "hidden": true
+    },
+    "Advanced": {
+        "hidden": true
+    },
+    "Balanced": {
+        "hidden": true
+    },
+    "Speed": {
+        "hidden": true
+    },
+    "Acceleration": {
+        "hidden": true
+    },
+    "Turn": {
+        "hidden": true
+    },
+    "Drift": {
+        "hidden": true
+    },
+    "Unlockable": {
+        "hidden": true
+    },
+    "Purchasable": {
+        "hidden": true
+    },
+    "NF": {
+        "hidden": true
+    },
+    "Driving Styles": {
+        "hidden": false
+    },
+    "Nitros Oxide Edition": {
+        "hidden": true
     }
 }
