@@ -92,6 +92,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 1:
                 return True
+        return False
     if category_name == "Velo":
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 2:
@@ -109,12 +110,30 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         else:
             return False
+    chunks = Helpers.get_option_value(multiworld, player, "unlock_mode")
     if category_name == "Chunks":
-        if Helpers.get_option_value(multiworld, player, "unlock_mode") == 1:
+        if chunks == 1:
             return True
         return False
     if category_name == "Not Chunks":
-        if Helpers.get_option_value(multiworld, player, "unlock_mode") == 0:
+        if chunks == 0:
+            return True
+        return False
+    chars = Helpers.get_option_value(multiworld,player, "randomize_characters")
+    if category_name == "Driving Styles":
+        if chars == 1:
+            return True
+        return False
+    if category_name == "Characters":
+        if chars >= 2:
+            return True
+        return False
+    if category_name == "Unlockable":
+        if chars >= 3:
+            return True
+        return False
+    if category_name == "Purchasable":
+        if chars == 4:
             return True
         return False
     return None

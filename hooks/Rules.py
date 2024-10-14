@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value, is_category_enabled
+from ..Helpers import clamp, get_items_with_value, get_option_value, is_category_enabled
 from BaseClasses import MultiWorld, CollectionState
 from worlds.AutoWorld import World
 
@@ -138,12 +138,32 @@ def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionStat
         return True
     return False
 
-# Rule for is category disabled
-def CategoryEnabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int, param: str) -> bool:
-    """Is a yaml option enabled?"""
-    return is_category_enabled(multiworld, player, param)
+# Rule for is category enabled
+def CupItemsEnabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int) -> bool:
+    """Is a category option enabled?"""
+    if get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
+        return True
+    elif get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
+        return True
+    elif get_option_value(multiworld, player, "include_single_race") == 0: # Tracks not included
+        return True
+    elif get_option_value(multiworld, player, "goal_type") == 1: # Final Challenge:
+        return True
+    else:
+        return False
+    #return is_category_enabled(multiworld, player, param)
 
 # Rule for is category disabled
-def CategoryDisabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int, param: str) -> bool:
-    """Is a yaml option disabled?"""
-    return not is_category_enabled(multiworld, player, param)
+def CupItemsDisabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int) -> bool:
+    """Is a category option disabled?"""
+    if get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
+        return not True
+    elif get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
+        return not True
+    elif get_option_value(multiworld, player, "include_single_race") == 0: # Tracks not included
+        return not True
+    elif get_option_value(multiworld, player, "goal_type") == 1: # Final Challenge:
+        return not True
+    else:
+        return not False
+    #return not is_category_enabled(multiworld, player, param)

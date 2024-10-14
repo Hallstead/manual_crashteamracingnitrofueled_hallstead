@@ -1324,5 +1324,371 @@
     "name": "Space Cup",
     "category": ["Cups", "Cups Items", "Bonus", "Nitro", "Classic"],
     "progression": true
+  },
+  {
+    "count":1,
+    "name": "Crash Bandicoot",
+    "category": ["Characters", "Balanced", "Intermediate"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Dr. Neo Cortex",
+    "category": ["Characters", "Balanced", "Intermediate"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Tiny Tiger",
+    "category": ["Characters", "Speed", "Advanced"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Coco Bandicoot",
+    "category": ["Characters", "Acceleration", "Intermediate"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Dr. N. Gin",
+    "category": ["Characters", "Acceleration", "Intermediate"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Dingodile",
+    "category": ["Characters", "Speed", "Advanced"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Polar",
+    "category": ["Characters", "Turn", "Beginner"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Pura",
+    "category": ["Characters", "Turn", "Beginner"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Penta Penguin",
+    "category": ["Characters", "Speed", "Advanced", "Classic", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Ripper Roo",
+    "category": ["Characters", "Turn", "Beginner", "Classic", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Papu Papu",
+    "category": ["Characters", "Speed", "Advanced", "Classic", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Komodo Joe",
+    "category": ["Characters", "Balanced", "Intermediate", "Classic", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Pinstripe",
+    "category": ["Characters", "Acceleration", "Intermediate", "Classic", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Fake Crash",
+    "category": ["Characters", "Balanced", "Intermediate", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Dr. N. Tropy",
+    "category": ["Characters", "Speed", "Advanced", "Unlockable"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Nitros Oxide",
+    "category": ["Characters", "Acceleration", "Classic", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Crunch Bandicoot",
+    "category": ["Characters", "Speed", "Nitro", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Krunk",
+    "category": ["Characters", "Turn", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Small Norm",
+    "category": ["Characters", "Balanced", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Big Norm",
+    "category": ["Characters", "Speed", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Nash",
+    "category": ["Characters", "Acceleration", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "N. Trance",
+    "category": ["Characters", "Acceleration", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Real Velo",
+    "category": ["Characters", "Turn", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Geary",
+    "category": ["Characters", "Balanced", "Nitro", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Zam",
+    "category": ["Characters", "Turn", "Nitro", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Zem",
+    "category": ["Characters", "Speed", "Nitro", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Tawna",
+    "category": ["Characters", "Acceleration", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Ami",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Megumi",
+    "category": ["Characters", "Acceleration", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Liz",
+    "category": ["Characters", "Turn", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Isabella",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Baby Crash",
+    "category": ["Characters", "Turn", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Baby Coco",
+    "category": ["Characters", "Acceleration", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Baby T",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Spyro",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Hunter",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Gnasty Gnorc",
+    "category": ["Characters", "Turn", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Komodo Moe",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Dr. N. Brio",
+    "category": ["Characters", "Acceleration", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Nina Cortex",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Koala Kong",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Pasedena O'Possum",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Ebenezer Von Clutch",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "King Chicken",
+    "category": ["Characters", "Drift", "Bonus", "Purchasable", "Unlockable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Rilla Roo",
+    "category": ["Characters", "Turn", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Yaya Panda",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Hasty",
+    "category": ["Characters", "Drift", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Chick",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Stew",
+    "category": ["Characters", "Acceleration", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Megamix",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Emperor Velo XXVII",
+    "category": ["Characters", "Acceleration", "Nitro", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Lab Assistant",
+    "category": ["Characters", "Turn", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Baby Cortex",
+    "category": ["Characters", "Balanced", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Baby N. Tropy",
+    "category": ["Characters", "Acceleration", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Fixed Rilla Roo",
+    "category": ["Characters", "Speed", "Bonus", "Purchasable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Iron Checkpoint Crate",
+    "category": ["Characters", "Drift", "Bonus", "Unlockable", "NF"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Balanced",
+    "category": ["Driving Styles"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Speed",
+    "category": ["Driving Styles"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Acceleration",
+    "category": ["Driving Styles"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Turn",
+    "category": ["Driving Styles"],
+    "useful": true
+  },
+  {
+    "count":1,
+    "name": "Drift",
+    "category": ["Driving Styles"],
+    "useful": true
   }
 ]

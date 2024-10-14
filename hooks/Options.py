@@ -172,6 +172,32 @@ class included_ghosts(Choice):
     option_beenox_developer = 3
     default = 1
 
+class randomize_characters(Choice):
+    """
+    Characters or Driving Stykes are added into the item pool as filler. Depending on other settings, not all randomized characters may be available in a given seed.
+    None: All characters are playable as the player chooses.
+    Driving Styles: All characters are playable as the player chooses, but thefive driving styles are added to thr pool and can omly be used once found.
+    Starter: The starter characters are randomized. Unlockable characters and characters from the pit stop are not playable in this option.
+    Unlockable: Starter and Unlockable characters are randomized. Characters from the Pit Stop are not playable in this option.
+    All Characters: All characters are randomized.
+    """
+    display_name = "Randomize Characters?"
+    option_none = 0
+    option_driving_styles = 1
+    option_starter = 2
+    option_unlockable = 3
+    option_all = 4
+    default = 0
+
+class oxide_edition(Toggle):
+    """
+    CTR:NF only.
+    Do you have the Nitros Oxide Edition?
+    Setting this to true adds the related characters to the
+      Starter character set when randomozing characters.
+    """
+    display_name = "Oxide Edition"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["goal_type"] = goal_type
@@ -187,6 +213,8 @@ def before_options_defined(options: dict) -> dict:
     #options["select_battle_tracks"] = select_battle_tracks
     options["include_time_trial"] = include_time_trial
     options["included_ghosts"] = included_ghosts
+    options["randomize_characters"] = randomize_characters
+    options["oxide_edition"] = oxide_edition
 
     return options
 
