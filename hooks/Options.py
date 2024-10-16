@@ -52,9 +52,9 @@ class percentage_trophies(Range):
 
 class starting_locations(Range):
     """
-    Select the number (1-3) of starting locations.
+    Select the number (1-3) of starting maps.
     """
-    display_name = "Select the number of starting locations."
+    display_name = "Select the number of starting maps."
     range_start = 1
     range_end = 3
     default = 2

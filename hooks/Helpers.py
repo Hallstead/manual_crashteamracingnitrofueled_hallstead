@@ -113,13 +113,6 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 4:
                 return True
         return False
-    if category_name == "SM2" or category_name == "SM3":
-        if category_name == "SM2" and Helpers.get_option_value(multiworld, player, "starting_locations") >= 2:
-            return True
-        elif category_name == "SM3" and Helpers.get_option_value(multiworld, player, "starting_locations") >= 3:
-            return True
-        else:
-            return False
     chunks = Helpers.get_option_value(multiworld, player, "unlock_mode")
     if category_name == "Chunks":
         if chunks == 1:

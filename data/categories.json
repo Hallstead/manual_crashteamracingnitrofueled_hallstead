@@ -2,12 +2,6 @@
     "((~Start~))": {
         "hidden": false
     },
-    "SM2": {
-        "hidden": true
-    },
-    "SM3": {
-        "hidden": true
-    },
     "Chunks": {
         "hidden": true
     },
