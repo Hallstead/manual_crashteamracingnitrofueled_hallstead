@@ -83,24 +83,34 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         else:
             return False
-    if category_name == "N. Tropy":
+    if category_name == "Progressive Ghost":
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
-            if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 0:
+            if Helpers.get_option_value(multiworld, player, "included_ghosts") > 1:
                 return True
         return False
-    if category_name == "N. Oxide":
+    if category_name == "N. Tropy":
+        if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
+            if Helpers.get_option_value(multiworld, player, "included_ghosts") == 1:
+                return True
+        return False
+    if category_name == "N. Tropy Loc":
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 1:
                 return True
         return False
-    if category_name == "Velo":
+    if category_name == "N. Oxide":
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 2:
                 return True
         return False
-    if category_name == "Dev":
+    if category_name == "Velo":
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 3:
+                return True
+        return False
+    if category_name == "Dev":
+        if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
+            if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 4:
                 return True
         return False
     if category_name == "SM2" or category_name == "SM3":

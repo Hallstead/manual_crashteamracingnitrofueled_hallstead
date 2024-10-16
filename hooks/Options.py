@@ -166,11 +166,12 @@ class included_ghosts(Choice):
     This setting does nothing if Time Trial is not included.
     """
     display_name = "Select Ghosts"
-    option_n_tropy = 0
-    option_n_oxide = 1
-    option_emperor_velo_xxvii = 2
-    option_beenox_developer = 3
-    default = 1
+    #option_none = 0
+    option_n_tropy = 1
+    option_n_oxide = 2
+    option_emperor_velo_xxvii = 3
+    option_beenox_developer = 4
+    default = 2
 
 class randomize_characters(Choice):
     """

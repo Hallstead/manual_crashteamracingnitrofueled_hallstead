@@ -105,6 +105,99 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    itemNamesToRemove = [] # List of item names
+    
+    debug = False
+
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    easy = is_category_enabled(multiworld, player, "Easy")
+    medium = is_category_enabled(multiworld, player, "Medium")
+    hard = is_category_enabled(multiworld, player, "Hard")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+    cups = is_category_enabled(multiworld, player, "Cups")
+    cups_items = is_category_enabled(multiworld, player, "Cups Items")
+    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+    battle = is_category_enabled(multiworld, player, "Battle")
+    chunks = is_category_enabled(multiworld, player, "Chunks")
+    final_challenge = get_option_value(multiworld, player, "goal_type")
+    if chunks:
+        final_challenge = 1
+    characters = is_category_enabled(multiworld, player, "Characters")
+    characters_value = get_option_value(multiworld, player, "randomize_characters")
+    oxide_edition = get_option_value(multiworld, player, "oxide_edition")
+    
+    track_list = []
+    if tracksIncluded is True:
+        if classic is True:
+            track_list.append("Crash Cove")
+            track_list.append("Mystery Caves")
+            track_list.append("Sewer Speedway")
+            track_list.append("Roo's Tubes")
+            track_list.append("Coco Park")
+            track_list.append("Tiger Temple")
+            track_list.append("Papu's Pyramid")
+            track_list.append("Dingo Canyon")
+            track_list.append("Polar Pass")
+            track_list.append("Tiny Arena")
+            track_list.append("Dragon Mines")
+            track_list.append("Blizzard Bluff")
+            track_list.append("Hot Air Skyway")
+            track_list.append("Cortex Castle")
+            track_list.append("N. Gin Labs")
+            track_list.append("Slide Coliseum")
+            track_list.append("Turbo Track")
+            track_list.append("Oxide Station")
+        if nitro is True:
+            track_list.append("Inferno Island")
+            track_list.append("Jungle Boogie")
+            track_list.append("Clockwork Wumpa")
+            track_list.append("Android Alley")
+            track_list.append("Electron Avenue")
+            track_list.append("Deep Sea Driving")
+            track_list.append("Thunder Struck")
+            track_list.append("Tiny Temple")
+            track_list.append("Meteor Gorge")
+            track_list.append("Barin Ruins")
+            track_list.append("Out Of Time")
+            track_list.append("Assembly Lane")
+            track_list.append("Hyper Spaceway")
+        if bonus is True:
+            track_list.append("Twilight Tour")
+            track_list.append("Prehistoric Playground")
+            track_list.append("Spyro Circuit")
+            track_list.append("Nina's Nightmare")
+            track_list.append("Koala Carnival")
+            track_list.append("Gingerbread Joyride")
+            track_list.append("Megamix Mania")
+            track_list.append("Drive-Thru Danger")
+
+    # Handle Nitros Oxide Edition characters
+    if characters:
+        if (not oxide_edition) and characters_value < 3 and classic:
+            itemNamesToRemove.append("Nitros Oxide")
+        if (not oxide_edition) and characters_value < 4 and nitro:
+            itemNamesToRemove.append("Zam")
+            itemNamesToRemove.append("Zem")
+
+    # Remove excess Progressive Time Trial Ghosts
+    if timeTrial:
+        ghosts = get_option_value(multiworld, player, "included_ghosts")
+        if ghosts >= 2:
+            for track in track_list:
+                for _ in range(ghosts, 4):
+                    itemNamesToRemove.append(f"{track} - Progressive Ghost")
+
+    # Remove items from the pool
+    if debug:
+        print("Removing items from pool:")
+    for itemName in itemNamesToRemove:
+        if debug:
+            print(itemName)
+        item = next(i for i in item_pool if i.name == itemName)
+        item_pool.remove(item)
+    
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
@@ -116,7 +209,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-    
+    debug = False
     # Get Trophy Information
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
@@ -186,7 +279,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     timetrial_locs = 0
     if timeTrial is True:
-        ghosts = get_option_value(multiworld, player, "included_ghosts") + 1
+        ghosts = get_option_value(multiworld, player, "included_ghosts")
         timetrial_locs = len(track_list) * ghosts
 
     cups_list = []
@@ -327,15 +420,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 if location.name in gather_loc_list and location.name != gather_location_name and location.name != final_track_location_name:
                     region.locations.remove(location)
 
-    # Handle Nitros Oxide Edition characters
-    if characters:
-        if (not oxide_edition) and characters < 3 and classic:
-            itemNamesToRemove.append("Nitros Oxide")
-        if (not oxide_edition) and characters < 4 and nitro:
-            itemNamesToRemove.append("Zam")
-            itemNamesToRemove.append("Zem")
-
+    if debug:
+        print("Removing items from pool before filler:")
     for itemName in itemNamesToRemove:
+        if debug:
+            print(itemName)
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
     
