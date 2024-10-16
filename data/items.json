@@ -17,240 +17,240 @@
 		"category": ["Chunks"],
 		"progression": true
 	},
-	{
-		"count":1,
-		"name": "Crash Cove",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Mystery Caves",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Sewer Speedway",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Roo's Tubes",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Slide Coliseum",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Turbo Track",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Coco Park",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Tiger Temple",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Papu's Pyramid",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Dingo Canyon",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Polar Pass",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Tiny Arena",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Dragon Mines",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Blizzard Bluff",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Hot Air Skyway",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Cortex Castle",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "N. Gin Labs",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Oxide Station",
-		"category": ["Tracks", "Classic"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Inferno Island",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Jungle Boogie",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Clockwork Wumpa",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Android Alley",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Electron Avenue",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Deep Sea Driving",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Thunder Struck",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Tiny Temple",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Meteor Gorge",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Barin Ruins",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Out Of Time",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Assembly Lane",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Hyper Spaceway",
-		"category": ["Tracks", "Nitro"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Twilight Tour",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Prehistoric Playground",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Spyro Circuit",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Nina's Nightmare",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Koala Carnival",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Gingerbread Joyride",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Megamix Mania",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Drive-Thru Danger",
-		"category": ["Tracks", "Bonus"],
-		"progression": true
-	},
+  {
+    "count": 1,
+    "name": "Crash Cove",
+    "category": ["Tracks", "Classic", "Wumpa Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mystery Caves",
+    "category": ["Tracks", "Classic", "Nitro Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sewer Speedway",
+    "category": ["Tracks", "Classic", "Crystal Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Roo's Tubes",
+    "category": ["Tracks", "Classic", "Crystal Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Coco Park",
+    "category": ["Tracks", "Classic", "Wumpa Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tiger Temple",
+    "category": ["Tracks", "Classic", "Wumpa Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Papu's Pyramid",
+    "category": ["Tracks", "Classic", "Nitro Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dingo Canyon",
+    "category": ["Tracks", "Classic", "Crystal Cup Tracks", "Desert Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Polar Pass",
+    "category": ["Tracks", "Classic", "Crash Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tiny Arena",
+    "category": ["Tracks", "Classic", "Nitro Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dragon Mines",
+    "category": ["Tracks", "Classic", "Crystal Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blizzard Bluff",
+    "category": ["Tracks", "Classic", "Wumpa Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hot Air Skyway",
+    "category": ["Tracks", "Classic", "Crash Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cortex Castle",
+    "category": ["Tracks", "Classic", "Nitro Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "N. Gin Labs",
+    "category": ["Tracks", "Classic", "Crash Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Slide Coliseum",
+    "category": ["Tracks", "Classic", "Crash Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Turbo Track",
+    "category": ["Tracks", "Classic"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Oxide Station",
+    "category": ["Tracks", "Classic", "Lost Cup Tracks", "Space Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Inferno Island",
+    "category": ["Tracks", "Nitro", "Velo Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Jungle Boogie",
+    "category": ["Tracks", "Nitro", "Uka Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Clockwork Wumpa",
+    "category": ["Tracks", "Nitro", "Lost Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Android Alley",
+    "category": ["Tracks", "Nitro", "Aku Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Electron Avenue",
+    "category": ["Tracks", "Nitro", "Uka Cup Tracks", "Space Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Deep Sea Driving",
+    "category": ["Tracks", "Nitro", "Uka Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Thunder Struck",
+    "category": ["Tracks", "Nitro", "Aku Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tiny Temple",
+    "category": ["Tracks", "Nitro", "Aku Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Meteor Gorge",
+    "category": ["Tracks", "Nitro", "Velo Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Barin Ruins",
+    "category": ["Tracks", "Nitro", "Aku Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Out Of Time",
+    "category": ["Tracks", "Nitro", "Uka Cup Tracks", "Desert Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Assembly Lane",
+    "category": ["Tracks", "Nitro", "Velo Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hyper Spaceway",
+    "category": ["Tracks", "Nitro", "Velo Cup Tracks", "Space Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Twilight Tour",
+    "category": ["Tracks", "Bonus", "Lost Cup Tracks", "Desert Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Prehistoric Playground",
+    "category": ["Tracks", "Bonus", "Lost Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Spyro Circuit",
+    "category": ["Tracks", "Bonus", "Bonus Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Nina's Nightmare",
+    "category": ["Tracks", "Bonus", "Bonus Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Koala Carnival",
+    "category": ["Tracks", "Bonus", "Bonus Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Gingerbread Joyride",
+    "category": ["Tracks", "Bonus", "Bonus Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Megamix Mania",
+    "category": ["Tracks", "Bonus", "Desert Cup Tracks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Drive-Thru Danger",
+    "category": ["Tracks", "Bonus", "Space Cup Tracks"],
+    "progression": true
+  },
 	{
 		"count":1,
 		"name": "Skull Rock",
@@ -324,939 +324,471 @@
 		"progression": true
 	},
   {
-    "count":1,
+    "count": 1,
     "name": "Crash Cove - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Crash Cove - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Crash Cove - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Crash Cove - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Crash Cove - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Roo's Tubes - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Roo's Tubes - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Roo's Tubes - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Roo's Tubes - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Mystery Caves - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Mystery Caves - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Mystery Caves - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Mystery Caves - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Mystery Caves - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Sewer Speedway - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Sewer Speedway - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Sewer Speedway - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Sewer Speedway - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Sewer Speedway - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Slide Coliseum - N. Tropy",
+    "count": 1,
+    "name": "Roo's Tubes - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Slide Coliseum - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Roo's Tubes - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Slide Coliseum - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Slide Coliseum - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Turbo Track - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Turbo Track - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Turbo Track - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Turbo Track - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Coco Park - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Coco Park - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Coco Park - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Coco Park - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Coco Park - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Tiger Temple - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Tiger Temple - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Tiger Temple - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Tiger Temple - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Tiger Temple - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Papu's Pyramid - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Papu's Pyramid - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Papu's Pyramid - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Papu's Pyramid - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Papu's Pyramid - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Dingo Canyon - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Dingo Canyon - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Dingo Canyon - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Dingo Canyon - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Dingo Canyon - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Blizzard Bluff - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Blizzard Bluff - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Blizzard Bluff - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Blizzard Bluff - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Dragon Mines - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Dragon Mines - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Dragon Mines - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Dragon Mines - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Polar Pass - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Polar Pass - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Polar Pass - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Polar Pass - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Polar Pass - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Tiny Arena - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Tiny Arena - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Tiny Arena - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Tiny Arena - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Tiny Arena - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "N. Gin Labs - N. Tropy",
+    "count": 1,
+    "name": "Dragon Mines - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "N. Gin Labs - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Dragon Mines - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "N. Gin Labs - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "N. Gin Labs - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Cortex Castle - N. Tropy",
+    "count": 1,
+    "name": "Blizzard Bluff - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Cortex Castle - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Blizzard Bluff - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Cortex Castle - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Cortex Castle - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Hot Air Skyway - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Hot Air Skyway - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Hot Air Skyway - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Hot Air Skyway - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
+    "count": 1,
+    "name": "Cortex Castle - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Hot Air Skyway - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
+    "count": 4,
+    "name": "Cortex Castle - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
+    "count": 1,
+    "name": "N. Gin Labs - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "N. Gin Labs - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Slide Coliseum - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "Slide Coliseum - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Turbo Track - N. Tropy",
+    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "Turbo Track - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Oxide Station - N. Tropy",
     "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Oxide Station - N. Oxide",
-    "category": ["Time Trial", "Classic", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Oxide Station - Progressive Ghost",
+    "category": ["Time Trial", "Classic", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Oxide Station - Emperor Velo XXVII",
-    "category": ["Time Trial", "Classic", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Oxide Station - Beenox Developer",
-    "category": ["Time Trial", "Classic", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Inferno Island - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Inferno Island - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Inferno Island - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Inferno Island - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Inferno Island - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Jungle Boogie - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Jungle Boogie - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Jungle Boogie - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Jungle Boogie - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Jungle Boogie - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Clockwork Wumpa - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Clockwork Wumpa - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Clockwork Wumpa - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Clockwork Wumpa - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Clockwork Wumpa - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Android Alley - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Android Alley - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Android Alley - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Android Alley - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Android Alley - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Electron Avenue - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Electron Avenue - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Electron Avenue - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Electron Avenue - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Electron Avenue - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Deep Sea Driving - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Deep Sea Driving - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Deep Sea Driving - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Deep Sea Driving - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Deep Sea Driving - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Thunder Struck - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Thunder Struck - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Thunder Struck - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Thunder Struck - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Thunder Struck - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Tiny Temple - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Tiny Temple - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Tiny Temple - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Tiny Temple - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Tiny Temple - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Meteor Gorge - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Meteor Gorge - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Meteor Gorge - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Meteor Gorge - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Meteor Gorge - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Barin Ruins - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Barin Ruins - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Barin Ruins - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Barin Ruins - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Barin Ruins - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Out Of Time - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Out Of Time - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Out Of Time - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Out Of Time - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Out Of Time - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Assembly Lane - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Assembly Lane - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Assembly Lane - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Assembly Lane - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Assembly Lane - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Hyper Spaceway - N. Tropy",
     "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Hyper Spaceway - N. Oxide",
-    "category": ["Time Trial", "Nitro", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Hyper Spaceway - Progressive Ghost",
+    "category": ["Time Trial", "Nitro", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Hyper Spaceway - Emperor Velo XXVII",
-    "category": ["Time Trial", "Nitro", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Hyper Spaceway - Beenox Developer",
-    "category": ["Time Trial", "Nitro", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Twilight Tour - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Twilight Tour - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Twilight Tour - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Twilight Tour - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Twilight Tour - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Prehistoric Playground - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Prehistoric Playground - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Prehistoric Playground - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Prehistoric Playground - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Prehistoric Playground - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Spyro Circuit - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Spyro Circuit - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Spyro Circuit - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Spyro Circuit - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Spyro Circuit - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Nina's Nightmare - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Nina's Nightmare - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Nina's Nightmare - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Nina's Nightmare - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Nina's Nightmare - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Koala Carnival - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Koala Carnival - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Koala Carnival - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Koala Carnival - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Koala Carnival - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Gingerbread Joyride - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Gingerbread Joyride - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Gingerbread Joyride - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Gingerbread Joyride - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Gingerbread Joyride - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Megamix Mania - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Megamix Mania - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
+    "count": 4,
+    "name": "Megamix Mania - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Megamix Mania - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Megamix Mania - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
+    "count": 1,
     "name": "Drive-Thru Danger - N. Tropy",
     "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
     "progression": true
   },
   {
-    "count":1,
-    "name": "Drive-Thru Danger - N. Oxide",
-    "category": ["Time Trial", "Bonus", "N. Oxide", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Drive-Thru Danger - Emperor Velo XXVII",
-    "category": ["Time Trial", "Bonus", "Velo", "Not Chunks"],
-    "progression": true
-  },
-  {
-    "count":1,
-    "name": "Drive-Thru Danger - Beenox Developer",
-    "category": ["Time Trial", "Bonus", "Dev", "Not Chunks"],
+    "count": 4,
+    "name": "Drive-Thru Danger - Progressive Ghost",
+    "category": ["Time Trial", "Bonus", "Progressive Ghost", "Not Chunks"],
     "progression": true
   },
   {

@@ -53,6 +53,39 @@
     "Cups Items": {
         "hidden": true
     },
+    "Aku Cup Tracks": {
+        "hidden": true
+    },
+    "Bonus Cup Tracks": {
+        "hidden": true
+    },
+    "Crash Cup Tracks": {
+        "hidden": true
+    },
+    "Crystal Cup Tracks": {
+        "hidden": true
+    },
+    "Desert Cup Tracks": {
+        "hidden": true
+    },
+    "Lost Cup Tracks": {
+        "hidden": true
+    },
+    "Nitro Cup Tracks": {
+        "hidden": true
+    },
+    "Space Cup Tracks": {
+        "hidden": true
+    },
+    "Uka Cup Tracks": {
+        "hidden": true
+    },
+    "Velo Cup Tracks": {
+        "hidden": true
+    },
+    "Wumpa Cup Tracks": {
+        "hidden": true
+    },
     "Battle": {
         "hidden": false
     },
@@ -68,6 +101,9 @@
     "N. Tropy": {
         "hidden": true
     },
+    "N. Tropy Loc.": {
+        "hidden": true
+    },
     "N. Oxide": {
         "hidden": true
     },
@@ -75,6 +111,9 @@
         "hidden": true
     },
     "Dev": {
+        "hidden": true
+    },
+    "Progressive Ghost": {
         "hidden": true
     },
     "Characters": {
