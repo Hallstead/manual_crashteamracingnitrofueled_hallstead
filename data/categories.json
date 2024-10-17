@@ -17,6 +17,9 @@
     "Trophies": {
         "hidden": false
     },
+    "Turbo Track": {
+        "hidden": true
+    },
     "Classic": {
         "hidden": true
     },
@@ -90,6 +93,9 @@
         "hidden": false
     },
     "Time Trial Option": {
+        "hidden": true
+    },
+    "No Ghost": {
         "hidden": true
     },
     "N. Tropy": {

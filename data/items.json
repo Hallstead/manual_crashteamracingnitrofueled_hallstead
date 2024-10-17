@@ -116,7 +116,7 @@
   {
     "count": 1,
     "name": "Turbo Track",
-    "category": ["Tracks", "Classic"],
+    "category": ["Tracks", "Classic", "Turbo Track"],
     "progression": true
   },
   {
