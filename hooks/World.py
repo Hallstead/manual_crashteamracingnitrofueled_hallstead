@@ -39,7 +39,64 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if get_option_value(multiworld, player, "unlock_mode") == 1:
         goal_index = world.victory_names.index("Goal (Final Challenge)")
     elif get_option_value(multiworld, player, "goal_type") == 0:
-        goal_index = world.victory_names.index("Goal (Trophy Hunt)")
+
+        classic = is_category_enabled(multiworld, player, "Classic")
+        nitro = is_category_enabled(multiworld, player, "Nitro")
+        bonus = is_category_enabled(multiworld, player, "Bonus")
+        easy = is_category_enabled(multiworld, player, "Easy")
+        medium = is_category_enabled(multiworld, player, "Medium")
+        hard = is_category_enabled(multiworld, player, "Hard")
+        tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+        cups = is_category_enabled(multiworld, player, "Cups")
+        timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+        battle = is_category_enabled(multiworld, player, "Battle")
+    
+        numTracks = 0
+        if tracksIncluded is True:
+            if classic is True:
+                numTracks += 18
+            if nitro is True:
+                numTracks += 13
+            if bonus is True:
+                numTracks += 8
+
+        numCups = 0
+        if cups is True:
+            if classic is True:
+                numCups += 4
+            if nitro is True:
+                numCups += 3
+            if bonus is True:
+                numCups += 1
+                if classic is True and nitro is True:
+                    numCups += 3
+        
+        numBattles = 0
+        if battle is True:
+            if classic is True:
+                numBattles += 7
+            if nitro is True:
+                numBattles += 5
+            
+        tracks = numTracks + numCups + numBattles - 1
+
+        difficulties = 0
+        if easy is True:
+            difficulties += 1
+        if medium is True:
+            difficulties += 1
+        if hard is True:
+            difficulties += 1
+
+        max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
+        multiplier = get_option_value(multiworld, player, "percentage_trophies")
+        trophies = round(max_trophies * multiplier / 100)
+        if trophies == 0:
+            trophies = 1
+        if trophies == 1:
+            goal_index = world.victory_names.index(f"Goal (Gather 1 Trophy)")
+        else:
+            goal_index = world.victory_names.index(f"Goal (Gather {trophies} Trophies)")
     else:
         goal_index = world.victory_names.index("Goal (Final Challenge)")
 
@@ -218,6 +275,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             battle_list.append("Magnetic Mayhem")
             battle_list.append("Terra Drome")
     
+    tracks = len(track_list) + len(cups_list) + len(battle_list) - 1
+    if chunks is True:
+        tracks = len(track_list) + len(battle_list)
+
     # Starting Tracks
     starting_list = []
     starting_list.extend(track_list)
@@ -240,10 +301,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             battle_list.remove(strack)
         starting_list.remove(strack)
 
-    tracks = len(track_list) + len(cups_list) + len(battle_list) - 1
-    if chunks is True:
-        tracks = len(track_list) + len(battle_list)
-
     difficulties = 0
     if easy is True:
         difficulties += 1
@@ -258,6 +315,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         max_trophies = round(((tracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
     trophies = round(max_trophies * multiplier / 100)
+    if trophies == 0:
+        trophies = 1
     
     bad_trophies = 500-max_trophies
     for _ in range(bad_trophies):
@@ -267,22 +326,23 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
     item_pool.remove(victory_item)
     
-    # Get the victory location and place the victory item there
-    gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
-    for i in range(2, 501):
-        gather_loc_list.append(f"Gather {i} Trophies")
-    
-    for i in range(len(gather_loc_list)):
-        if str(trophies) in gather_loc_list[i]:
-            victory_id = i
-            break
+    gather_loc_list = []
+    if final_challenge:
+        # Get the victory location and place the victory item there
+        gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
+        for i in range(2, 501):
+            gather_loc_list.append(f"Gather {i} Trophies")
+        
+        for i in range(len(gather_loc_list)):
+            if str(trophies) in gather_loc_list[i]:
+                victory_id = i
+                break
 
-    gather_location_name = gather_loc_list[victory_id]
-    gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
-    final_track_location_name = ""
+        gather_location_name = gather_loc_list[victory_id]
+        gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
+        final_track_location_name = ""
 
     # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
-    if final_challenge:
         if cups is True:
             final_track_name = random.choice(list(cups_list))
             for d in ["Easy", "Medium", "Hard"]:
@@ -314,8 +374,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         gather_location.place_locked_item(final_track_item)
         final_track_location.place_locked_item(victory_item)
-    else:
-        gather_location.place_locked_item(victory_item)
+    #else:
+        #gather_location.place_locked_item(victory_item)
     
     #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
     if chunks is True:
@@ -352,6 +412,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             for location in list(region.locations):
                 if location.name in gather_loc_list and location.name != gather_location_name and location.name != final_track_location_name:
                     region.locations.remove(location)
+                    pass
 
     # Handle Nitros Oxide Edition characters
     if characters:

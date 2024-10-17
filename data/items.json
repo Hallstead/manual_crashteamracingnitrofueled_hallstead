@@ -2,7 +2,7 @@
 	{
 		"count":1,
 		"name": "Ultimate Trophy (Victory)",
-		"category": ["Win_Condition"],
+		"category": ["Final Challenge Win Condition"],
 		"progression": true
 	},
 	{

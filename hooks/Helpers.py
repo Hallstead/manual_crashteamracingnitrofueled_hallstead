@@ -139,6 +139,12 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         if chars == 4:
             return True
         return False
+    if category_name == "((~Objective~))":
+        if chunks:
+            return True
+        if Helpers.get_option_value(multiworld, player, "goal_type") == 1:
+            return True
+        return False
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
