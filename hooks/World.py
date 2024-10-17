@@ -327,55 +327,54 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     item_pool.remove(victory_item)
     
     gather_loc_list = []
-    if final_challenge:
-        # Get the victory location and place the victory item there
-        gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
-        for i in range(2, 501):
-            gather_loc_list.append(f"Gather {i} Trophies")
-        
-        for i in range(len(gather_loc_list)):
-            if str(trophies) in gather_loc_list[i]:
-                victory_id = i
-                break
+    if not hasattr(world.multiworld, "generation_is_fake"):
+        if final_challenge:
+            # Get the victory location and place the victory item there
+            gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
+            for i in range(2, 501):
+                gather_loc_list.append(f"Gather {i} Trophies")
+            
+            for i in range(len(gather_loc_list)):
+                if str(trophies) in gather_loc_list[i]:
+                    victory_id = i
+                    break
 
-        gather_location_name = gather_loc_list[victory_id]
-        gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
-        final_track_location_name = ""
+            gather_location_name = gather_loc_list[victory_id]
+            gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
+            final_track_location_name = ""
 
-    # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
-        if cups is True:
-            final_track_name = random.choice(list(cups_list))
-            for d in ["Easy", "Medium", "Hard"]:
-                if locals()[d.lower()] is True:
-                    for p in ["Top 5", "Top 3", "1st"]:
-                        gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-        else:
-            final_track_name = random.choice(track_list)
-            if timeTrial:
-                ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
-                for i in range(0, ghosts):
-                    gather_loc_list.append(f"{final_track_name} Time Trial - Beat {ghost_list[i]}")
-                    # Remove ghost items
-                    if ghosts == 1:
-                        itemNamesToRemove.append(f"{final_track_name} - N. Tropy")
-                    else:
-                        itemNamesToRemove.append(f"{final_track_name} - Progressive Ghost")
-            for d in ["Easy", "Medium", "Hard"]:
-                if locals()[d.lower()] is True:
-                    for p in ["Top 5", "Top 3", "1st"]:
-                        gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-                
+        # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
+            if cups is True:
+                final_track_name = random.choice(list(cups_list))
+                for d in ["Easy", "Medium", "Hard"]:
+                    if locals()[d.lower()] is True:
+                        for p in ["Top 5", "Top 3", "1st"]:
+                            gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+            else:
+                final_track_name = random.choice(track_list)
+                if timeTrial:
+                    ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
+                    for i in range(0, ghosts):
+                        gather_loc_list.append(f"{final_track_name} Time Trial - Beat {ghost_list[i]}")
+                        # Remove ghost items
+                        if ghosts == 1:
+                            itemNamesToRemove.append(f"{final_track_name} - N. Tropy")
+                        else:
+                            itemNamesToRemove.append(f"{final_track_name} - Progressive Ghost")
+                for d in ["Easy", "Medium", "Hard"]:
+                    if locals()[d.lower()] is True:
+                        for p in ["Top 5", "Top 3", "1st"]:
+                            gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+                    
 
-        # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
-        final_track_location_name = gather_loc_list[-1]
-        final_track_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == final_track_location_name)
-        final_track_item = next(i for i in item_pool if i.name == final_track_name)
-        item_pool.remove(final_track_item)
+            # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
+            final_track_location_name = gather_loc_list[-1]
+            final_track_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == final_track_location_name)
+            final_track_item = next(i for i in item_pool if i.name == final_track_name)
+            item_pool.remove(final_track_item)
 
-        gather_location.place_locked_item(final_track_item)
-        final_track_location.place_locked_item(victory_item)
-    #else:
-        #gather_location.place_locked_item(victory_item)
+            gather_location.place_locked_item(final_track_item)
+            final_track_location.place_locked_item(victory_item)
     
     #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
     if chunks is True:
