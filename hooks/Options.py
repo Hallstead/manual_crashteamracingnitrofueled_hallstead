@@ -52,9 +52,9 @@ class percentage_trophies(Range):
 
 class starting_locations(Range):
     """
-    Select the number (1-3) of starting locations.
+    Select the number (1-3) of starting maps.
     """
-    display_name = "Select the number of starting locations."
+    display_name = "Select the number of starting maps."
     range_start = 1
     range_end = 3
     default = 2
@@ -221,5 +221,5 @@ def before_options_defined(options: dict) -> dict:
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
 def after_options_defined(options: dict) -> dict:
-    options["goal"].visibility = 8 #hidden
+    #options["goal"].visibility = 8 #hidden
     return options

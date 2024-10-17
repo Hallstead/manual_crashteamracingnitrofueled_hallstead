@@ -2,12 +2,6 @@
     "((~Start~))": {
         "hidden": false
     },
-    "SM2": {
-        "hidden": true
-    },
-    "SM3": {
-        "hidden": true
-    },
     "Chunks": {
         "hidden": true
     },
@@ -101,7 +95,7 @@
     "N. Tropy": {
         "hidden": true
     },
-    "N. Tropy Loc.": {
+    "N. Tropy Item": {
         "hidden": true
     },
     "N. Oxide": {

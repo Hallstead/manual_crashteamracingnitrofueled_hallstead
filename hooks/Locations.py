@@ -4,7 +4,6 @@
 import csv
 import pkgutil
 
-
 def before_location_table_processed(location_table: list) -> list:
     location = {}
     location["name"] = "Gather 1 Trophy"
@@ -16,6 +15,20 @@ def before_location_table_processed(location_table: list) -> list:
         location["name"] = f"Gather {i} Trophies"
         location["category"] = ["((~Objective~))"]
         location["requires"] = f"|@Trophies:{i}|"
+        location_table.append(location)
+
+    location = {}
+    location["name"] = "Goal (Gather 1 Trophy)"
+    location["category"] = ["((~Goal~))"]
+    location["requires"] = "|@Trophies:1|"
+    location["victory"] = True
+    location_table.append(location)
+    for i in range(2, 501):
+        location = {}
+        location["name"] = f"Goal (Gather {i} Trophies)"
+        location["category"] = ["((~Goal~))"]
+        location["requires"] = f"|@Trophies:{i}|"
+        location["victory"] = True
         location_table.append(location)
 
     csvFile = csv.DictReader(pkgutil.get_data(__name__, "locations.csv").decode().splitlines(), delimiter=';')

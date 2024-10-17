@@ -2,7 +2,7 @@
 	{
 		"count":1,
 		"name": "Ultimate Trophy (Victory)",
-		"category": ["Win_Condition"],
+		"category": ["Final Challenge Win Condition"],
 		"progression": true
 	},
 	{
@@ -326,7 +326,7 @@
   {
     "count": 1,
     "name": "Crash Cove - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -338,7 +338,7 @@
   {
     "count": 1,
     "name": "Mystery Caves - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -350,7 +350,7 @@
   {
     "count": 1,
     "name": "Sewer Speedway - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -362,7 +362,7 @@
   {
     "count": 1,
     "name": "Roo's Tubes - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -374,7 +374,7 @@
   {
     "count": 1,
     "name": "Coco Park - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -386,7 +386,7 @@
   {
     "count": 1,
     "name": "Tiger Temple - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -398,7 +398,7 @@
   {
     "count": 1,
     "name": "Papu's Pyramid - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -410,7 +410,7 @@
   {
     "count": 1,
     "name": "Dingo Canyon - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -422,7 +422,7 @@
   {
     "count": 1,
     "name": "Polar Pass - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -434,7 +434,7 @@
   {
     "count": 1,
     "name": "Tiny Arena - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -446,7 +446,7 @@
   {
     "count": 1,
     "name": "Dragon Mines - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -458,7 +458,7 @@
   {
     "count": 1,
     "name": "Blizzard Bluff - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -470,7 +470,7 @@
   {
     "count": 1,
     "name": "Hot Air Skyway - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -482,7 +482,7 @@
   {
     "count": 1,
     "name": "Cortex Castle - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -494,7 +494,7 @@
   {
     "count": 1,
     "name": "N. Gin Labs - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -506,7 +506,7 @@
   {
     "count": 1,
     "name": "Slide Coliseum - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -518,7 +518,7 @@
   {
     "count": 1,
     "name": "Turbo Track - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -530,7 +530,7 @@
   {
     "count": 1,
     "name": "Oxide Station - N. Tropy",
-    "category": ["Time Trial", "Classic", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Classic", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -542,7 +542,7 @@
   {
     "count": 1,
     "name": "Inferno Island - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -554,7 +554,7 @@
   {
     "count": 1,
     "name": "Jungle Boogie - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -566,7 +566,7 @@
   {
     "count": 1,
     "name": "Clockwork Wumpa - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -578,7 +578,7 @@
   {
     "count": 1,
     "name": "Android Alley - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -590,7 +590,7 @@
   {
     "count": 1,
     "name": "Electron Avenue - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -602,7 +602,7 @@
   {
     "count": 1,
     "name": "Deep Sea Driving - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -614,7 +614,7 @@
   {
     "count": 1,
     "name": "Thunder Struck - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -626,7 +626,7 @@
   {
     "count": 1,
     "name": "Tiny Temple - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -638,7 +638,7 @@
   {
     "count": 1,
     "name": "Meteor Gorge - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -650,7 +650,7 @@
   {
     "count": 1,
     "name": "Barin Ruins - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -662,7 +662,7 @@
   {
     "count": 1,
     "name": "Out Of Time - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -674,7 +674,7 @@
   {
     "count": 1,
     "name": "Assembly Lane - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -686,7 +686,7 @@
   {
     "count": 1,
     "name": "Hyper Spaceway - N. Tropy",
-    "category": ["Time Trial", "Nitro", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Nitro", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -698,7 +698,7 @@
   {
     "count": 1,
     "name": "Twilight Tour - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -710,7 +710,7 @@
   {
     "count": 1,
     "name": "Prehistoric Playground - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -722,7 +722,7 @@
   {
     "count": 1,
     "name": "Spyro Circuit - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -734,7 +734,7 @@
   {
     "count": 1,
     "name": "Nina's Nightmare - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -746,7 +746,7 @@
   {
     "count": 1,
     "name": "Koala Carnival - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -758,7 +758,7 @@
   {
     "count": 1,
     "name": "Gingerbread Joyride - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -770,7 +770,7 @@
   {
     "count": 1,
     "name": "Megamix Mania - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
@@ -782,7 +782,7 @@
   {
     "count": 1,
     "name": "Drive-Thru Danger - N. Tropy",
-    "category": ["Time Trial", "Bonus", "N. Tropy", "Not Chunks"],
+    "category": ["Time Trial", "Bonus", "N. Tropy Item", "Not Chunks"],
     "progression": true
   },
   {
