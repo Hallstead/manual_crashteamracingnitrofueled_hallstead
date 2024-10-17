@@ -39,7 +39,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if get_option_value(multiworld, player, "unlock_mode") == 1:
         goal_index = world.victory_names.index("Goal (Final Challenge)")
     elif get_option_value(multiworld, player, "goal_type") == 0:
-
+        nf = is_category_enabled(multiworld, player, "NF")
         classic = is_category_enabled(multiworld, player, "Classic")
         nitro = is_category_enabled(multiworld, player, "Nitro")
         bonus = is_category_enabled(multiworld, player, "Bonus")
@@ -54,7 +54,9 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
         numTracks = 0
         if tracksIncluded is True:
             if classic is True:
-                numTracks += 18
+                numTracks += 17
+                if is_category_enabled(multiworld, player, "Turbo Track"):
+                    numTracks += 1
             if nitro is True:
                 numTracks += 13
             if bonus is True:
@@ -79,6 +81,9 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
                 numBattles += 5
             
         tracks = numTracks + numCups + numBattles - 1
+        tt = 0
+        if timeTrial and not nf:
+            tt = numTracks
 
         difficulties = 0
         if easy is True:
@@ -88,7 +93,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
         if hard is True:
             difficulties += 1
 
-        max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
+        max_trophies = round((tracks * 3 * difficulties) + tt - tracks - ((difficulties * tracks + tt) / 3))
         multiplier = get_option_value(multiworld, player, "percentage_trophies")
         trophies = round(max_trophies * multiplier / 100)
         if trophies == 0:
@@ -123,7 +128,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         numTracks = 0
         if tracksIncluded is True:
             if classic is True:
-                numTracks += 18
+                numTracks += 17
+                if is_category_enabled(multiworld, player, "Turbo Track"):
+                    numTracks += 1
             if nitro is True:
                 numTracks += 13
             if bonus is True:
@@ -166,6 +173,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     
     debug = False
 
+    nf = is_category_enabled(multiworld, player, "NF")
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
     bonus = is_category_enabled(multiworld, player, "Bonus")
@@ -204,8 +212,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             track_list.append("Cortex Castle")
             track_list.append("N. Gin Labs")
             track_list.append("Slide Coliseum")
-            track_list.append("Turbo Track")
             track_list.append("Oxide Station")
+            if is_category_enabled(multiworld, player, "Turbo Track"):
+                track_list.append("Turbo Track")
         if nitro is True:
             track_list.append("Inferno Island")
             track_list.append("Jungle Boogie")
@@ -232,8 +241,14 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     
     timetrial_locs = 0
     if timeTrial is True:
-        ghosts = get_option_value(multiworld, player, "included_ghosts")
-        timetrial_locs = len(track_list) * ghosts
+        ghosts = 0
+        for ghost in ["N. Tropy", "N. Oxide", "Velo", "Dev"]:
+            if is_category_enabled(multiworld, player, ghost):
+                ghosts += 1
+        if not nf:
+            timetrial_locs = len(track_list) * (ghosts + 1)
+        else:
+            timetrial_locs = len(track_list) * (ghosts)
         # Remove excess Progressive Time Trial Ghosts
         if ghosts >= 2:
             for track in track_list:
@@ -276,6 +291,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             battle_list.append("Terra Drome")
     
     tracks = len(track_list) + len(cups_list) + len(battle_list) - 1
+    tt = 0
+    if timeTrial:
+        tt = len(track_list)
     if chunks is True:
         tracks = len(track_list) + len(battle_list)
 
@@ -310,7 +328,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         difficulties += 1
 
     if not chunks:
-        max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
+        if not nf:
+            max_trophies = round((tracks * 3 * difficulties) + tt - tracks - ((difficulties * tracks + tt) / 3))
+        else:
+            max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
     else:
         max_trophies = round(((tracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
