@@ -38,6 +38,42 @@
     "Hard": {
         "hidden": true
     },
+    "1st": {
+        "hidden": true
+    },
+    "Top 3": {
+        "hidden": true
+    },
+    "Top 5": {
+        "hidden": true
+    },
+    "Easy - 1st": {
+        "hidden": true
+    },
+    "Easy - Top 3": {
+        "hidden": true
+    },
+    "Easy - Top 5": {
+        "hidden": true
+    },
+    "Medium - 1st": {
+        "hidden": true
+    },
+    "Medium - Top 3": {
+        "hidden": true
+    },
+    "Medium - Top 5": {
+        "hidden": true
+    },
+    "Hard - 1st": {
+        "hidden": true
+    },
+    "Hard - Top 3": {
+        "hidden": true
+    },
+    "Hard - Top 5": {
+        "hidden": true
+    },
     "Single": {
         "hidden": true
     },
