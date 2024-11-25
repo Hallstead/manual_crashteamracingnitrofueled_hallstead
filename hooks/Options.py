@@ -26,7 +26,6 @@ from ..Helpers import is_option_enabled, get_option_value
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
-
 class ctr_game(Choice):
     """
     This option tells generation what game you are playing.

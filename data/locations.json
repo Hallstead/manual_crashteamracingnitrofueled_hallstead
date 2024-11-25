@@ -1,14 +1,18 @@
-[
-	{
-		"name": "Goal (Trophy Hunt)",
-		"victory": true,
-		"requires": "|Ultimate Trophy (Victory)|",
-		"category": ["((~Goal~))"]
-	},
-	{
-		"name": "Goal (Final Challenge)",
-		"victory": true,
-		"requires": "|Ultimate Trophy (Victory)|",
-		"category": ["((~Goal~))"]
-	}
-]
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Goal (Trophy Hunt)",
+            "victory": true,
+            "requires": "|Ultimate Trophy (Victory)|",
+            "category": ["((~Goal~))"]
+        },
+        {
+            "name": "Goal (Final Challenge)",
+            "victory": true,
+            "requires": "|Ultimate Trophy (Victory)|",
+            "category": ["((~Goal~))"]
+        }
+    ]
+}
+
