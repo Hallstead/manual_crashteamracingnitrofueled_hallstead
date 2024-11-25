@@ -1,6 +1,7 @@
 {
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "CrashTeamRacingNitroFueled",
-  "player": "Hallstead",
+  "creator": "Hallstead",
   "filler_item_name": "WOAH",
   "starting_items": [
     {
