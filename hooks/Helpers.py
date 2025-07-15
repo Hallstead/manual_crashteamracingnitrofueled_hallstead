@@ -144,7 +144,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
                 return True
         return False
     chunks = Helpers.get_option_value(multiworld, player, "unlock_mode")
-    if category_name == "Chunks":
+    if category_name == "Chunks" or category_name == "Chunk Unlocks":
         if chunks == 1:
             return True
         return False

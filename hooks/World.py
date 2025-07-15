@@ -31,7 +31,124 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
+def get_track_list(multiworld: MultiWorld, player: int):
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+    
+    track_list = []
+    if tracksIncluded is True:
+        if classic is True:
+            track_list.append("Crash Cove")
+            track_list.append("Mystery Caves")
+            track_list.append("Sewer Speedway")
+            track_list.append("Roo's Tubes")
+            track_list.append("Coco Park")
+            track_list.append("Tiger Temple")
+            track_list.append("Papu's Pyramid")
+            track_list.append("Dingo Canyon")
+            track_list.append("Polar Pass")
+            track_list.append("Tiny Arena")
+            track_list.append("Dragon Mines")
+            track_list.append("Blizzard Bluff")
+            track_list.append("Hot Air Skyway")
+            track_list.append("Cortex Castle")
+            track_list.append("N. Gin Labs")
+            track_list.append("Slide Coliseum")
+            track_list.append("Oxide Station")
+            if is_category_enabled(multiworld, player, "Turbo Track"):
+                track_list.append("Turbo Track")
+        if nitro is True:
+            track_list.append("Inferno Island")
+            track_list.append("Jungle Boogie")
+            track_list.append("Clockwork Wumpa")
+            track_list.append("Android Alley")
+            track_list.append("Electron Avenue")
+            track_list.append("Deep Sea Driving")
+            track_list.append("Thunder Struck")
+            track_list.append("Tiny Temple")
+            track_list.append("Meteor Gorge")
+            track_list.append("Barin Ruins")
+            track_list.append("Out Of Time")
+            track_list.append("Assembly Lane")
+            track_list.append("Hyper Spaceway")
+        if bonus is True:
+            track_list.append("Twilight Tour")
+            track_list.append("Prehistoric Playground")
+            track_list.append("Spyro Circuit")
+            track_list.append("Nina's Nightmare")
+            track_list.append("Koala Carnival")
+            track_list.append("Gingerbread Joyride")
+            track_list.append("Megamix Mania")
+            track_list.append("Drive-Thru Danger")
+    
+    return track_list
+    
+def get_cup_list(multiworld: MultiWorld, player: int):
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    cups = is_category_enabled(multiworld, player, "Cups")
+    
+    cups_list = []
+    if cups is True:
+        if classic is True:
+            cups_list.append("Wumpa Cup")
+            cups_list.append("Nitro Cup")
+            cups_list.append("Crystal Cup")
+            cups_list.append("Crash Cup")
+        if nitro is True:
+            cups_list.append("Velo Cup")
+            cups_list.append("Aku Cup")
+            cups_list.append("Uka Cup")
+        if bonus is True:
+            cups_list.append("Bonus Cup")
+            if classic is True and nitro is True:
+                cups_list.append("Lost Cup")
+                cups_list.append("Desert Cup")
+                cups_list.append("Space Cup")
 
+    return cups_list
+
+def get_battle_list(multiworld: MultiWorld, player: int):
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    battle = is_category_enabled(multiworld, player, "Battle")
+    
+    battle_list = []
+    if battle is True:
+        if classic is True:
+            battle_list.append("Skull Rock")
+            battle_list.append("Nitro Court")
+            battle_list.append("Parking Lot")
+            battle_list.append("Rocky Road")
+            battle_list.append("Lab Basement")
+            battle_list.append("Rampage Ruins")
+            battle_list.append("The North Bowl")
+        if nitro is True:
+            battle_list.append("Temple Turmoil")
+            battle_list.append("Frozen Frenzy")
+            battle_list.append("Desert Storm")
+            battle_list.append("Magnetic Mayhem")
+            battle_list.append("Terra Drome")
+
+    return battle_list
+
+def num_difficulties(multiworld: MultiWorld, player: int):
+    easy = is_category_enabled(multiworld, player, "Easy")
+    medium = is_category_enabled(multiworld, player, "Medium")
+    hard = is_category_enabled(multiworld, player, "Hard")
+    
+    difficulties = 0
+    if easy is True:
+        difficulties += 1
+    if medium is True:
+        difficulties += 1
+    if hard is True:
+        difficulties += 1
+
+    return difficulties
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
@@ -41,62 +158,22 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
      # Get goal location index
-    if get_option_value(multiworld, player, "unlock_mode") == 1:
+    if get_option_value(multiworld, player, "unlock_mode") == 1: 
         goal_index = world.victory_names.index("Goal (Final Challenge)")
     elif get_option_value(multiworld, player, "goal_type") == 0:
         nf = is_category_enabled(multiworld, player, "NF")
-        classic = is_category_enabled(multiworld, player, "Classic")
-        nitro = is_category_enabled(multiworld, player, "Nitro")
-        bonus = is_category_enabled(multiworld, player, "Bonus")
-        easy = is_category_enabled(multiworld, player, "Easy")
-        medium = is_category_enabled(multiworld, player, "Medium")
-        hard = is_category_enabled(multiworld, player, "Hard")
-        tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
-        cups = is_category_enabled(multiworld, player, "Cups")
         timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-        battle = is_category_enabled(multiworld, player, "Battle")
-    
-        numTracks = 0
-        if tracksIncluded is True:
-            if classic is True:
-                numTracks += 17
-                if is_category_enabled(multiworld, player, "Turbo Track"):
-                    numTracks += 1
-            if nitro is True:
-                numTracks += 13
-            if bonus is True:
-                numTracks += 8
-
-        numCups = 0
-        if cups is True:
-            if classic is True:
-                numCups += 4
-            if nitro is True:
-                numCups += 3
-            if bonus is True:
-                numCups += 1
-                if classic is True and nitro is True:
-                    numCups += 3
         
-        numBattles = 0
-        if battle is True:
-            if classic is True:
-                numBattles += 7
-            if nitro is True:
-                numBattles += 5
+        numTracks = len(get_track_list(multiworld, player))
+        numCups = len(get_cup_list(multiworld, player))
+        numBattles = len(get_battle_list(multiworld, player))
             
         tracks = numTracks + numCups + numBattles - 1
         tt = 0
         if timeTrial and not nf:
             tt = numTracks
 
-        difficulties = 0
-        if easy is True:
-            difficulties += 1
-        if medium is True:
-            difficulties += 1
-        if hard is True:
-            difficulties += 1
+        difficulties = num_difficulties(multiworld, player)
 
         max_trophies = round((tracks * 3 * difficulties) + tt - tracks - ((difficulties * tracks + tt) / 3))
         multiplier = get_option_value(multiworld, player, "percentage_trophies")
@@ -181,15 +258,12 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     nf = is_category_enabled(multiworld, player, "NF")
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
-    bonus = is_category_enabled(multiworld, player, "Bonus")
     easy = is_category_enabled(multiworld, player, "Easy")
     medium = is_category_enabled(multiworld, player, "Medium")
     hard = is_category_enabled(multiworld, player, "Hard")
-    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
     cup_items = is_category_enabled(multiworld, player, "Cups Items")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-    battle = is_category_enabled(multiworld, player, "Battle")
     chunks = is_category_enabled(multiworld, player, "Chunks")
     final_challenge = get_option_value(multiworld, player, "goal_type")
     if chunks:
@@ -198,54 +272,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     characters_value = get_option_value(multiworld, player, "randomize_characters")
     oxide_edition = get_option_value(multiworld, player, "oxide_edition")
     
-    track_list = []
-    if tracksIncluded is True:
-        if classic is True:
-            track_list.append("Crash Cove")
-            track_list.append("Mystery Caves")
-            track_list.append("Sewer Speedway")
-            track_list.append("Roo's Tubes")
-            track_list.append("Coco Park")
-            track_list.append("Tiger Temple")
-            track_list.append("Papu's Pyramid")
-            track_list.append("Dingo Canyon")
-            track_list.append("Polar Pass")
-            track_list.append("Tiny Arena")
-            track_list.append("Dragon Mines")
-            track_list.append("Blizzard Bluff")
-            track_list.append("Hot Air Skyway")
-            track_list.append("Cortex Castle")
-            track_list.append("N. Gin Labs")
-            track_list.append("Slide Coliseum")
-            track_list.append("Oxide Station")
-            if is_category_enabled(multiworld, player, "Turbo Track"):
-                track_list.append("Turbo Track")
-        if nitro is True:
-            track_list.append("Inferno Island")
-            track_list.append("Jungle Boogie")
-            track_list.append("Clockwork Wumpa")
-            track_list.append("Android Alley")
-            track_list.append("Electron Avenue")
-            track_list.append("Deep Sea Driving")
-            track_list.append("Thunder Struck")
-            track_list.append("Tiny Temple")
-            track_list.append("Meteor Gorge")
-            track_list.append("Barin Ruins")
-            track_list.append("Out Of Time")
-            track_list.append("Assembly Lane")
-            track_list.append("Hyper Spaceway")
-        if bonus is True:
-            track_list.append("Twilight Tour")
-            track_list.append("Prehistoric Playground")
-            track_list.append("Spyro Circuit")
-            track_list.append("Nina's Nightmare")
-            track_list.append("Koala Carnival")
-            track_list.append("Gingerbread Joyride")
-            track_list.append("Megamix Mania")
-            track_list.append("Drive-Thru Danger")
+    track_list = get_track_list(multiworld, player)
+    cup_list = get_cup_list(multiworld, player)
+    battle_list = get_battle_list(multiworld, player)
     
+    numTracks = len(track_list) + len(cup_list) + len(battle_list) - 1
+    if chunks is True:
+        numTracks = len(track_list) + len(battle_list)
+
     timetrial_locs = 0
-    if timeTrial is True:
+    tt = 0
+    if timeTrial:
+        tt = len(track_list)
         ghosts = 0
         for ghost in ["N. Tropy", "N. Oxide", "Velo", "Dev"]:
             if is_category_enabled(multiworld, player, ghost):
@@ -255,58 +293,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         else:
             timetrial_locs = len(track_list) * (ghosts)
         # Remove excess Progressive Time Trial Ghosts
-        if ghosts >= 2:
+        if ghosts >= 2 and not chunks:
             for track in track_list:
                 for _ in range(ghosts, 4):
+                    if debug:
+                        print(f"Adding '{track} - Progressive Ghost' to itemNamesToRemove")
                     itemNamesToRemove.append(f"{track} - Progressive Ghost")
-
-    cups_list = []
-    if cups is True:
-        if classic is True:
-            cups_list.append("Wumpa Cup")
-            cups_list.append("Nitro Cup")
-            cups_list.append("Crystal Cup")
-            cups_list.append("Crash Cup")
-        if nitro is True:
-            cups_list.append("Velo Cup")
-            cups_list.append("Aku Cup")
-            cups_list.append("Uka Cup")
-        if bonus is True:
-            cups_list.append("Bonus Cup")
-            if classic is True and nitro is True:
-                cups_list.append("Lost Cup")
-                cups_list.append("Desert Cup")
-                cups_list.append("Space Cup")
-
-    battle_list = []
-    if battle is True:
-        if classic is True:
-            battle_list.append("Skull Rock")
-            battle_list.append("Nitro Court")
-            battle_list.append("Parking Lot")
-            battle_list.append("Rocky Road")
-            battle_list.append("Lab Basement")
-            battle_list.append("Rampage Ruins")
-            battle_list.append("The North Bowl")
-        if nitro is True:
-            battle_list.append("Temple Turmoil")
-            battle_list.append("Frozen Frenzy")
-            battle_list.append("Desert Storm")
-            battle_list.append("Magnetic Mayhem")
-            battle_list.append("Terra Drome")
-    
-    tracks = len(track_list) + len(cups_list) + len(battle_list) - 1
-    tt = 0
-    if timeTrial:
-        tt = len(track_list)
-    if chunks is True:
-        tracks = len(track_list) + len(battle_list)
 
     # Starting Tracks
     starting_list = []
     starting_list.extend(track_list)
     if cup_items:
-        starting_list.extend(cups_list)
+        starting_list.extend(cup_list)
     starting_list.extend(battle_list)
     num_starting_tracks = get_option_value(multiworld, player, "starting_locations")
     if chunks:
@@ -318,27 +316,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         multiworld.push_precollected(item)
         if strack in track_list:
             track_list.remove(strack)
-        if strack in cups_list:
-            cups_list.remove(strack)
+        if strack in cup_list:
+            cup_list.remove(strack)
         if strack in battle_list:
             battle_list.remove(strack)
         starting_list.remove(strack)
 
-    difficulties = 0
-    if easy is True:
-        difficulties += 1
-    if medium is True:
-        difficulties += 1
-    if hard is True:
-        difficulties += 1
+    difficulties = num_difficulties(multiworld, player)
 
     if not chunks:
         if not nf:
-            max_trophies = round((tracks * 3 * difficulties) + tt - tracks - ((difficulties * tracks + tt) / 3))
+            max_trophies = round((numTracks * 3 * difficulties) + tt - numTracks - ((difficulties * numTracks + tt) / 3))
         else:
-            max_trophies = round((tracks * 3 * difficulties) - tracks - (difficulties * tracks / 3))
+            max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
     else:
-        max_trophies = round(((tracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
+        max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
     trophies = round(max_trophies * multiplier / 100)
     if trophies == 0:
@@ -352,6 +344,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
     item_pool.remove(victory_item)
     
+    final_track_location_name = ""
     gather_loc_list = []
     if not hasattr(world.multiworld, "generation_is_fake"):
         if final_challenge:
@@ -369,23 +362,27 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             gather_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == gather_location_name)
             final_track_location_name = ""
 
-        # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
+            # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
             if cups is True:
-                final_track_name = random.choice(list(cups_list))
+                final_track_name = random.choice(list(cup_list))
                 for d in ["Easy", "Medium", "Hard"]:
                     if locals()[d.lower()] is True:
                         for p in ["Top 5", "Top 3", "1st"]:
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
             else:
                 final_track_name = random.choice(track_list)
-                if timeTrial:
+                if timeTrial and not chunks:
                     ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
                     for i in range(0, ghosts):
                         gather_loc_list.append(f"{final_track_name} Time Trial - Beat {ghost_list[i]}")
                         # Remove ghost items
                         if ghosts == 1:
+                            if debug:
+                                print(f"Adding {final_track_name} - N. Tropy to itemNamesToRemove")
                             itemNamesToRemove.append(f"{final_track_name} - N. Tropy")
                         else:
+                            if debug:
+                                print(f"Adding {final_track_name} - Progressive Ghost to itemNamesToRemove")
                             itemNamesToRemove.append(f"{final_track_name} - Progressive Ghost")
                 for d in ["Easy", "Medium", "Hard"]:
                     if locals()[d.lower()] is True:
@@ -402,33 +399,33 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             gather_location.place_locked_item(final_track_item)
             final_track_location.place_locked_item(victory_item)
     
-    #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
-    if chunks is True:
-        diff = ""
-        if hard:
-            diff = "Hard"
-        elif medium:
-            diff = "Medium"
-        elif easy:
-            diff = "Easy"
-        
-        for _ in range(len(cups_list), 11): # Remove excess Chunk Unlock items
-            item = next(i for i in item_pool if i.name == "Chunk Unlock")
-            item_pool.remove(item)
-        for cup in cups_list: # Assign the remaining Chunk Unlock items to the cup locations
-            if cup in final_track_location_name:
-                continue
-            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == f"{cup} - {diff} - 1st")
-            item = next(i for i in item_pool if i.name == "Chunk Unlock")
-            item_pool.remove(item)
-            location.place_locked_item(item)
-            # add extra cup locations to gather_loc_list for deletion
-            if easy:
-                if medium or hard:
-                    gather_loc_list.append(f"{cup} - Easy - 1st")
-            if medium:
+            #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
+            if chunks is True:
+                diff = ""
                 if hard:
-                    gather_loc_list.append(f"{cup} - Medium - 1st")
+                    diff = "Hard"
+                elif medium:
+                    diff = "Medium"
+                elif easy:
+                    diff = "Easy"
+                
+                for _ in range(len(cup_list), 11): # Remove excess Chunk Unlock items
+                    item = next(i for i in item_pool if i.name == "Chunk Unlock")
+                    item_pool.remove(item)
+                for cup in cup_list: # Assign the remaining Chunk Unlock items to the cup locations
+                    if cup in final_track_location_name:
+                        continue
+                    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == f"{cup} - {diff} - 1st")
+                    item = next(i for i in item_pool if i.name == "Chunk Unlock")
+                    item_pool.remove(item)
+                    location.place_locked_item(item)
+                    # add extra cup locations to gather_loc_list for deletion
+                    if easy:
+                        if medium or hard:
+                            gather_loc_list.append(f"{cup} - Easy - 1st")
+                    if medium:
+                        if hard:
+                            gather_loc_list.append(f"{cup} - Medium - 1st")
 
     
     # Remove the extra gather locations and unneeded final track locations
@@ -456,6 +453,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
     
+    if debug:
+        numTrophies = 0
+        print()
+        print("--Item Pool--")
+        for item in item_pool:
+            if item.name == "Trophy":
+                numTrophies += 1
+            else:
+                print(item.name)
+        print(f"Trophy x{numTrophies}")
+        print()
+        if not hasattr(world.multiworld, "generation_is_fake"):
+            input("Press enter to continue...")
+            print()
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
@@ -467,7 +479,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-    debug = False
+    debug = True
     
     if debug:
         print("Removing items from pool before filler:")
@@ -499,54 +511,38 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
 
-    multiplier = get_option_value(multiworld, player, "percentage_trophies")/100
-    classic = is_category_enabled(multiworld, player, "Classic")
-    nitro = is_category_enabled(multiworld, player, "Nitro")
-    bonus = is_category_enabled(multiworld, player, "Bonus")
-    easy = is_category_enabled(multiworld, player, "Easy")
-    medium = is_category_enabled(multiworld, player, "Medium")
-    hard = is_category_enabled(multiworld, player, "Hard")
-    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
-    cups = is_category_enabled(multiworld, player, "Cups")
+    nf = is_category_enabled(multiworld, player, "NF")
+    multiplier = get_option_value(multiworld, player, "percentage_trophies") / 100
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-    battle = is_category_enabled(multiworld, player, "Battle")
     chunks = is_category_enabled(multiworld, player, "Chunks")
 
-    numTracks = 0
-    if tracksIncluded is True:
-        if classic is True:
-            numTracks += 18
-        if nitro is True:
-            numTracks += 13
-        if bonus is True:
-            numTracks += 8
+    nTracks = len(get_track_list(multiworld, player))
+    numCups = len(get_cup_list(multiworld, player))
+    numBattles = len(get_battle_list(multiworld, player))
+
+    
+    if not chunks:
+        numTracks = nTracks + numCups + numBattles - 1
+    else:
+        numTracks = nTracks  + numBattles
 
     timetrial_locs = 0
+    tt = 0
     if timeTrial is True:
-        ghosts = get_option_value(multiworld, player, "included_ghosts") + 1
-        timetrial_locs = numTracks * ghosts
+        ghosts = get_option_value(multiworld, player, "included_ghosts")
+        if nf:
+            timetrial_locs = numTracks * ghosts
+        else:
+            timetrial_locs = numTracks * (ghosts + 1)
+        tt = numTracks
 
-    numCups = 0
-    if cups is True:
-        if classic is True:
-            numCups += 4
-        if nitro is True:
-            numCups += 3
-        if bonus is True:
-            numCups += 1
-            if classic is True and nitro is True:
-                numCups += 3
-
-    difficulties = 0
-    if easy is True:
-        difficulties += 1
-    if medium is True:
-        difficulties += 1
-    if hard is True:
-        difficulties += 1
+    difficulties = num_difficulties(multiworld, player)
 
     if not chunks:
-        max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
+        if not nf:
+            max_trophies = round((numTracks * 3 * difficulties) + tt - numTracks - ((difficulties * numTracks + tt) / 3))
+        else:
+            max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
     else:
         max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
 
