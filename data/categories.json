@@ -5,6 +5,9 @@
     "Chunks": {
         "hidden": true
     },
+    "Chunk Unlocks": {
+        "hidden": false
+    },
     "Not Chunks": {
         "hidden": true
     },
