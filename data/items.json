@@ -1,6 +1,6 @@
 {
-  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
-  "data": [
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
     {
       "count": 1,
       "name": "Ultimate Trophy (Victory)",
