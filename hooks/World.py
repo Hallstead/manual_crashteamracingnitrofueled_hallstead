@@ -1,8 +1,11 @@
-# Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 import math
 import random
+
+from .functions import get_battle_list, get_cup_list, get_track_list, num_difficulties
+
+# Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
-from BaseClasses import MultiWorld, CollectionState
+from BaseClasses import MultiWorld, CollectionState, Item
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -14,7 +17,7 @@ from ..Locations import ManualLocation
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_category_enabled, is_option_enabled, get_option_value
+from ..Helpers import is_category_enabled,is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
@@ -31,125 +34,6 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-def get_track_list(multiworld: MultiWorld, player: int):
-    classic = is_category_enabled(multiworld, player, "Classic")
-    nitro = is_category_enabled(multiworld, player, "Nitro")
-    bonus = is_category_enabled(multiworld, player, "Bonus")
-    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
-    
-    track_list = []
-    if tracksIncluded is True:
-        if classic is True:
-            track_list.append("Crash Cove")
-            track_list.append("Mystery Caves")
-            track_list.append("Sewer Speedway")
-            track_list.append("Roo's Tubes")
-            track_list.append("Coco Park")
-            track_list.append("Tiger Temple")
-            track_list.append("Papu's Pyramid")
-            track_list.append("Dingo Canyon")
-            track_list.append("Polar Pass")
-            track_list.append("Tiny Arena")
-            track_list.append("Dragon Mines")
-            track_list.append("Blizzard Bluff")
-            track_list.append("Hot Air Skyway")
-            track_list.append("Cortex Castle")
-            track_list.append("N. Gin Labs")
-            track_list.append("Slide Coliseum")
-            track_list.append("Oxide Station")
-            if is_category_enabled(multiworld, player, "Turbo Track"):
-                track_list.append("Turbo Track")
-        if nitro is True:
-            track_list.append("Inferno Island")
-            track_list.append("Jungle Boogie")
-            track_list.append("Clockwork Wumpa")
-            track_list.append("Android Alley")
-            track_list.append("Electron Avenue")
-            track_list.append("Deep Sea Driving")
-            track_list.append("Thunder Struck")
-            track_list.append("Tiny Temple")
-            track_list.append("Meteor Gorge")
-            track_list.append("Barin Ruins")
-            track_list.append("Out Of Time")
-            track_list.append("Assembly Lane")
-            track_list.append("Hyper Spaceway")
-        if bonus is True:
-            track_list.append("Twilight Tour")
-            track_list.append("Prehistoric Playground")
-            track_list.append("Spyro Circuit")
-            track_list.append("Nina's Nightmare")
-            track_list.append("Koala Carnival")
-            track_list.append("Gingerbread Joyride")
-            track_list.append("Megamix Mania")
-            track_list.append("Drive-Thru Danger")
-    
-    return track_list
-    
-def get_cup_list(multiworld: MultiWorld, player: int):
-    classic = is_category_enabled(multiworld, player, "Classic")
-    nitro = is_category_enabled(multiworld, player, "Nitro")
-    bonus = is_category_enabled(multiworld, player, "Bonus")
-    cups = is_category_enabled(multiworld, player, "Cups")
-    
-    cups_list = []
-    if cups is True:
-        if classic is True:
-            cups_list.append("Wumpa Cup")
-            cups_list.append("Nitro Cup")
-            cups_list.append("Crystal Cup")
-            cups_list.append("Crash Cup")
-        if nitro is True:
-            cups_list.append("Velo Cup")
-            cups_list.append("Aku Cup")
-            cups_list.append("Uka Cup")
-        if bonus is True:
-            cups_list.append("Bonus Cup")
-            if classic is True and nitro is True:
-                cups_list.append("Lost Cup")
-                cups_list.append("Desert Cup")
-                cups_list.append("Space Cup")
-
-    return cups_list
-
-def get_battle_list(multiworld: MultiWorld, player: int):
-    classic = is_category_enabled(multiworld, player, "Classic")
-    nitro = is_category_enabled(multiworld, player, "Nitro")
-    battle = is_category_enabled(multiworld, player, "Battle")
-    
-    battle_list = []
-    if battle is True:
-        if classic is True:
-            battle_list.append("Skull Rock")
-            battle_list.append("Nitro Court")
-            battle_list.append("Parking Lot")
-            battle_list.append("Rocky Road")
-            battle_list.append("Lab Basement")
-            battle_list.append("Rampage Ruins")
-            battle_list.append("The North Bowl")
-        if nitro is True:
-            battle_list.append("Temple Turmoil")
-            battle_list.append("Frozen Frenzy")
-            battle_list.append("Desert Storm")
-            battle_list.append("Magnetic Mayhem")
-            battle_list.append("Terra Drome")
-
-    return battle_list
-
-def num_difficulties(multiworld: MultiWorld, player: int):
-    easy = is_category_enabled(multiworld, player, "Easy")
-    medium = is_category_enabled(multiworld, player, "Medium")
-    hard = is_category_enabled(multiworld, player, "Hard")
-    
-    difficulties = 0
-    if easy is True:
-        difficulties += 1
-    if medium is True:
-        difficulties += 1
-    if hard is True:
-        difficulties += 1
-
-    return difficulties
-
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -157,7 +41,7 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-     # Get goal location index
+    # Get goal location index
     if get_option_value(multiworld, player, "unlock_mode") == 1: 
         goal_index = world.victory_names.index("Goal (Final Challenge)")
     elif get_option_value(multiworld, player, "goal_type") == 0:
@@ -193,44 +77,18 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
-    locationNamesToRemove = [] # List of location names
+    locationNamesToRemove: list[str] = [] # List of location names
 
     # Add your code here to calculate which locations to remove
     chunks = is_category_enabled(multiworld, player, "Chunks")
     
     if chunks is True:
-        classic = is_category_enabled(multiworld, player, "Classic")
-        nitro = is_category_enabled(multiworld, player, "Nitro")
-        bonus = is_category_enabled(multiworld, player, "Bonus")
-        tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
-        cups = is_category_enabled(multiworld, player, "Cups")
-        timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-        battle = is_category_enabled(multiworld, player, "Battle")
 
-        numTracks = 0
-        if tracksIncluded is True:
-            if classic is True:
-                numTracks += 17
-                if is_category_enabled(multiworld, player, "Turbo Track"):
-                    numTracks += 1
-            if nitro is True:
-                numTracks += 13
-            if bonus is True:
-                numTracks += 8
-
-        numCups = 0
-        if cups is True:
-            if classic is True:
-                numCups += 4
-            if nitro is True:
-                numCups += 3
-            if bonus is True:
-                numCups += 1
-                if classic is True and nitro is True:
-                    numCups += 3
+        numTracks = len(get_track_list(multiworld, player))
+        numCups = len(get_cup_list(multiworld, player))
 
         countLeft = numTracks
-        for i in range(1, numCups+1):
+        for i in range(1, numCups + 1):
             chunkTracks = math.ceil(countLeft/(numCups-(i-1)))
             countLeft -= chunkTracks
             for j in range(chunkTracks+1, 9):
@@ -246,8 +104,19 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
-    if hasattr(multiworld, "clear_location_cache"):
-        multiworld.clear_location_cache()
+    # if hasattr(multiworld, "clear_location_cache"):
+    #     multiworld.clear_location_cache()
+
+# This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
+# Valid item_config key/values:
+# {"Item Name": 5} <- This will create qty 5 items using all the default settings
+# {"Item Name": {"useful": 7}} <- This will create qty 7 items and force them to be classified as useful
+# {"Item Name": {"progression": 2, "useful": 1}} <- This will create 3 items, with 2 classified as progression and 1 as useful
+# {"Item Name": {0b0110: 5}} <- If you know the special flag for the item classes, you can also define non-standard options. This setup
+#       will create 5 items that are the "useful trap" class
+# {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
+def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
@@ -473,13 +342,14 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
-    itemNamesToRemove = [] # List of item names
+    itemNamesToRemove: list[str] = [] # List of item names
 
     # Add your code here to calculate which items to remove.
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-    debug = True
+
+    debug = False
     
     if debug:
         print("Removing items from pool before filler:")
@@ -605,7 +475,6 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             return True
         return False
     
-    
     if chunks is True:
         for i in range(1, numCups):
             chunk_loc = f"Chunk {i} Cup"
@@ -632,12 +501,29 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
     return item
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
-def before_generate_basic(world: World, multiworld: MultiWorld, player: int) -> list:
+def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     pass
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
     pass
+
+# This method is run every time an item is added to the state, can be used to modify the value of an item.
+# IMPORTANT! Any changes made in this hook must be cancelled/undone in after_remove_item
+def after_collect_item(world: World, state: CollectionState, Changed: bool, item: Item):
+    # the following let you add to the Potato Item Value count
+    # if item.name == "Cooked Potato":
+    #     state.prog_items[item.player][format_state_prog_items_key(ProgItemsCat.VALUE, "Potato")] += 1
+    pass
+
+# This method is run every time an item is removed from the state, can be used to modify the value of an item.
+# IMPORTANT! Any changes made in this hook must be first done in after_collect_item
+def after_remove_item(world: World, state: CollectionState, Changed: bool, item: Item):
+    # the following let you undo the addition to the Potato Item Value count
+    # if item.name == "Cooked Potato":
+    #     state.prog_items[item.player][format_state_prog_items_key(ProgItemsCat.VALUE, "Potato")] -= 1
+    pass
+
 
 # This is called before slot data is set and provides an empty dict ({}), in case you want to modify it before Manual does
 def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
@@ -653,8 +539,8 @@ def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -
 
 # This is called when you want to add information to the hint text
 def before_extend_hint_information(hint_data: dict[int, dict[int, str]], world: World, multiworld: MultiWorld, player: int) -> None:
-    
-    ### Example way to use this hook: 
+
+    ### Example way to use this hook:
     # if player not in hint_data:
     #     hint_data.update({player: {}})
     # for location in multiworld.get_locations(player):
@@ -664,7 +550,7 @@ def before_extend_hint_information(hint_data: dict[int, dict[int, str]], world: 
     #     use this section to calculate the hint string
     #
     #     hint_data[player][location.address] = hint_string
-    
+
     pass
 
 def after_extend_hint_information(hint_data: dict[int, dict[int, str]], world: World, multiworld: MultiWorld, player: int) -> None:

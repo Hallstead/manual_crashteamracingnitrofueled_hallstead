@@ -1,0 +1,121 @@
+from ..Helpers import is_category_enabled
+from BaseClasses import MultiWorld
+
+def get_track_list(multiworld: MultiWorld, player: int):
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    tracksIncluded = is_category_enabled(multiworld, player, "Tracks")
+    
+    track_list = []
+    if tracksIncluded is True:
+        if classic is True:
+            track_list.append("Crash Cove")
+            track_list.append("Mystery Caves")
+            track_list.append("Sewer Speedway")
+            track_list.append("Roo's Tubes")
+            track_list.append("Coco Park")
+            track_list.append("Tiger Temple")
+            track_list.append("Papu's Pyramid")
+            track_list.append("Dingo Canyon")
+            track_list.append("Polar Pass")
+            track_list.append("Tiny Arena")
+            track_list.append("Dragon Mines")
+            track_list.append("Blizzard Bluff")
+            track_list.append("Hot Air Skyway")
+            track_list.append("Cortex Castle")
+            track_list.append("N. Gin Labs")
+            track_list.append("Slide Coliseum")
+            track_list.append("Oxide Station")
+            if is_category_enabled(multiworld, player, "Turbo Track"):
+                track_list.append("Turbo Track")
+        if nitro is True:
+            track_list.append("Inferno Island")
+            track_list.append("Jungle Boogie")
+            track_list.append("Clockwork Wumpa")
+            track_list.append("Android Alley")
+            track_list.append("Electron Avenue")
+            track_list.append("Deep Sea Driving")
+            track_list.append("Thunder Struck")
+            track_list.append("Tiny Temple")
+            track_list.append("Meteor Gorge")
+            track_list.append("Barin Ruins")
+            track_list.append("Out Of Time")
+            track_list.append("Assembly Lane")
+            track_list.append("Hyper Spaceway")
+        if bonus is True:
+            track_list.append("Twilight Tour")
+            track_list.append("Prehistoric Playground")
+            track_list.append("Spyro Circuit")
+            track_list.append("Nina's Nightmare")
+            track_list.append("Koala Carnival")
+            track_list.append("Gingerbread Joyride")
+            track_list.append("Megamix Mania")
+            track_list.append("Drive-Thru Danger")
+    
+    return track_list
+    
+def get_cup_list(multiworld: MultiWorld, player: int):
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    bonus = is_category_enabled(multiworld, player, "Bonus")
+    cups = is_category_enabled(multiworld, player, "Cups")
+    
+    cups_list = []
+    if cups is True:
+        if classic is True:
+            cups_list.append("Wumpa Cup")
+            cups_list.append("Nitro Cup")
+            cups_list.append("Crystal Cup")
+            cups_list.append("Crash Cup")
+        if nitro is True:
+            cups_list.append("Velo Cup")
+            cups_list.append("Aku Cup")
+            cups_list.append("Uka Cup")
+        if bonus is True:
+            cups_list.append("Bonus Cup")
+            if classic is True and nitro is True:
+                cups_list.append("Lost Cup")
+                cups_list.append("Desert Cup")
+                cups_list.append("Space Cup")
+
+    return cups_list
+
+def get_battle_list(multiworld: MultiWorld, player: int):
+    classic = is_category_enabled(multiworld, player, "Classic")
+    nitro = is_category_enabled(multiworld, player, "Nitro")
+    battle = is_category_enabled(multiworld, player, "Battle")
+    
+    battle_list = []
+    if battle is True:
+        if classic is True:
+            battle_list.append("Skull Rock")
+            battle_list.append("Nitro Court")
+            battle_list.append("Parking Lot")
+            battle_list.append("Rocky Road")
+            battle_list.append("Lab Basement")
+            battle_list.append("Rampage Ruins")
+            battle_list.append("The North Bowl")
+        if nitro is True:
+            battle_list.append("Temple Turmoil")
+            battle_list.append("Frozen Frenzy")
+            battle_list.append("Desert Storm")
+            battle_list.append("Magnetic Mayhem")
+            battle_list.append("Terra Drome")
+
+    return battle_list
+
+def num_difficulties(multiworld: MultiWorld, player: int):
+    easy = is_category_enabled(multiworld, player, "Easy")
+    medium = is_category_enabled(multiworld, player, "Medium")
+    hard = is_category_enabled(multiworld, player, "Hard")
+    
+    difficulties = 0
+    if easy is True:
+        difficulties += 1
+    if medium is True:
+        difficulties += 1
+    if hard is True:
+        difficulties += 1
+
+    return difficulties
