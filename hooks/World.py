@@ -1,7 +1,6 @@
 import math
-import random
 
-from .functions import get_battle_list, get_cup_list, get_track_list, num_difficulties
+from .functions import get_battle_list, get_cup_list, get_max_trophies, get_track_list, num_difficulties
 
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
@@ -43,32 +42,22 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Get goal location index
     if get_option_value(multiworld, player, "unlock_mode") == 1: 
+        # If using Chunks, the goal is always the Final Challenge
         goal_index = world.victory_names.index("Goal (Final Challenge)")
     elif get_option_value(multiworld, player, "goal_type") == 0:
-        nf = is_category_enabled(multiworld, player, "NF")
-        timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-        
-        numTracks = len(get_track_list(multiworld, player))
-        numCups = len(get_cup_list(multiworld, player))
-        numBattles = len(get_battle_list(multiworld, player))
-            
-        tracks = numTracks + numCups + numBattles - 1
-        tt = 0
-        if timeTrial and not nf:
-            tt = numTracks
-
-        difficulties = num_difficulties(multiworld, player)
-
-        max_trophies = round((tracks * 3 * difficulties) + tt - tracks - ((difficulties * tracks + tt) / 3))
+        # Get the number of trophies needed to win
+        max_trophies = get_max_trophies(multiworld, player)
         multiplier = get_option_value(multiworld, player, "percentage_trophies")
         trophies = round(max_trophies * multiplier / 100)
-        if trophies == 0:
+        # If trophies is 0, set it to 1
+        if trophies <= 0:
             trophies = 1
         if trophies == 1:
             goal_index = world.victory_names.index(f"Goal (Gather 1 Trophy)")
         else:
             goal_index = world.victory_names.index(f"Goal (Gather {trophies} Trophies)")
     else:
+        # If using the Final Challenge, the goal is always the Final Challenge
         goal_index = world.victory_names.index("Goal (Final Challenge)")
 
     # Set goal location
@@ -124,7 +113,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     
     debug = False
 
-    nf = is_category_enabled(multiworld, player, "NF")
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
     easy = is_category_enabled(multiworld, player, "Easy")
@@ -145,23 +133,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     cup_list = get_cup_list(multiworld, player)
     battle_list = get_battle_list(multiworld, player)
     
-    numTracks = len(track_list) + len(cup_list) + len(battle_list) - 1
-    if chunks is True:
-        numTracks = len(track_list) + len(battle_list)
-
-    timetrial_locs = 0
-    tt = 0
     if timeTrial:
-        tt = len(track_list)
-        ghosts = 0
-        for ghost in ["N. Tropy", "N. Oxide", "Velo", "Dev"]:
-            if is_category_enabled(multiworld, player, ghost):
-                ghosts += 1
-        if not nf:
-            timetrial_locs = len(track_list) * (ghosts + 1)
-        else:
-            timetrial_locs = len(track_list) * (ghosts)
-        # Remove excess Progressive Time Trial Ghosts
+        ghosts = get_option_value(multiworld, player, "included_ghosts")
+         # Remove excess Progressive Time Trial Ghosts
         if ghosts >= 2 and not chunks:
             for track in track_list:
                 for _ in range(ghosts, 4):
@@ -179,7 +153,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if chunks:
         num_starting_tracks = 0
     for _ in range(num_starting_tracks):
-        strack = random.choice(list(starting_list))
+        strack = world.random.choice(list(starting_list))
         item = next(i for i in item_pool if i.name == strack)
         item_pool.remove(item)
         multiworld.push_precollected(item)
@@ -191,18 +165,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             battle_list.remove(strack)
         starting_list.remove(strack)
 
-    difficulties = num_difficulties(multiworld, player)
-
-    if not chunks:
-        if not nf:
-            max_trophies = round((numTracks * 3 * difficulties) + tt - numTracks - ((difficulties * numTracks + tt) / 3))
-        else:
-            max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
-    else:
-        max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
+    max_trophies = get_max_trophies(multiworld, player)
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
     trophies = round(max_trophies * multiplier / 100)
-    if trophies == 0:
+    if trophies <= 0:
         trophies = 1
     
     bad_trophies = 500-max_trophies
@@ -233,13 +199,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
             # get the final track/cup name, add the unneeded locations to the gather_loc_list for deletion
             if cups is True:
-                final_track_name = random.choice(list(cup_list))
+                final_track_name = world.random.choice(list(cup_list))
                 for d in ["Easy", "Medium", "Hard"]:
                     if locals()[d.lower()] is True:
                         for p in ["Top 5", "Top 3", "1st"]:
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
             else:
-                final_track_name = random.choice(track_list)
+                final_track_name = world.random.choice(track_list)
                 if timeTrial and not chunks:
                     ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
                     for i in range(0, ghosts):
@@ -380,41 +346,11 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-
-    nf = is_category_enabled(multiworld, player, "NF")
     multiplier = get_option_value(multiworld, player, "percentage_trophies") / 100
-    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     chunks = is_category_enabled(multiworld, player, "Chunks")
-
-    nTracks = len(get_track_list(multiworld, player))
     numCups = len(get_cup_list(multiworld, player))
-    numBattles = len(get_battle_list(multiworld, player))
-
-    
-    if not chunks:
-        numTracks = nTracks + numCups + numBattles - 1
-    else:
-        numTracks = nTracks  + numBattles
-
-    timetrial_locs = 0
-    tt = 0
-    if timeTrial is True:
-        ghosts = get_option_value(multiworld, player, "included_ghosts")
-        if nf:
-            timetrial_locs = numTracks * ghosts
-        else:
-            timetrial_locs = numTracks * (ghosts + 1)
-        tt = numTracks
-
-    difficulties = num_difficulties(multiworld, player)
-
-    if not chunks:
-        if not nf:
-            max_trophies = round((numTracks * 3 * difficulties) + tt - numTracks - ((difficulties * numTracks + tt) / 3))
-        else:
-            max_trophies = round((numTracks * 3 * difficulties) - numTracks - (difficulties * numTracks / 3))
-    else:
-        max_trophies = round(((numTracks * 3 * difficulties) + timetrial_locs) * 8 / 9)
+        
+    max_trophies = get_max_trophies(multiworld, player)
 
     def needed_trophies(chunkNum):
         reqTrophies = round(multiplier * max_trophies / numCups * chunkNum)

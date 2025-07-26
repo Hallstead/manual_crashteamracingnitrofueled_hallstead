@@ -161,7 +161,7 @@ class include_battle(Toggle):
 class select_battle_tracks(Choice):
     """
     CTR:NF only.
-    Select what battle sets are included in the randomizer. If using the PS1 CTR, only use Classic.
+    Select what battle sets are included in the randomizer.
     Classic adds 7 battle tracks
     Nitro adds 5 battle tracks
 
@@ -235,8 +235,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["include_turbo_track"] = include_turbo_track
     options["include_cups"] = include_cups
     options["cups_unlock_method"] = cups_unlock_method
-    #options["include_battle"] = include_battle
-    #options["select_battle_tracks"] = select_battle_tracks
+    options["include_battle"] = include_battle
+    # options["select_battle_tracks"] = select_battle_tracks
     options["include_time_trial"] = include_time_trial
     options["included_ghosts"] = included_ghosts
     options["randomize_characters"] = randomize_characters
