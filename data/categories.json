@@ -127,7 +127,7 @@
         "hidden": false
     },
     "Arenas": {
-        "hidden": true
+        "hidden": false
     },
     "Time Trial": {
         "hidden": false

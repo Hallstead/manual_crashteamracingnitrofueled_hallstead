@@ -91,12 +91,14 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return False
     
     if category_name == "Battle":
-        if not nf:
-            return False
+        if nf:
+            if Helpers.get_option_value(multiworld, player, "include_battle") == 1:
+                return True
         return False
     if category_name == "Arenas":
-        if not nf:
-            return False
+        if nf:
+            if Helpers.get_option_value(multiworld, player, "include_battle") == 1:
+                return True
         return False
     
     if category_name == "Time Trial" or category_name == "Time Trial Option":

@@ -1,4 +1,4 @@
-from ..Helpers import is_category_enabled
+from ..Helpers import get_option_value, is_category_enabled
 from BaseClasses import MultiWorld
 
 def get_track_list(multiworld: MultiWorld, player: int):
@@ -119,3 +119,50 @@ def num_difficulties(multiworld: MultiWorld, player: int):
         difficulties += 1
 
     return difficulties
+
+def get_max_trophies(multiworld: MultiWorld, player: int):
+    nf = is_category_enabled(multiworld, player, "NF")
+    timeTrial = is_category_enabled(multiworld, player, "Time Trial")
+    chunks = is_category_enabled(multiworld, player, "Chunks")
+    
+    track_list = get_track_list(multiworld, player)
+    cup_list = get_cup_list(multiworld, player)
+    battle_list = get_battle_list(multiworld, player)
+
+    numTracks = len(track_list)
+    numCups = len(cup_list)
+    numBattles = len(battle_list)
+
+    difficulties = num_difficulties(multiworld, player)
+
+    # Time Trial calculation
+    tt = 0
+    timetrial_locs = 0
+    if timeTrial:
+        ghosts = 0
+        for ghost in ["N. Tropy", "N. Oxide", "Velo", "Dev"]:
+            if is_category_enabled(multiworld, player, ghost):
+                ghosts += 1
+        if not nf:
+            tt = numTracks
+            timetrial_locs = numTracks * (ghosts + 1)
+        else:
+            timetrial_locs = numTracks * ghosts
+
+    # Total track-like locations
+    if not chunks:
+        totalLocations = ((numTracks + numCups) * 3 + (numBattles) * 5) * difficulties
+    else:
+        totalLocations = (numTracks * 3 + numBattles * 5) * difficulties
+    
+    totalItems = numTracks + numCups + numBattles
+
+    if not chunks:
+        if not nf:
+            max_trophies = round((totalLocations + tt) * 8 / 9 - totalItems)
+        else:
+            max_trophies = round(totalLocations * 8 / 9 - totalItems)
+    else:
+        max_trophies = round((totalLocations + timetrial_locs) * 8 / 9)
+
+    return max_trophies
