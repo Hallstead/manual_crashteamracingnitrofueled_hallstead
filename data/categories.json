@@ -197,5 +197,8 @@
     },
     "Nitros Oxide Edition": {
         "hidden": true
-    }
+    },
+    "Win Condition - Final Challenge": {
+        "hidden": false
+    }    
 }

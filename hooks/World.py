@@ -175,14 +175,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     for _ in range(bad_trophies):
         itemNamesToRemove.append("Trophy")
     
-    # Get the victory item out of the pool:
-    victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
-    item_pool.remove(victory_item)
-    
     final_track_location_name = ""
     gather_loc_list = []
     if not hasattr(world.multiworld, "generation_is_fake"):
         if final_challenge:
+            # Get the victory item out of the pool:
+            victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
+            item_pool.remove(victory_item)
             # Get the victory location and place the victory item there
             gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
             for i in range(2, 501):
