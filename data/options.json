@@ -21,12 +21,8 @@
             }
         }
     },
-    "_user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
-        "Example_Toggle":{
+    "user": {
+        "_Example_Toggle":{
             "description": [
                 "This is a Toggle",
                 "A simple boolean, aka True or False set the initial value with \"default\""
@@ -35,7 +31,7 @@
             "default": false,
             "group": "Example Options"
         },
-        "Example_Choice":{
+        "_Example_Choice":{
             "type": "Choice",
             "description": [
                 "This is a Choice",
@@ -51,7 +47,7 @@
             "allow_custom_value": false,
             "group": "Example Options"
         },
-        "Example_Range":{
+        "_Example_Range":{
             "type": "Range",
             "description": [
                 "This is a Range",
@@ -65,18 +61,320 @@
             "values": {"example": 2},
             "group": "Example Options"
         },
-
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
-            "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
+        "ctr_game": {
+            "display_name": "What game are you playing?",
+            "type": "Choice",
+            "description": [
+                "This option tells generation what game you are playing.",
+                "Classic CTR: This is the PS1 version of Crash Team Racing. Some options are not available with this option selected.",
+                "CTR NF: This is Crash Team Racing: Nitro Fueled."
             ],
-            "default": true
+            "values": {
+                "Classic CTR": 0,
+                "CTR NF": 1
+            },
+            "default": 1,
+            "group": "Core Game Options"
+        },
+        "unlock_mode": {
+            "display_name": "Game Unlock Mode",
+            "type": "Choice",
+            "description": [
+                "This option determines how maps are unlocked.",
+                "Individual: Tracks are unlocked as their unlock item is obtained.",
+                "Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.",
+                "    This option forces Cups to be included with Cup Items in the pool.",
+                "    Final Challenge is the goal for this option.",
+                "    Ether Tracks or Battles (or both) must be included for generation to work."
+            ],
+            "values": {
+                "individual": 0,
+                "chunks": 1
+            },
+            "default": 0,
+            "group": "Core Game Options"
+        },
+        "goal_type": {
+            "display_name": "What is the Final Objective?",
+            "type": "Choice",
+            "description": [
+                "This option determines the goal. if there is a final challenge after collecting the number of trophies.",
+                "Trophy Hunt sets collecting the trophies to be the goal.",
+                "Final Challenge still has you collect trophies, but after gathering the necessary amount, a random track",
+                "    or cup (if enabled) will be selected as a final challenge to beat.",
+                "    At this time, enabling this option forces cups_unlock_method to use Cup Items.",
+                "If Chunks are enabled, Final Challenge will be used as the final Objective, and this option will be ignored."
+            ],
+            "values": {
+                "trophy_hunt": 0,
+                "final_challenge": 1
+            },
+            "default": 0,
+            "group": "Core Game Options"
+        },
+        "percentage_trophies": {
+            "display_name": "What percentage of trophies to collect?",
+            "type": "Range",
+            "description": [
+                "Select what percentage (1-100) of trophies are needed to achieve the goal or unlock the final challenge.",
+                "100 means all available trophies are required."
+            ],
+            "range_start": 0,
+            "default": 80,
+            "range_end": 100,
+            "group": "Core Game Options"
+        },
+        "starting_locations": {
+            "display_name": "Select the number of starting maps.",
+            "type": "Range",
+            "description": [
+                "Select the number (1-3) of starting maps.",
+                "If Chunks are enabled, this option will be ignored."
+            ],
+            "range_start": 1,
+            "default": 2,
+            "range_end": 3,
+            "group": "Core Game Options"
+        },
+        "select_difficulty": {
+            "display_name": "Select Difficulties to include:",
+            "type": "Choice",
+            "description": [
+                "This option controls what CPU difficulties are included in the randomizer.",
+                "Each difficulty adds three checks per race single race and cup.",
+                "Each difficulty adds five checks per arena."
+            ],
+            "values": {
+                "Easy": 0,
+                "Medium": 1,
+                "Hard": 2,
+                "Easy and Medium": 3,
+                "Easy and Hard": 4,
+                "Medium and Hard": 5,
+                "All Difficulties": 6
+            },
+            "default": 2,
+            "group": "Core Game Options"
+        },
+        "include_single_race": {
+            "display_name": "Include Single Race Mode?",
+            "type": "Toggle",
+            "description": [
+                "Choose whether to include Single Race mode.",
+                "At least one game mode must be included to generate."
+            ],
+            "default": true,
+            "group": "Game Modes"
+        },
+        "include_cups": {
+            "display_name": "Include Cup Race Mode?",
+            "type": "Toggle",
+            "description": [
+                "Choose whether to include Cup Race mode.",
+                "At least one game mode must be included to generate."
+            ],
+            "default": false,
+            "group": "Game Modes"
+        },
+        "include_time_trial": {
+            "display_name": "Include Time Trial Mode?",
+            "type": "Toggle",
+            "description": [
+                "Choose whether to include Time Trial mode.",
+                "Presently, this mode also requires Single Race Mode to be included or generation will fail."
+            ],
+            "default": false,
+            "group": "Game Modes"
+        },
+        "include_battle": {
+            "display_name": "Include Battle Mode?",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Choose whether to include Battle mode.",
+                "At least one game mode must be included to generate."
+            ],
+            "default": false,
+            "group": "Game Modes"
+        },
+        "select_race_tracks": {
+            "display_name": "Select tracks(s) to include",
+            "type": "Choice",
+            "description": [
+                "CTR:NF only.",
+                "This option controls which tracks are included in the randomizer.",
+                "Classic adds 18 tracks",
+                "Nitro adds 13 tracks",
+                "Bonus adds 8 tracks",
+                "If Single Race mode is not enabled, this option will be ignored."
+            ],
+            "values": {
+                "Classic": 0,
+                "Nitro": 1,
+                "Bonus": 2,
+                "Classic and Nitro": 3,
+                "Classic and Bonus": 4,
+                "Nitro and Bonus": 5,
+                "All Sets": 6
+            },
+            "default": 2,
+            "group": "Race Options"
+        },
+        "include_turbo_track": {
+            "display_name": "Include Turbo Track?",
+            "type": "Toggle",
+            "description": [
+                "Choose whether to include Turbo Track in Single Race arcade mode.",
+                "To unlock Turbo Track in Classic CTR, you can enter the following code at the main menu:",
+                "   Hold L1+R1 and Press Right (x2), Left, Triangle, Right, Down (x2)",
+                "Turbo Track is already unlocked by default in CTR:NF."
+            ],
+            "default": false,
+            "group": "Race Options"
+        },
+        "cups_unlock_method": {
+            "display_name": "Cup Unlock Method",
+            "type": "Choice",
+            "description": [
+                "Choose the method for unlocking cups.",
+                "Four Tracks uses the four tracks included in each cup to unlock it. Having access to all four tracks unlocks access to the corresponding cup.",
+                "Cup Items adds a cup item to the pool for each cup that unlocks that cup. Having the cup item unlocks the cup regardless of if you have access to its four tracks.",
+                "If cups are not enabled, this option will be ignored.",
+                "If single race mode is not enabled, Cup Items will be selected and this option will be ignored."
+            ],
+            "values": {
+                "Four Tracks": 0,
+                "Cup Items": 1
+            },
+            "default": 0,
+            "group": "Race Options"
+        },
+        "include_ghosts": {
+            "display_name": "Select Ghosts",
+            "type": "Choice",
+            "description": [
+                "Choose whether to include Time Trial ghosts in the locations pool.",
+                "Each ghost will also include the ghosts before it.",
+                "If time trial mode is not enabled, this option will be ignored.",
+                "Only N. Tropy and N. Oxide are available in Classic CTR."
+            ],
+            "values": {
+                "No Ghosts": 0,
+                "N. Tropy": 1,
+                "N. Oxide": 2,
+                "Emperor Velo XXVII": 3,
+                "Beenox Developer": 4
+            },
+            "default": 2,
+            "group": "Race Options"
+        },
+        "select_battle_arenas": {
+            "display_name": "Select Battle Arena Set(s) to include",
+            "type": "Choice",
+            "description": [
+                "CTR:NF only.",
+                "This option controls which battle arenas are included in the randomizer.",
+                "Classic adds 7 arenas",
+                "Nitro adds 5 arenas",
+                "If Battle mode is not enabled, this option will be ignored."
+            ],
+            "values": {
+                "Classic": 0,
+                "Nitro": 1,
+                "Classic and Nitro": 2
+            },
+            "default": 0,
+            "group": "Battle Options"
+        },
+        "include_limit_battle": {
+            "display_name": "Include Limit Battle?",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Choose whether to include Limit Battle in Battle mode.",
+                "If Battle mode is not enabled, this option will be ignored."
+            ],
+            "default": true,
+            "group": "Battle Options"
+        },
+        "include_capture_the_flag": {
+            "display_name": "Include Capture the Flag?",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Choose whether to include Capture the Flag in Battle mode.",
+                "If Battle mode is not enabled, this option will be ignored."
+            ],
+            "default": true,
+            "group": "Battle Options"
+        },
+        "include_crystal_grab": {
+            "display_name": "Include Crystal Grab?",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Choose whether to include Crystal Grab in Battle mode.",
+                "If Battle mode is not enabled, this option will be ignored."
+            ],
+            "default": true,
+            "group": "Battle Options"
+        },
+        "include_last_kart_driving": {
+            "display_name": "Include Last Kart Driving?",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Choose whether to include Last Kart Driving in Battle mode.",
+                "If Battle mode is not enabled, this option will be ignored."
+            ],
+            "default": true,
+            "group": "Battle Options"
+        },
+        "include_steal_the_bacon": {
+            "display_name": "Include Steal The Bacon?",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Choose whether to include Steal The Bacon in Battle mode.",
+                "If Battle mode is not enabled, this option will be ignored."
+            ],
+            "default": true,
+            "group": "Battle Options"
+        },
+        "randomize_characters": {
+            "display_name": "Randomize Characters?",
+            "type": "Choice",
+            "description": [
+                "Characters or Driving Styles are added into the item pool as filler. Depending on other settings, not all randomized characters may be available in a given seed.",
+                "None: All characters are playable as the player chooses.",
+                "Driving Styles: All characters are playable as the player chooses, but the five driving styles are added to the pool and can only be used once found.",
+                "    This option not available in Classic CTR.",
+                "Starter: The starter characters are randomized. Unlockable characters and characters from the pit stop are not playable in this option.",
+                "Unlockable: Starter and Unlockable characters are randomized. Characters from the Pit Stop are not playable in this option.",
+                "All Characters: All characters are randomized.",
+                "If randomizing characters, the player may decide to use the character's default driving style or one of their chosing."
+            ],
+            "values": {
+                "None": 0,
+                "Driving Styles": 1,
+                "Starter": 2,
+                "Unlockable": 3,
+                "All Characters": 4
+            },
+            "default": 0,
+            "group": "Extra Options"
+        },
+        "oxide_edition": {
+            "display_name": "Oxide Edition",
+            "type": "Toggle",
+            "description": [
+                "CTR:NF only.",
+                "Do you have the Nitros Oxide Edition?",
+                "Setting this to true adds the related characters to the Starter character set when randomozing characters.",
+                "If not randomizing characters, this option will be ignored."
+            ],
+            "default": false,
+            "group": "Extra Options"
         }
     }
-
 }

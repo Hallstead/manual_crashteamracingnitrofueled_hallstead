@@ -90,6 +90,7 @@ class unlock_mode(Choice):
     Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.
         This option forces Cups to be included with Cup Items in the pool.
         Final Challenge is the goal for this option.
+        Ether Tracks or Battles (or both) must be included for generation to work.
     """
     display_name = "Game Unlock Mode"
     option_individual = 0
@@ -224,23 +225,23 @@ class oxide_edition(Toggle):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
-    options["ctr_game"] = ctr_game
-    options["goal_type"] = goal_type
-    options["percentage_trophies"] = percentage_trophies
-    options["unlock_mode"] = unlock_mode
-    options["starting_locations"] = starting_locations
-    options["select_difficulty"] = select_difficulty
-    options["include_single_race"] = include_single_race
-    options["select_race_tracks"] = select_race_tracks
-    options["include_turbo_track"] = include_turbo_track
-    options["include_cups"] = include_cups
-    options["cups_unlock_method"] = cups_unlock_method
-    options["include_battle"] = include_battle
-    # options["select_battle_tracks"] = select_battle_tracks
-    options["include_time_trial"] = include_time_trial
-    options["included_ghosts"] = included_ghosts
-    options["randomize_characters"] = randomize_characters
-    options["oxide_edition"] = oxide_edition
+    # options["ctr_game"] = ctr_game
+    # options["goal_type"] = goal_type
+    # options["percentage_trophies"] = percentage_trophies
+    # options["unlock_mode"] = unlock_mode
+    # options["starting_locations"] = starting_locations
+    # options["select_difficulty"] = select_difficulty
+    # options["include_single_race"] = include_single_race
+    # options["select_race_tracks"] = select_race_tracks
+    # options["include_turbo_track"] = include_turbo_track
+    # options["include_cups"] = include_cups
+    # options["cups_unlock_method"] = cups_unlock_method
+    # options["include_battle"] = include_battle
+    # # options["select_battle_tracks"] = select_battle_tracks
+    # options["include_time_trial"] = include_time_trial
+    # options["included_ghosts"] = included_ghosts
+    # options["randomize_characters"] = randomize_characters
+    # options["oxide_edition"] = oxide_edition
 
     return options
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

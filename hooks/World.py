@@ -75,16 +75,17 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
         numTracks = len(get_track_list(multiworld, player))
         numCups = len(get_cup_list(multiworld, player))
+        numArenas = len(get_battle_list(multiworld, player))
 
-        countLeft = numTracks
+        countLeft = numTracks + numArenas
         for i in range(1, numCups + 1):
-            chunkTracks = math.ceil(countLeft/(numCups-(i-1)))
-            countLeft -= chunkTracks
-            for j in range(chunkTracks+1, 9):
-                locationNamesToRemove.append(f"Chunk {i} Track {j}")
+            chunkMaps = math.ceil(countLeft/(numCups-(i-1)))
+            countLeft -= chunkMaps
+            for j in range(chunkMaps+1, 9):
+                locationNamesToRemove.append(f"Chunk {i} Map {j}")
         for i in range(numCups+1, 12):
             for j in range(1, 9):
-                locationNamesToRemove.append(f"Chunk {i} Track {j}")
+                locationNamesToRemove.append(f"Chunk {i} Map {j}")
         for i in range(numCups, 12):
             locationNamesToRemove.append(f"Chunk {i} Cup")
     
@@ -118,8 +119,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     easy = is_category_enabled(multiworld, player, "Easy")
     medium = is_category_enabled(multiworld, player, "Medium")
     hard = is_category_enabled(multiworld, player, "Hard")
+    tracks = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
     cup_items = is_category_enabled(multiworld, player, "Cups Items")
+    battles = is_category_enabled(multiworld, player, "Battles")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     chunks = is_category_enabled(multiworld, player, "Chunks")
     final_challenge = get_option_value(multiworld, player, "goal_type")
@@ -142,6 +145,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if debug:
                         print(f"Adding '{track} - Progressive Ghost' to itemNamesToRemove")
                     itemNamesToRemove.append(f"{track} - Progressive Ghost")
+
+    if final_challenge and not (cups or tracks or battles):
+        raise ValueError("Final Challenge requires at least one of Cups, Tracks, or Battles to be enabled.")
 
     # Starting Tracks
     starting_list = []
@@ -203,7 +209,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if locals()[d.lower()] is True:
                         for p in ["Top 5", "Top 3", "1st"]:
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-            else:
+            elif tracks:
                 final_track_name = world.random.choice(track_list)
                 if timeTrial and not chunks:
                     ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
@@ -222,6 +228,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if locals()[d.lower()] is True:
                         for p in ["Top 5", "Top 3", "1st"]:
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
+            elif battles:
+                final_track_name = world.random.choice(battle_list)
+                
                     
 
             # assign Ultimate Trophy item and final track item to the final track and gather locations respectively

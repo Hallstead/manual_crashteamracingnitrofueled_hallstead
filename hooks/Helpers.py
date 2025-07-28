@@ -61,8 +61,6 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         elif Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             return True
-        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
-            return True
         else:
             Data.category_table[category_name]["hidden"] = True
             return False

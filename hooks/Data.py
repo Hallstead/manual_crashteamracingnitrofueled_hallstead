@@ -63,7 +63,7 @@ def after_load_location_file(location_table: list) -> list:
     for i in range (1, 12):
         for j in range(1, 9):
             location = {}
-            location["name"] = f"Chunk {i} Track {j}"
+            location["name"] = f"Chunk {i} Map {j}"
             location["category"] = ["Chunks", f"Chunk {i}"]
             location["requires"] = f"|Chunk Unlock:{i}|"
             location["place_item_category"] = ["Tracks", "Arenas"]
