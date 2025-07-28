@@ -98,7 +98,7 @@
             "display_name": "What is the Final Objective?",
             "type": "Choice",
             "description": [
-                "This option determines the goal. if there is a final challenge after collecting the number of trophies.",
+                "This option determines f there is a final challenge after collecting the number of trophies.",
                 "Trophy Hunt sets collecting the trophies to be the goal.",
                 "Final Challenge still has you collect trophies, but after gathering the necessary amount, a random track",
                 "    or cup (if enabled) will be selected as a final challenge to beat.",
@@ -106,8 +106,8 @@
                 "If Chunks are enabled, Final Challenge will be used as the final Objective, and this option will be ignored."
             ],
             "values": {
-                "trophy_hunt": 0,
-                "final_challenge": 1
+                "Trophy Hunt": 0,
+                "Final Challenge": 1
             },
             "default": 0,
             "group": "Core Game Options"
@@ -141,8 +141,8 @@
             "type": "Choice",
             "description": [
                 "This option controls what CPU difficulties are included in the randomizer.",
-                "Each difficulty adds three checks per race single race and cup.",
-                "Each difficulty adds five checks per arena."
+                "Each difficulty adds three checks per single race and cup.",
+                "Each difficulty adds up to five checks per arena."
             ],
             "values": {
                 "Easy": 0,
@@ -217,7 +217,7 @@
                 "Nitro and Bonus": 5,
                 "All Sets": 6
             },
-            "default": 2,
+            "default": 0,
             "group": "Race Options"
         },
         "include_turbo_track": {
@@ -229,7 +229,7 @@
                 "   Hold L1+R1 and Press Right (x2), Left, Triangle, Right, Down (x2)",
                 "Turbo Track is already unlocked by default in CTR:NF."
             ],
-            "default": false,
+            "default": true,
             "group": "Race Options"
         },
         "cups_unlock_method": {
@@ -249,7 +249,7 @@
             "default": 0,
             "group": "Race Options"
         },
-        "include_ghosts": {
+        "included_ghosts": {
             "display_name": "Select Ghosts",
             "type": "Choice",
             "description": [
