@@ -1,6 +1,6 @@
 import math
 
-from .functions import get_battle_list, get_cup_list, get_max_trophies, get_track_list, num_difficulties
+from .functions import get_battle_list, get_cup_list, get_max_trophies, get_track_list, num_difficulties, trophies_in_pool, debug
 
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
@@ -75,16 +75,17 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
         numTracks = len(get_track_list(multiworld, player))
         numCups = len(get_cup_list(multiworld, player))
+        numArenas = len(get_battle_list(multiworld, player))
 
-        countLeft = numTracks
+        countLeft = numTracks + numArenas
         for i in range(1, numCups + 1):
-            chunkTracks = math.ceil(countLeft/(numCups-(i-1)))
-            countLeft -= chunkTracks
-            for j in range(chunkTracks+1, 9):
-                locationNamesToRemove.append(f"Chunk {i} Track {j}")
+            chunkMaps = math.ceil(countLeft/(numCups-(i-1)))
+            countLeft -= chunkMaps
+            for j in range(chunkMaps+1, 9):
+                locationNamesToRemove.append(f"Chunk {i} Map {j}")
         for i in range(numCups+1, 12):
             for j in range(1, 9):
-                locationNamesToRemove.append(f"Chunk {i} Track {j}")
+                locationNamesToRemove.append(f"Chunk {i} Map {j}")
         for i in range(numCups, 12):
             locationNamesToRemove.append(f"Chunk {i} Cup")
     
@@ -110,16 +111,16 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     itemNamesToRemove = [] # List of item names
-    
-    debug = False
 
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
     easy = is_category_enabled(multiworld, player, "Easy")
     medium = is_category_enabled(multiworld, player, "Medium")
     hard = is_category_enabled(multiworld, player, "Hard")
+    tracks = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
     cup_items = is_category_enabled(multiworld, player, "Cups Items")
+    battles = is_category_enabled(multiworld, player, "Battles")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     chunks = is_category_enabled(multiworld, player, "Chunks")
     final_challenge = get_option_value(multiworld, player, "goal_type")
@@ -143,6 +144,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                         print(f"Adding '{track} - Progressive Ghost' to itemNamesToRemove")
                     itemNamesToRemove.append(f"{track} - Progressive Ghost")
 
+    if final_challenge and not (cups or tracks or battles):
+        raise Exception("Final Challenge requires at least one of Cups, Tracks, or Battles to be enabled.")
+
     # Starting Tracks
     starting_list = []
     starting_list.extend(track_list)
@@ -152,8 +156,12 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     num_starting_tracks = get_option_value(multiworld, player, "starting_locations")
     if chunks:
         num_starting_tracks = 0
+    if debug:
+        if num_starting_tracks > 0:
+            print("--Starting Tracks--")
     for _ in range(num_starting_tracks):
         strack = world.random.choice(list(starting_list))
+        print(strack)
         item = next(i for i in item_pool if i.name == strack)
         item_pool.remove(item)
         multiworld.push_precollected(item)
@@ -166,26 +174,33 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         starting_list.remove(strack)
 
     max_trophies = get_max_trophies(multiworld, player)
+    if max_trophies <= 0:
+        max_trophies = 1
+    if debug:
+        print(f"Max Trophies: {max_trophies}")
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
     trophies = round(max_trophies * multiplier / 100)
+    if debug:
+        print(f"Trophies: {trophies} ({multiplier}% of {max_trophies})")
     if trophies <= 0:
         trophies = 1
     
-    bad_trophies = 500-max_trophies
+    bad_trophies = trophies_in_pool-max_trophies
+    if debug:
+        print(f"Bad Trophies: {bad_trophies} ({trophies_in_pool} - {max_trophies})")
     for _ in range(bad_trophies):
         itemNamesToRemove.append("Trophy")
-    
-    # Get the victory item out of the pool:
-    victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
-    item_pool.remove(victory_item)
     
     final_track_location_name = ""
     gather_loc_list = []
     if not hasattr(world.multiworld, "generation_is_fake"):
         if final_challenge:
+            # Get the victory item out of the pool:
+            victory_item = next(i for i in item_pool if i.name == "Ultimate Trophy (Victory)")
+            item_pool.remove(victory_item)
             # Get the victory location and place the victory item there
             gather_loc_list = ["Gather 1 Trophy"] # A list of all the victory location names in order
-            for i in range(2, 501):
+            for i in range(2, trophies_in_pool + 1):
                 gather_loc_list.append(f"Gather {i} Trophies")
             
             for i in range(len(gather_loc_list)):
@@ -204,7 +219,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if locals()[d.lower()] is True:
                         for p in ["Top 5", "Top 3", "1st"]:
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-            else:
+            elif tracks:
                 final_track_name = world.random.choice(track_list)
                 if timeTrial and not chunks:
                     ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
@@ -223,8 +238,17 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if locals()[d.lower()] is True:
                         for p in ["Top 5", "Top 3", "1st"]:
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
-                    
-
+            elif battles:
+                final_track_name = world.random.choice(battle_list)
+                mode_list = ["Limit Battle", "Capture The Flag", "Crystal Grab", "Last Kart Driving", "Steal The Bacon"]
+                world.random.shuffle(mode_list)
+                for d in ["Easy", "Medium", "Hard"]:
+                    if locals()[d.lower()] is True:
+                        for mode in mode_list:
+                            if not is_category_enabled(multiworld, player, mode):
+                                continue
+                            gather_loc_list.append(f"{final_track_name} - {mode} - {d}")
+                
             # assign Ultimate Trophy item and final track item to the final track and gather locations respectively
             final_track_location_name = gather_loc_list[-1]
             final_track_location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == final_track_location_name)
@@ -282,9 +306,14 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     # Remove items from the pool
     if debug:
         print("Removing items from pool:")
+    trophy_count = 0
     for itemName in itemNamesToRemove:
         if debug:
-            print(itemName)
+            if itemName == "Trophy":
+                trophy_count += 1
+                print(itemName, "=", trophy_count)
+            else:
+                print(itemName)
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
     
@@ -295,6 +324,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         for item in item_pool:
             if item.name == "Trophy":
                 numTrophies += 1
+            elif item.name == "Chunk Unlock":
+                print(f"{item.name} (The one you start with. The others have been pre-placed.)")
             else:
                 print(item.name)
         print(f"Trophy x{numTrophies}")
@@ -314,8 +345,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-
-    debug = False
     
     if debug:
         print("Removing items from pool before filler:")
