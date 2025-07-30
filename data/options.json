@@ -202,11 +202,11 @@
             "type": "Choice",
             "description": [
                 "CTR:NF only.",
-                "This option controls which tracks are included in the randomizer.",
+                "This option controls which tracks and cups are included in the randomizer.",
                 "Classic adds 18 tracks",
                 "Nitro adds 13 tracks",
                 "Bonus adds 8 tracks",
-                "If Single Race mode is not enabled, this option will be ignored."
+                "If Single Race mode or Cups is not enabled, this option will be ignored."
             ],
             "values": {
                 "Classic": 0,

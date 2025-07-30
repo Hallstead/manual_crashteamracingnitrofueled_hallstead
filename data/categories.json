@@ -124,12 +124,36 @@
         "hidden": true
     },
     "Battle": {
-        "hidden": false
+        "hidden": true
     },
     "Arenas": {
         "hidden": false
     },
+    "Classic Battle": {
+        "hidden": true
+    },
+    "Nitro Battle": {
+        "hidden": true
+    },
+    "Limit Battle": {
+        "hidden": true
+    },
+    "Capture The Flag": {
+        "hidden": true
+    },
+    "Crystal Grab": {
+        "hidden": true
+    },
+    "Last Kart Driving": {
+        "hidden": true
+    },
+    "Steal The Bacon": {
+        "hidden": true
+    },
     "Time Trial": {
+        "hidden": false
+    },
+    "Time Trial Ghosts": {
         "hidden": false
     },
     "Time Trial Option": {

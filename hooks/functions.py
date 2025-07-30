@@ -1,6 +1,9 @@
 from ..Helpers import get_option_value, is_category_enabled
 from BaseClasses import MultiWorld
 
+debug = True
+trophies_in_pool = 650  # The number of trophies in the item pool, used for victory conditions
+
 def get_track_list(multiworld: MultiWorld, player: int):
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
@@ -82,8 +85,8 @@ def get_cup_list(multiworld: MultiWorld, player: int):
     return cups_list
 
 def get_battle_list(multiworld: MultiWorld, player: int):
-    classic = is_category_enabled(multiworld, player, "Classic")
-    nitro = is_category_enabled(multiworld, player, "Nitro")
+    classic = is_category_enabled(multiworld, player, "Classic Battle")
+    nitro = is_category_enabled(multiworld, player, "Nitro Battle")
     battle = is_category_enabled(multiworld, player, "Battle")
     
     battle_list = []
@@ -124,6 +127,12 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
     nf = is_category_enabled(multiworld, player, "NF")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
     chunks = is_category_enabled(multiworld, player, "Chunks")
+    final_challenge = is_category_enabled(multiworld, player, "Final Challenge")
+
+    battleModes = 0
+    for mode in ["Limit Battle", "Capture The Flag", "Crystal Grab", "Last Kart Driving", "Steal The Bacon"]:
+        if is_category_enabled(multiworld, player, mode):
+            battleModes += 1
     
     track_list = get_track_list(multiworld, player)
     cup_list = get_cup_list(multiworld, player)
@@ -132,6 +141,9 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
     numTracks = len(track_list)
     numCups = len(cup_list)
     numBattles = len(battle_list)
+
+    if numBattles > 0 and battleModes == 0:
+        raise Exception("No battle modes selected, but battles are enabled. Please select at least one battle mode.")
 
     difficulties = num_difficulties(multiworld, player)
 
@@ -151,10 +163,15 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
 
     # Total track-like locations
     if not chunks:
-        totalLocations = ((numTracks + numCups) * 3 + (numBattles) * 5) * difficulties
+        totalLocations = ((numTracks + numCups) * 3 + (numBattles) * battleModes) * difficulties
     else:
-        totalLocations = (numTracks * 3 + numBattles * 5) * difficulties
-    
+        totalLocations = (numTracks * 3 + numBattles * battleModes) * difficulties
+    if final_challenge and not chunks:
+        if numTracks > 0 or numCups > 0:
+            totalLocations -= (difficulties * 3 - 1)
+        else:
+            totalLocations -= (difficulties * battleModes - 1)
+
     totalItems = numTracks + numCups + numBattles
 
     if not chunks:
