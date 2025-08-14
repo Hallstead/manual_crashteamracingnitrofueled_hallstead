@@ -244,6 +244,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     # options["oxide_edition"] = oxide_edition
 
     return options
+
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
 def after_options_defined(options: Type[PerGameCommonOptions]):
     # To access a modifiable version of options check the dict in options.type_hints

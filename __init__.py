@@ -69,7 +69,7 @@ class ManualWorld(World):
     victory_names = victory_names
 
     # UT (the universal-est of trackers) can now generate without a YAML
-    ut_can_gen_without_yaml = False
+    ut_can_gen_without_yaml = False  # Temporary disable until we fix the bugs with it
 
     def get_filler_item_name(self) -> str:
         return hook_get_filler_item_name(self, self.multiworld, self.player) or self.filler_item_name
@@ -531,7 +531,7 @@ class VersionedComponent(Component):
         self.version = version
 
 def add_client_to_launcher() -> None:
-    version = 2025_04_17 # YYYYMMDD
+    version = 2025_08_12 # YYYYMMDD
     found = False
 
     if "manual" not in icon_paths:

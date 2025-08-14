@@ -16,7 +16,7 @@ from ..Locations import ManualLocation
 from ..Data import game_table, item_table, location_table, region_table
 
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
-from ..Helpers import is_category_enabled,is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat
+from ..Helpers import is_category_enabled, is_option_enabled, get_option_value, format_state_prog_items_key, ProgItemsCat
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
@@ -32,6 +32,8 @@ import logging
 ## The create_item method is used by plando and start_inventory settings to create an item from an item name.
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
+
+
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
@@ -94,8 +96,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
-    # if hasattr(multiworld, "clear_location_cache"):
-    #     multiworld.clear_location_cache()
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
@@ -345,15 +345,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-    
-    if debug:
-        print("Removing items from pool before filler:")
+
     for itemName in itemNamesToRemove:
-        if debug:
-            print(itemName)
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
-    
+
     return item_pool
 
     # Some other useful hook options:

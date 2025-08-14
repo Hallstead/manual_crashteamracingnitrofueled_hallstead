@@ -1,7 +1,7 @@
 from ..Helpers import get_option_value, is_category_enabled
 from BaseClasses import MultiWorld
 
-debug = True
+debug = False  # Set to True to enable debug mode, which will print additional information during execution
 trophies_in_pool = 650  # The number of trophies in the item pool, used for victory conditions
 
 def get_track_list(multiworld: MultiWorld, player: int):
