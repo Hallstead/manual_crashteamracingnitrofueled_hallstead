@@ -47,10 +47,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
         # Get the number of trophies needed to win
         max_trophies = get_max_trophies(multiworld, player)
         multiplier = get_option_value(multiworld, player, "percentage_trophies")
-        trophies = round(max_trophies * multiplier / 100)
-        # If trophies is 0, set it to 1
-        if trophies <= 0:
-            trophies = 1
+        trophies = max(round(max_trophies * multiplier / 100), 1)
         if trophies == 1:
             goal_index = world.victory_names.index(f"Goal (Gather 1 Trophy)")
         else:
@@ -152,11 +149,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if debug:
         print(f"Max Trophies: {max_trophies}")
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
-    trophies = round(max_trophies * multiplier / 100)
+    trophies = max(round(max_trophies * multiplier / 100), 1)
     if debug:
         print(f"Trophies: {trophies} ({multiplier}% of {max_trophies})")
-    if trophies <= 0:
-        trophies = 1
     
     final_track_location_name = ""
     gather_loc_list = []
