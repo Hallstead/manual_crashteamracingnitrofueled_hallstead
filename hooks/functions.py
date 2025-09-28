@@ -182,4 +182,8 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
     else:
         max_trophies = round((totalLocations + timetrial_locs) * 8 / 9)
 
+    
+    if max_trophies <= 0:
+        max_trophies = 1
+
     return max_trophies
