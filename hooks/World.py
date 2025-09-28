@@ -112,6 +112,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     itemNamesToRemove = [] # List of item names
 
+    nf = is_category_enabled(multiworld, player, "NF")
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
     easy = is_category_enabled(multiworld, player, "Easy")
@@ -296,7 +297,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     pass
 
     # Handle Nitros Oxide Edition characters
-    if characters:
+    if characters and nf:
         if (not oxide_edition) and characters_value < 3 and classic:
             itemNamesToRemove.append("Nitros Oxide")
         if (not oxide_edition) and characters_value < 4 and nitro:
