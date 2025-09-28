@@ -106,6 +106,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    item_config["Trophy"] = get_max_trophies(multiworld, player)
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -175,8 +176,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         starting_list.remove(strack)
 
     max_trophies = get_max_trophies(multiworld, player)
-    if max_trophies <= 0:
-        max_trophies = 1
     if debug:
         print(f"Max Trophies: {max_trophies}")
     multiplier = get_option_value(multiworld, player, "percentage_trophies")
@@ -185,12 +184,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         print(f"Trophies: {trophies} ({multiplier}% of {max_trophies})")
     if trophies <= 0:
         trophies = 1
-    
-    bad_trophies = trophies_in_pool-max_trophies
-    if debug:
-        print(f"Bad Trophies: {bad_trophies} ({trophies_in_pool} - {max_trophies})")
-    for _ in range(bad_trophies):
-        itemNamesToRemove.append("Trophy")
     
     final_track_location_name = ""
     gather_loc_list = []
