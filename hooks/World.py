@@ -43,10 +43,7 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Get goal location index
-    if get_option_value(multiworld, player, "unlock_mode") == 1: 
-        # If using Chunks, the goal is always the Final Challenge
-        goal_index = world.victory_names.index("Goal (Final Challenge)")
-    elif get_option_value(multiworld, player, "goal_type") == 0:
+    if get_option_value(multiworld, player, "goal_type") == 0:
         # Get the number of trophies needed to win
         max_trophies = get_max_trophies(multiworld, player)
         multiplier = get_option_value(multiworld, player, "percentage_trophies")
@@ -71,25 +68,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove: list[str] = [] # List of location names
 
     # Add your code here to calculate which locations to remove
-    chunks = is_category_enabled(multiworld, player, "Chunks")
-    
-    if chunks is True:
-
-        numTracks = len(get_track_list(multiworld, player))
-        numCups = len(get_cup_list(multiworld, player))
-        numArenas = len(get_battle_list(multiworld, player))
-
-        countLeft = numTracks + numArenas
-        for i in range(1, numCups + 1):
-            chunkMaps = math.ceil(countLeft/(numCups-(i-1)))
-            countLeft -= chunkMaps
-            for j in range(chunkMaps+1, 9):
-                locationNamesToRemove.append(f"Chunk {i} Map {j}")
-        for i in range(numCups+1, 12):
-            for j in range(1, 9):
-                locationNamesToRemove.append(f"Chunk {i} Map {j}")
-        for i in range(numCups, 12):
-            locationNamesToRemove.append(f"Chunk {i} Cup")
     
     for region in multiworld.regions:
         if region.player == player:
@@ -124,10 +102,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     cup_items = is_category_enabled(multiworld, player, "Cups Items")
     battles = is_category_enabled(multiworld, player, "Battles")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-    chunks = is_category_enabled(multiworld, player, "Chunks")
     final_challenge = get_option_value(multiworld, player, "goal_type")
-    if chunks:
-        final_challenge = 1
     characters = is_category_enabled(multiworld, player, "Characters")
     characters_value = get_option_value(multiworld, player, "randomize_characters")
     oxide_edition = get_option_value(multiworld, player, "oxide_edition")
@@ -139,7 +114,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if timeTrial:
         ghosts = get_option_value(multiworld, player, "included_ghosts")
          # Remove excess Progressive Time Trial Ghosts
-        if ghosts >= 2 and not chunks:
+        if ghosts >= 2:
             for track in track_list:
                 for _ in range(ghosts, 4):
                     if debug:
@@ -156,8 +131,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         starting_list.extend(cup_list)
     starting_list.extend(battle_list)
     num_starting_tracks = get_option_value(multiworld, player, "starting_locations")
-    if chunks:
-        num_starting_tracks = 0
     if debug:
         if num_starting_tracks > 0:
             print("--Starting Tracks--")
@@ -215,7 +188,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                             gather_loc_list.append(f"{final_track_name} - {d} - {p}")
             elif tracks:
                 final_track_name = world.random.choice(track_list)
-                if timeTrial and not chunks:
+                if timeTrial:
                     ghost_list = ["N. Tropy", "Nitros Oxide", "Emperor Velo XXVII", "Beenox Developer"]
                     for i in range(0, ghosts):
                         gather_loc_list.append(f"{final_track_name} Time Trial - Beat {ghost_list[i]}")
@@ -251,35 +224,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
             gather_location.place_locked_item(final_track_item)
             final_track_location.place_locked_item(victory_item)
-    
-            #If using Chunks, remove eccess Chunk Unlocks, then assign the rest to the cup locations.
-            if chunks is True:
-                diff = ""
-                if hard:
-                    diff = "Hard"
-                elif medium:
-                    diff = "Medium"
-                elif easy:
-                    diff = "Easy"
-                
-                for _ in range(len(cup_list), 11): # Remove excess Chunk Unlock items
-                    item = next(i for i in item_pool if i.name == "Chunk Unlock")
-                    item_pool.remove(item)
-                for cup in cup_list: # Assign the remaining Chunk Unlock items to the cup locations
-                    if cup in final_track_location_name:
-                        continue
-                    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == f"{cup} - {diff} - 1st")
-                    item = next(i for i in item_pool if i.name == "Chunk Unlock")
-                    item_pool.remove(item)
-                    location.place_locked_item(item)
-                    # add extra cup locations to gather_loc_list for deletion
-                    if easy:
-                        if medium or hard:
-                            gather_loc_list.append(f"{cup} - Easy - 1st")
-                    if medium:
-                        if hard:
-                            gather_loc_list.append(f"{cup} - Medium - 1st")
-
     
     # Remove the extra gather locations and unneeded final track locations
     for region in multiworld.regions:
@@ -318,8 +262,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         for item in item_pool:
             if item.name == "Trophy":
                 numTrophies += 1
-            elif item.name == "Chunk Unlock":
-                print(f"{item.name} (The one you start with. The others have been pre-placed.)")
             else:
                 print(item.name)
         print(f"Trophy x{numTrophies}")
@@ -365,77 +307,7 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-    multiplier = get_option_value(multiworld, player, "percentage_trophies") / 100
-    chunks = is_category_enabled(multiworld, player, "Chunks")
-    numCups = len(get_cup_list(multiworld, player))
-        
-    max_trophies = get_max_trophies(multiworld, player)
-
-    def needed_trophies(chunkNum):
-        reqTrophies = round(multiplier * max_trophies / numCups * chunkNum)
-        return reqTrophies
-
-    def req_trophies1(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(1):
-            return True
-        return False
-    
-    def req_trophies2(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(2):
-            return True
-        return False
-    
-    def req_trophies3(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(3):
-            return True
-        return False
-    
-    def req_trophies4(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(4):
-            return True
-        return False
-    
-    def req_trophies5(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(5):
-            return True
-        return False
-    
-    def req_trophies6(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(6):
-            return True
-        return False
-    
-    def req_trophies7(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(7):
-            return True
-        return False
-    
-    def req_trophies8(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(8):
-            return True
-        return False
-    
-    def req_trophies9(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(9):
-            return True
-        return False
-    
-    def req_trophies10(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(10):
-            return True
-        return False
-    
-    def req_trophies11(state: CollectionState) -> bool:
-        if state.count("Trophy", player) >= needed_trophies(11):
-            return True
-        return False
-    
-    if chunks is True:
-        for i in range(1, numCups):
-            chunk_loc = f"Chunk {i} Cup"
-            req_func = f"req_trophies{i}"
-            location = multiworld.get_location(chunk_loc, player)
-            location.access_rule = locals()[req_func]
+    pass
 
     ## Common functions:
     # location = world.get_location(location_name, player)

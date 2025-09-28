@@ -76,24 +76,6 @@
             "default": 1,
             "group": "Core Game Options"
         },
-        "unlock_mode": {
-            "display_name": "Game Unlock Mode",
-            "type": "Choice",
-            "description": [
-                "This option determines how maps are unlocked.",
-                "Individual: Tracks are unlocked as their unlock item is obtained.",
-                "Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.",
-                "    This option forces Cups to be included with Cup Items in the pool.",
-                "    Final Challenge is the goal for this option.",
-                "    Ether Tracks or Battles (or both) must be included for generation to work."
-            ],
-            "values": {
-                "individual": 0,
-                "chunks": 1
-            },
-            "default": 0,
-            "group": "Core Game Options"
-        },
         "goal_type": {
             "display_name": "What is the Final Objective?",
             "type": "Choice",
@@ -102,8 +84,7 @@
                 "Trophy Hunt sets collecting the trophies to be the goal.",
                 "Final Challenge still has you collect trophies, but after gathering the necessary amount, a random track",
                 "    or cup (if enabled) will be selected as a final challenge to beat.",
-                "    At this time, enabling this option forces cups_unlock_method to use Cup Items.",
-                "If Chunks are enabled, Final Challenge will be used as the final Objective, and this option will be ignored."
+                "    At this time, enabling this option forces cups_unlock_method to use Cup Items."
             ],
             "values": {
                 "Trophy Hunt": 0,
@@ -128,8 +109,7 @@
             "display_name": "Select the number of starting maps.",
             "type": "Range",
             "description": [
-                "Select the number (1-3) of starting maps.",
-                "If Chunks are enabled, this option will be ignored."
+                "Select the number (1-3) of starting maps."
             ],
             "range_start": 1,
             "default": 2,

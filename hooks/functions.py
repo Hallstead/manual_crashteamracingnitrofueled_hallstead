@@ -1,8 +1,8 @@
 from ..Helpers import get_option_value, is_category_enabled
 from BaseClasses import MultiWorld
 
-debug = False  # Set to True to enable debug mode, which will print additional information during execution
-trophies_in_pool = 650  # The number of trophies in the item pool, used for victory conditions
+debug = True  # Set to True to enable debug mode, which will print additional information during execution
+trophies_in_pool = 500  # The number of trophies in the item pool, used for victory conditions
 
 def get_track_list(multiworld: MultiWorld, player: int):
     classic = is_category_enabled(multiworld, player, "Classic")
@@ -126,7 +126,6 @@ def num_difficulties(multiworld: MultiWorld, player: int):
 def get_max_trophies(multiworld: MultiWorld, player: int):
     nf = is_category_enabled(multiworld, player, "NF")
     timeTrial = is_category_enabled(multiworld, player, "Time Trial")
-    chunks = is_category_enabled(multiworld, player, "Chunks")
     final_challenge = is_category_enabled(multiworld, player, "Final Challenge")
 
     battleModes = 0
@@ -149,7 +148,6 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
 
     # Time Trial calculation
     tt = 0
-    timetrial_locs = 0
     if timeTrial:
         ghosts = 0
         for ghost in ["N. Tropy", "N. Oxide", "Velo", "Dev"]:
@@ -157,16 +155,11 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
                 ghosts += 1
         if not nf:
             tt = numTracks
-            timetrial_locs = numTracks * (ghosts + 1)
-        else:
-            timetrial_locs = numTracks * ghosts
 
     # Total track-like locations
-    if not chunks:
-        totalLocations = ((numTracks + numCups) * 3 + (numBattles) * battleModes) * difficulties
-    else:
-        totalLocations = (numTracks * 3 + numBattles * battleModes) * difficulties
-    if final_challenge and not chunks:
+    totalLocations = ((numTracks + numCups) * 3 + (numBattles) * battleModes) * difficulties
+    
+    if final_challenge:
         if numTracks > 0 or numCups > 0:
             totalLocations -= (difficulties * 3 - 1)
         else:
@@ -174,14 +167,10 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
 
     totalItems = numTracks + numCups + numBattles
 
-    if not chunks:
-        if not nf:
-            max_trophies = round((totalLocations + tt) * 8 / 9 - totalItems)
-        else:
-            max_trophies = round(totalLocations * 8 / 9 - totalItems)
+    if not nf:
+        max_trophies = round((totalLocations + tt) * 8 / 9 - totalItems)
     else:
-        max_trophies = round((totalLocations + timetrial_locs) * 8 / 9)
-
+        max_trophies = round(totalLocations * 8 / 9 - totalItems)
     
     if max_trophies <= 0:
         max_trophies = 1
