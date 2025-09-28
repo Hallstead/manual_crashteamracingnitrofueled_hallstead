@@ -1,7 +1,7 @@
 from ..Helpers import get_option_value, is_category_enabled
 from BaseClasses import MultiWorld
 
-debug = True  # Set to True to enable debug mode, which will print additional information during execution
+debug = False  # Set to True to enable debug mode, which will print additional information during execution
 trophies_in_pool = 500  # The number of trophies in the item pool, used for victory conditions
 
 def get_track_list(multiworld: MultiWorld, player: int):
@@ -168,11 +168,8 @@ def get_max_trophies(multiworld: MultiWorld, player: int):
     totalItems = numTracks + numCups + numBattles
 
     if not nf:
-        max_trophies = round((totalLocations + tt) * 8 / 9 - totalItems)
+        max_trophies = max(round((totalLocations + tt) * 8 / 9 - totalItems), 1)
     else:
-        max_trophies = round(totalLocations * 8 / 9 - totalItems)
-    
-    if max_trophies <= 0:
-        max_trophies = 1
+        max_trophies = max(round(totalLocations * 8 / 9 - totalItems), 1)
 
     return max_trophies
