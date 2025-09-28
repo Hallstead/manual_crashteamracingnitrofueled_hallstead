@@ -84,19 +84,6 @@ class select_difficulty(Choice):
     option_all = 6
     default = 2
 
-class unlock_mode(Choice):
-    """
-    Individual: Tracks are unlocked as their unlock item is obtained.
-    Chunks: Tracks are unlocked in groups with cups unlocking the next chunk.
-        This option forces Cups to be included with Cup Items in the pool.
-        Final Challenge is the goal for this option.
-        Ether Tracks or Battles (or both) must be included for generation to work.
-    """
-    display_name = "Game Unlock Mode"
-    option_individual = 0
-    option_chunks = 1
-    default = 0
-
 class include_single_race(DefaultOnToggle):
     """
     Choose whether to include Single Race arcade mode.
@@ -228,7 +215,6 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     # options["ctr_game"] = ctr_game
     # options["goal_type"] = goal_type
     # options["percentage_trophies"] = percentage_trophies
-    # options["unlock_mode"] = unlock_mode
     # options["starting_locations"] = starting_locations
     # options["select_difficulty"] = select_difficulty
     # options["include_single_race"] = include_single_race

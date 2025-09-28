@@ -5,12 +5,6 @@
   "filler_item_name": "WOAH",
   "starting_items": [
     {
-      "items": [
-        "Chunk Unlock"
-      ],
-      "random": 1
-    },
-    {
       "item_categories": [
         "Driving Styles"
       ],

@@ -11,7 +11,6 @@ if TYPE_CHECKING:
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
     nf = Helpers.get_option_value(multiworld, player, "ctr_game")
-    chunks = Helpers.get_option_value(multiworld, player, "unlock_mode")
     if category_name == "NF":
         if nf:
             return True
@@ -73,8 +72,6 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "Cups":
         if Helpers.get_option_value(multiworld, player, "include_cups") == 1 and Helpers.get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups
             return True
-        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
-            return True
         else:
             Data.category_table[category_name]["hidden"] = True
             return False
@@ -82,16 +79,12 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "Cups_option":
         if Helpers.get_option_value(multiworld, player, "include_cups") == 1:
             return True
-        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
-            return True
         else:
             Data.category_table[category_name]["hidden"] = True
             return False
         
     if category_name == "Cups Items":
         if Helpers.get_option_value(multiworld, player, "cups_unlock_method") == 1: # Cups Items
-            return True
-        elif Helpers.get_option_value(multiworld, player, "unlock_mode") == 1: # Chunks
             return True
         elif Helpers.get_option_value(multiworld, player, "include_single_race") == 0: # Tracks not included
             return True
@@ -159,9 +152,8 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name in ["Time Trial", "Time Trial Option", "Time Trial Ghosts"]:
         if Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             if category_name == "Time Trial Ghosts":
-                if not chunks:
-                    if Helpers.get_option_value(multiworld, player, "included_ghosts") > 0:
-                        return True
+                if Helpers.get_option_value(multiworld, player, "included_ghosts") > 0:
+                    return True
             else:
                 return True
         Data.category_table[category_name]["hidden"] = True
@@ -206,15 +198,6 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             if Helpers.get_option_value(multiworld, player, "included_ghosts") >= 4:
                 return True
         return False
-    if category_name == "Chunks" or category_name == "Chunk Unlocks":
-        if chunks == 1:
-            return True
-        Data.category_table[category_name]["hidden"] = True
-        return False
-    if category_name == "Not Chunks":
-        if chunks == 0:
-            return True
-        return False
     chars = Helpers.get_option_value(multiworld,player, "randomize_characters")
     if category_name == "Driving Styles":
         if not nf:
@@ -237,15 +220,11 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         return False
     if category_name == "((~Objective~))":
-        if chunks:
-            return True
         if Helpers.get_option_value(multiworld, player, "goal_type") == 1:
             return True
         return False
     if category_name == "Win Condition - Final Challenge":
-        if chunks:
-            return True
-        elif Helpers.get_option_value(multiworld, player, "goal_type") == 1:
+        if Helpers.get_option_value(multiworld, player, "goal_type") == 1:
             return True
         Data.category_table[category_name]["hidden"] = True
         return False
