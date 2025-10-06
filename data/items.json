@@ -1,6 +1,6 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
-    "data": [
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
     {
       "count": 1,
       "name": "Ultimate Trophy (Victory)",
@@ -1427,7 +1427,7 @@
         "Balanced",
         "Intermediate"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1437,7 +1437,7 @@
         "Balanced",
         "Intermediate"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1447,7 +1447,7 @@
         "Speed",
         "Advanced"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1457,7 +1457,7 @@
         "Acceleration",
         "Intermediate"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1467,7 +1467,7 @@
         "Acceleration",
         "Intermediate"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1477,7 +1477,7 @@
         "Speed",
         "Advanced"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1487,7 +1487,7 @@
         "Turn",
         "Beginner"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1497,7 +1497,7 @@
         "Turn",
         "Beginner"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1506,10 +1506,10 @@
         "Characters",
         "Speed",
         "Advanced",
-        "Classic",
+        "Classic Characters",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1518,10 +1518,10 @@
         "Characters",
         "Turn",
         "Beginner",
-        "Classic",
+        "Classic Characters",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1530,10 +1530,10 @@
         "Characters",
         "Speed",
         "Advanced",
-        "Classic",
+        "Classic Characters",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1542,10 +1542,10 @@
         "Characters",
         "Balanced",
         "Intermediate",
-        "Classic",
+        "Classic Characters",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1554,10 +1554,10 @@
         "Characters",
         "Acceleration",
         "Intermediate",
-        "Classic",
+        "Classic Characters",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1568,7 +1568,7 @@
         "Intermediate",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1579,7 +1579,7 @@
         "Advanced",
         "Unlockable"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1587,10 +1587,10 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Classic",
+        "Classic Characters",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1598,10 +1598,10 @@
       "category": [
         "Characters",
         "Speed",
-        "Nitro",
+        "Nitro Characters",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1609,11 +1609,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1621,11 +1621,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1633,11 +1633,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1645,11 +1645,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1657,11 +1657,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1669,11 +1669,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1681,10 +1681,10 @@
       "category": [
         "Characters",
         "Balanced",
-        "Nitro",
+        "Nitro Characters",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1692,10 +1692,10 @@
       "category": [
         "Characters",
         "Turn",
-        "Nitro",
+        "Nitro Characters",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1703,10 +1703,10 @@
       "category": [
         "Characters",
         "Speed",
-        "Nitro",
+        "Nitro Characters",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1714,11 +1714,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1726,11 +1726,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1738,11 +1738,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1750,11 +1750,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1762,11 +1762,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1774,11 +1774,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1786,11 +1786,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1798,11 +1798,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1810,11 +1810,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1822,11 +1822,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1834,11 +1834,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1846,11 +1846,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1858,11 +1858,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1870,11 +1870,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1882,11 +1882,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1894,11 +1894,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1906,11 +1906,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1918,12 +1918,12 @@
       "category": [
         "Characters",
         "Drift",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "Unlockable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1931,11 +1931,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1943,11 +1943,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1955,11 +1955,11 @@
       "category": [
         "Characters",
         "Drift",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1967,11 +1967,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1979,11 +1979,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -1991,11 +1991,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2003,11 +2003,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Nitro",
+        "Nitro Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2015,11 +2015,11 @@
       "category": [
         "Characters",
         "Turn",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2027,11 +2027,11 @@
       "category": [
         "Characters",
         "Balanced",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2039,11 +2039,11 @@
       "category": [
         "Characters",
         "Acceleration",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2051,11 +2051,11 @@
       "category": [
         "Characters",
         "Speed",
-        "Bonus",
+        "Bonus Characters",
         "Purchasable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2063,11 +2063,11 @@
       "category": [
         "Characters",
         "Drift",
-        "Bonus",
+        "Bonus Characters",
         "Unlockable",
         "NF"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2075,7 +2075,7 @@
       "category": [
         "Driving Styles"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2083,7 +2083,7 @@
       "category": [
         "Driving Styles"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2091,7 +2091,7 @@
       "category": [
         "Driving Styles"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2099,7 +2099,7 @@
       "category": [
         "Driving Styles"
       ],
-      "useful": true
+      "progression": true
     },
     {
       "count": 1,
@@ -2107,7 +2107,7 @@
       "category": [
         "Driving Styles"
       ],
-      "useful": true
+      "progression": true
     }
   ]
 }

@@ -82,6 +82,19 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     item_config["Trophy"] = get_max_trophies(multiworld, player)
+
+    if not is_category_enabled(multiworld, player, "Driving Style Loc"):
+        for itemname in world.item_name_groups["Driving Styles"]:
+            item_config[itemname] = {"useful": item_config[itemname]}
+    if not is_category_enabled(multiworld, player, "Character Loc"):
+        for itemname in world.item_name_groups["Characters"]:
+            item_config[itemname] = {"useful": item_config[itemname]}
+
+    if debug:
+        for item in item_config.keys():
+            print(item + ":\t", item_config[item])
+        if not hasattr(world.multiworld, "generation_is_fake"):
+            input("Press enter to continue...")
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -91,9 +104,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     nf = is_category_enabled(multiworld, player, "NF")
     classic = is_category_enabled(multiworld, player, "Classic")
     nitro = is_category_enabled(multiworld, player, "Nitro")
-    easy = is_category_enabled(multiworld, player, "Easy")
-    medium = is_category_enabled(multiworld, player, "Medium")
-    hard = is_category_enabled(multiworld, player, "Hard")
     tracks = is_category_enabled(multiworld, player, "Tracks")
     cups = is_category_enabled(multiworld, player, "Cups")
     cup_items = is_category_enabled(multiworld, player, "Cups Items")
@@ -103,6 +113,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     characters = is_category_enabled(multiworld, player, "Characters")
     characters_value = get_option_value(multiworld, player, "randomize_characters")
     oxide_edition = get_option_value(multiworld, player, "oxide_edition")
+    classic_characters = is_category_enabled(multiworld, player, "Classic Characters")
+    nitro_characters = is_category_enabled(multiworld, player, "Nitro Characters")
     
     track_list = get_track_list(multiworld, player)
     cup_list = get_cup_list(multiworld, player)
@@ -154,6 +166,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         print(f"Trophies: {trophies} ({multiplier}% of {max_trophies})")
     
     final_track_location_name = ""
+    gather_location_name = ""
     gather_loc_list = []
     if not hasattr(world.multiworld, "generation_is_fake"):
         if final_challenge:
@@ -220,6 +233,24 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             gather_location.place_locked_item(final_track_item)
             final_track_location.place_locked_item(victory_item)
     
+    # Handle Nitros Oxide Edition characters
+    if characters and nf:
+        if (not oxide_edition) and characters_value < 3 and classic_characters:
+            itemNamesToRemove.append("Nitros Oxide")
+            if is_category_enabled(multiworld, player, "Character Race"):
+                gather_loc_list.append("Win a Race as Nitros Oxide")
+            if is_category_enabled(multiworld, player, "Character Battle"):
+                gather_loc_list.append("Win a Battle as Nitros Oxide")
+        if (not oxide_edition) and characters_value < 4 and nitro_characters:
+            itemNamesToRemove.append("Zam")
+            itemNamesToRemove.append("Zem")
+            if is_category_enabled(multiworld, player, "Character Race"):
+                gather_loc_list.append("Win a Race as Zam")
+                gather_loc_list.append("Win a Race as Zem")
+            if is_category_enabled(multiworld, player, "Character Battle"):
+                gather_loc_list.append("Win a Battle as Zam")
+                gather_loc_list.append("Win a Battle as Zem")
+
     # Remove the extra gather locations and unneeded final track locations
     for region in multiworld.regions:
         if region.player == player:
@@ -227,14 +258,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                 if location.name in gather_loc_list and location.name != gather_location_name and location.name != final_track_location_name:
                     region.locations.remove(location)
                     pass
-
-    # Handle Nitros Oxide Edition characters
-    if characters and nf:
-        if (not oxide_edition) and characters_value < 3 and classic:
-            itemNamesToRemove.append("Nitros Oxide")
-        if (not oxide_edition) and characters_value < 4 and nitro:
-            itemNamesToRemove.append("Zam")
-            itemNamesToRemove.append("Zem")
 
     # Remove items from the pool
     if debug:
