@@ -52,3 +52,10 @@ def CupItemsDisabled(world: World, multiworld: MultiWorld, state: CollectionStat
         return not True
     else:
         return not False
+
+def random_characters_enabled(world: World, multiworld: MultiWorld, state: CollectionState, player: int) -> bool:
+    """Is Random Characters enabled?"""
+    if get_option_value(multiworld, player, "random_characters") == 1: # Random Characters
+        return True
+    else:
+        return False

@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "_core": {
-        "goal":{
+        "_goal":{
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
@@ -11,10 +11,10 @@
             "aliases": {"easiest": 0},
             "hidden": false
         },
-        "death_link": {
+        "_death_link": {
             "default": false
         },
-        "filler_traps": {
+        "_filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
                 "recommended": 20
@@ -60,6 +60,18 @@
             "range_end": 10,
             "values": {"example": 2},
             "group": "Example Options"
+        },
+        "full_yaml": {
+            "display_name": "All Inclusive YAML Notice",
+            "type": "Toggle",
+            "description": [
+                "If you are reading this you are using an all inclusive yaml file.",
+                "Some options contained in this file may or may not apply depending on what game you are playing, as selected in 'CTR Game' below.",
+                "Options that do not apply to a certain game should be clearly marked as such in their description.",
+                "(This toggle does nothing other than to put text here.)"
+            ],
+            "default": true,
+            "group": "Warning"
         },
         "ctr_game": {
             "display_name": "What game are you playing?",
@@ -330,7 +342,7 @@
                 "Driving Styles: All characters are playable as the player chooses, but the five driving styles are added to the pool and can only be used once found.",
                 "    This option not available in Classic CTR.",
                 "Starter: The starter characters are randomized. Unlockable characters and characters from the pit stop are not playable in this option.",
-                "Unlockable: Starter and Unlockable characters are randomized. Characters from the Pit Stop are not playable in this option.",
+                "Unlockable: Starter and Unlockable characters are randomized. Characters from the Pit Stop are not playable in this option. (CTR:NF only.)",
                 "All Characters: All characters are randomized.",
                 "If randomizing characters, the player may decide to use the character's default driving style or one of their chosing."
             ],
@@ -352,6 +364,18 @@
                 "Do you have the Nitros Oxide Edition?",
                 "Setting this to true adds the related characters to the Starter character set when randomozing characters.",
                 "If not randomizing characters, this option will be ignored."
+            ],
+            "default": false,
+            "group": "Extra Options"
+        },
+        "win_with_character_locations": {
+            "display_name": "Include locations for winning as characters?",
+            "type": "Toggle",
+            "description": [
+                "Include locations for winning with each Character/Driving Style.",
+                "The choice of locations for Characters or Driving Styles depends on the 'Randomize Characters' option.",
+                "(Driving Styles are not available in Classic CTR at this time.)",
+                "If not randomizing Characters/Driving Styles, this option will be ignored."
             ],
             "default": false,
             "group": "Extra Options"

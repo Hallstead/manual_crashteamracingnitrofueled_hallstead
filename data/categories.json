@@ -210,6 +210,21 @@
     "Driving Styles": {
         "hidden": false
     },
+    "Classic Characters": {
+        "hidden": true
+    },
+    "Nitro Characters": {
+        "hidden": true
+    },
+    "Bonus Characters": {
+        "hidden": true
+    },
+    "Driving Style Loc": {
+        "hidden": true
+    },
+    "Character Loc": {
+        "hidden": true
+    },
     "Nitros Oxide Edition": {
         "hidden": true
     },

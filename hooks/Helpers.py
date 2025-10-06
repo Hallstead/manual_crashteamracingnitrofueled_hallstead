@@ -15,6 +15,10 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         if nf:
             return True
         return False
+    if category_name == "Not NF":
+        if not nf:
+            return True
+        return False
     if category_name == "Classic" or category_name == "Nitro" or category_name == "Bonus":
         selection = Helpers.get_option_value(multiworld, player, "select_race_tracks")
         if category_name == "Classic":
@@ -219,6 +223,50 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         if chars == 4:
             return True
         return False
+    race_included = Helpers.get_option_value(multiworld, player, "include_single_race") == 1 or Helpers.get_option_value(multiworld, player, "include_time_trial") == 1
+    race_set = Helpers.get_option_value(multiworld, player, "select_race_tracks")
+    battle_included = Helpers.get_option_value(multiworld, player, "include_battle") == 1
+    battle_set = Helpers.get_option_value(multiworld, player, "select_battle_arenas")
+    if category_name == "Classic Characters":
+        if race_included and race_set in [0,3,4,6]:
+            return True
+        if nf:
+            if battle_included and battle_set in [0,2]:
+                return True
+        return False
+    if category_name == "Nitro Characters":
+        if nf:
+            if race_included and race_set in [1,3,5,6]:
+                return True
+            if battle_included and battle_set in [1,2]:
+                return True
+        return False
+    if category_name == "Bonus Characters":
+        if race_included and race_set in [2,4,5,6]:
+            return True
+        return False
+    char_locs = Helpers.get_option_value(multiworld, player, "win_with_character_locations")
+    if category_name == "Driving Style Loc":
+        if char_locs and chars == 1:
+            return True
+        return False
+    if category_name == "Character Loc":
+        if char_locs and chars >= 2:
+            return True
+        return False
+    if category_name == "Driving Style Race" or category_name == "Character Race":
+        if Helpers.get_option_value(multiworld, player, "include_single_race") == 1:
+            return True
+        elif Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
+            return True
+        elif Helpers.get_option_value(multiworld, player, "include_cups") == 1:
+            return True
+        return False
+    if category_name == "Driving Style Battle" or category_name == "Character Battle":
+        if nf and Helpers.get_option_value(multiworld, player, "include_battle") == 1:
+            return True
+        return False
+
     if category_name == "((~Objective~))":
         if Helpers.get_option_value(multiworld, player, "goal_type") == 1:
             return True
