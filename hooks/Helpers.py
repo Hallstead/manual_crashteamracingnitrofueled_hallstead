@@ -259,9 +259,11 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         elif Helpers.get_option_value(multiworld, player, "include_time_trial") == 1:
             return True
+        elif Helpers.get_option_value(multiworld, player, "include_cups") == 1:
+            return True
         return False
     if category_name == "Driving Style Battle" or category_name == "Character Battle":
-        if Helpers.get_option_value(multiworld, player, "include_battle") == 1:
+        if nf and Helpers.get_option_value(multiworld, player, "include_battle") == 1:
             return True
         return False
 

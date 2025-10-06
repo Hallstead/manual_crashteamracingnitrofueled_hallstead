@@ -62,10 +62,10 @@
             "group": "Example Options"
         },
         "full_yaml": {
-            "display_name": "All Inclusive YAML",
+            "display_name": "All Inclusive YAML Notice",
             "type": "Toggle",
             "description": [
-                "TIf you are reading this you are using an all inclusive yaml file.",
+                "If you are reading this you are using an all inclusive yaml file.",
                 "Some options contained in this file may or may not apply depending on what game you are playing, as selected in 'CTR Game' below.",
                 "Options that do not apply to a certain game should be clearly marked as such in their description.",
                 "(This toggle does nothing other than to put text here.)"
